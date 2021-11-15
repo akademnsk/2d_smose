@@ -61,31 +61,44 @@
 %\linenumbers
 
 \begin{abstract}
+\begin{enumerate}
+	\item Проведены предсказания и обнаружены новые (horisontal) структуры, существенно отличащиеся от ранее известных H и T 
+	\item Несмотря на энергетическую метастабильность относительно H и T структур, рассчитанные Фононные спектры подтверждают их динамические стабильность
+	 \item С помощью автоматизированных топологических алгоритмов проведён поиск топологических аналогов. Все структуры, включая fxt и fes характеризуются уникальными топологами и не имеют структурных аналогов в ICSD. Исключение составляет horH структура, имеющая порядка 50 аналогов среди слоистых структур. Это открывает возможность использования этих структур в качестве подложки при синтезе методом напыления.
+\end{enumerate}
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Introduction}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Trsnaition metall dichalcogenides (TMD) crystallise in four main structural types: type of CdI2 (further denoted as C),type of MoS2 (further denoted as W), type of pyrite and less frequent type of marcasite.
+Transition metall dichalcogenides (TMD) crystallise in four main structural types: CdI2 (further denoted as C), MoS2 (further denoted as W), FeS2 (pyrite-type and less frequently type of marcasite-type).
 Fisrt two structural types are characterised by the layered structures with S-M-S sandwiches bonded by the weak Van-der-Waals bonds. 
-The 2D layers attracts considerable attention due to their semiconducting, superconduting and magnetic properties.
-In particular,2D layers of MoS2, WS2, MoSe2, WSe2, and MoTe2 have a direct band gap and can be used as transistors and due to strong spin-orbit coupling are prespective spintronics.
+Where instead of S can be also Se and Te.
+The quasi-2D S-M-S layers attract considerable attention due to their semiconducting, superconduting and magnetic properties.
+In particular, 2D layers of MoS2, WS2, MoSe2, WSe2, and MoTe2 have a direct band gap and can be used as transistors and due to the strong spin-orbit coupling are perspective spintronics.
 
-The top-layer of sulphur in the the sandwich of MoS2 was successfully changed on the layer of Se with formation of the so-called Janus SMoSe structure  \cite{lu2017}.
-In the present work based on crystal structure prediction technique and common crystallchemical consideration we reveal new stable Janus structures of Mo, W and V and perform their extensive topological analysis.
-The special paper will be devoted to the electronic properties of the found structures.
+The top-layer of sulphur in the the sandwich of MoS2 was successfully changed on the layer of Se with the formation of the so-called Janus SMoSe structure  \cite{lu2017}.
+In the present work based on crystal structure prediction technique and common crystallchemical consideration we reveal new stable Janus and perform their extensive topological analysis.
+Using topological anlysis we analyse uniquness of the found structures and show its perpsective analogues in ICSD database.
+Preliminary calculations of the electronic structures shows that some of the found structures are direct band gap semiconductors (поправьте меня если я не прав тут).
+The special paper will be devoted to the results of these calculations.
 
 
 \subsubsection{Crystal structures of MCh2, M=Mo,W,Vm, Ch=S,Se}
-At ambient conditions both MoS2, WS2, MoSe2, WSe2 crystallises in the arche-type molibdenite (MoS2) structure (W, 2H polytype).
+At ambient conditions both MoS2, WS2, MoSe2, WSe2 crystallises in the arche-type molibdenite (MoS2) structure.
 In these structure atoms of chalcogenides form close-packed layers placed exacly one under another along c-axis.
 TM atoms occupy center of trigonal prismatic cavities between the layers.
-Different stacking of such a 2D layers produce different polytypes, but they are out of scope of the present work, where we consider only isolated 2D-layers.
+Different stacking of such a 2D layers produce different polytypes.
+If the repition stacking is reprpoduced through each two layers the structure has hexagonal symmetry and according to Ramsdell notation is denoted as 2H-polytype. 
+As in the present manuscript, we consider only isolated 2D-layers, we will designate them as H-layers.
 
-If the layers of chalcogene atoms are shifted such that the top-layerd is placed in triangular holes fromed by the atoms of bottom-layer, the archetype CdI2 (C, 1T polytype) structure is formed. 
+If the layers of chalcogene atoms are shifted such that the top-layerd is placed in triangular holes fromed by the atoms of bottom-layer and such a quasi-2D layers are without a shift one under the other, the 1T-polytype of archetype CdI2 structure with trigonal symmetry is formed.
+the archetype CdI2 (C, 1T polytype) structure is formed. 
 In this case, TM atoms are in octahedral coordination.
+The separate layers of such a structure will be designate as T-layer.
 
-Considered compounds are not yet known in the form of bulk crystal with 1T structure 
+Considered compounds with Mo, W, and V as TM and S, Se, and Te as chalcogenes are not yet known in the form of bulk crystal with 1T structure.
+However 1T structure can be stabilised by the impurities of Li atoms or by some deformations (Захар, добавь тут ссылка
 
 V is different from W and Mo in that it does not produce dichalcogenides at ambient conditions or this compounds needs some additional factors for stabilisation.
 VS2 compound is not known.
@@ -202,16 +215,22 @@ As it was mentioned above T structure, composed of closely packed octahedra does
 One such a structure with face-shared octahedra have been found with AIRSS code.
 In this structure each octahedra have four common edges and one common face.
 The presence of the common face results in the sufficient corrugation of the layers of sulphur, in contrast to earlier considered structures, which a relatively flat ones.
-This structure was called Thor.
+This structure was called T-hor.
 
-\begin{figure}
-	\includegraphics[width=0.45\textwidth]{H_hor_smose.jpg}
-	\includegraphics[width=0.45\textwidth]{T_hor_svse.jpg}
-	\caption{Crystal sstructures with horis}
-\label{hor_T_H}
-
+\begin{figure}[H]
+	\includegraphics[width=0.75\textwidth]{H_hor_1.jpg} \\
+	\includegraphics[width=0.75\textwidth]{H_hor_2.jpg}
+	\caption{H-hor crystal structure perpendicular and along the layer.}
+\label{H_hor}
 \end{figure} 
 
+
+\begin{figure}[H]
+        \includegraphics[width=0.75\textwidth]{T_hor_1.jpg} \\
+        \includegraphics[width=0.75\textwidth]{T_hor_2.jpg}
+        \caption{T-hor crystal structure perpendicular (left) and along(right) the layer.}
+\label{T_hor}
+\end{figure}
 
 
 
