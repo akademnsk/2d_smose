@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.5)  28 NOV 2021 00:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.5)  2 DEC 2021 11:26
 entering extended mode
 **./smose.tex
 (smose.tex
@@ -808,46 +808,46 @@ Package pdftex.def Info: figures/airss-3-2.jpg  used on input line 291.
  [10 <./figures/airss-1-1.jpg> <./figures/airss-1-2.jpg>] [11 <./figures/airss-
 3-1.jpg> <./figures/airss-3-2.jpg>]
 Package epstopdf Info: Source file: <figures/phon_smose.eps>
-(epstopdf)                    date: 2021-11-28 00:46:17
-(epstopdf)                    size: 4146128 bytes
+(epstopdf)                    date: 2021-12-02 11:21:49
+(epstopdf)                    size: 4452212 bytes
 (epstopdf)             Output file: <figures/phon_smose-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-11-28 00:48:30
-(epstopdf)                    size: 240458 bytes
+(epstopdf)                    date: 2021-12-02 11:21:55
+(epstopdf)                    size: 282924 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/phon_smose-eps-conv
 erted-to.pdf figures/phon_smose.eps>
-(epstopdf)             \includegraphics on input line 343.
+(epstopdf)             \includegraphics on input line 345.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures/phon_smose-eps-converted-to.pdf): 
 PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/phon_smose-eps-converted-to.pdf, id=66, 478.78876pt x 334.24875pt>
+<figures/phon_smose-eps-converted-to.pdf, id=66, 485.815pt x 334.24875pt>
 File: figures/phon_smose-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/phon_smose-eps-converted-to.pdf>
 Package pdftex.def Info: figures/phon_smose-eps-converted-to.pdf  used on input
- line 343.
-(pdftex.def)             Requested size: 345.0pt x 240.84761pt.
+ line 345.
+(pdftex.def)             Requested size: 345.0pt x 237.36417pt.
 [12]
 Package epstopdf Info: Source file: <figures/phon_svse.eps>
-(epstopdf)                    date: 2021-11-28 00:46:03
-(epstopdf)                    size: 4211475 bytes
+(epstopdf)                    date: 2021-12-02 11:19:03
+(epstopdf)                    size: 4456574 bytes
 (epstopdf)             Output file: <figures/phon_svse-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-11-28 00:48:32
-(epstopdf)                    size: 244481 bytes
+(epstopdf)                    date: 2021-12-02 11:21:58
+(epstopdf)                    size: 285934 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/phon_svse-eps-conve
 rted-to.pdf figures/phon_svse.eps>
-(epstopdf)             \includegraphics on input line 349.
+(epstopdf)             \includegraphics on input line 351.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures/phon_svse-eps-converted-to.pdf): P
 DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/phon_svse-eps-converted-to.pdf, id=70, 494.84875pt x 334.24875pt>
+<figures/phon_svse-eps-converted-to.pdf, id=70, 490.83376pt x 334.24875pt>
 File: figures/phon_svse-eps-converted-to.pdf Graphic file (type pdf)
 <use figures/phon_svse-eps-converted-to.pdf>
 Package pdftex.def Info: figures/phon_svse-eps-converted-to.pdf  used on input 
-line 349.
-(pdftex.def)             Requested size: 345.0pt x 233.03407pt.
+line 351.
+(pdftex.def)             Requested size: 345.0pt x 234.94666pt.
 (smose.bbl [13 <./figures/phon_smose-eps-converted-to.pdf> <./figures/phon_svse
 -eps-converted-to.pdf>]) [14] (smose.aux)
 
@@ -883,7 +883,7 @@ ata\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk><C:/Program Files
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/font
 s/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmsy7.pfb>
-Output written on smose.pdf (14 pages, 3919722 bytes).
+Output written on smose.pdf (14 pages, 4003639 bytes).
 PDF statistics:
  568 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
