@@ -38,22 +38,25 @@
 \graphicspath{{figures/}}
 \externaldocument{supplementary/smose_supp}
 
+\usepackage[outdir=./]{epstopdf}
 
 \begin{document}
 
 %\linenumbers
 
-\title{New crystal structures of the transition metall dichalcogenides}
+\title{New crystal structures of the transition metal dichalcogenides}
 
 
 \author[1,2]{Pavel N. Gavryushkin
    \thanks{Electronic address: \texttt{gavryushkin@igm.nsc.ru, p.gavryushkin@g.nsu.ru}; Corresponding author}}     
 \author[1]{Nursultan Sagatov}
+\author[3]{Ekaterina V. Sukhanova}
 \author[3]{Zakhar I. Popov}
+
 
 \affil[1]{Sobolev Institute of Geology and Mineralogy, Siberian Branch of Russian Academy of Sciences, prosp. acad. Koptyuga 3, 630090 Novosibirsk, Russian Federation}
 \affil[2]{Novosibirsk State University, Pirogova 2, Novosibirsk 630090, Russian Federation}
-\affil[3]{ИБХФ}
+\affil[3]{Emanuel Institute of Biochemical Physics of Russian Academy of Sciences, 4 Kosygin Street, Moscow, 119334, Russian Federation}
 
 \date{}
 \maketitle
@@ -62,7 +65,7 @@
 
 \begin{abstract}
 \begin{enumerate}
-	\item Проведены предсказания и обнаружено несколько новых  структур, существенно отличащихся от ранее известных H и T 
+	\item Проведены предсказания и обнаружено несколько новых структур, существенно отличащихся от ранее известных H и T 
 	\item Предсказанные структуры характеризуются динамической стабильностью, однако энтальпии их образования выше энтальпий H и T структур.
 	 \item С помощью автоматизированных топологических алгоритмов проведён поиск топологических аналогов. Все структуры, включая fxt и fes характеризуются уникальными топологическими типами и не имеют структурных аналогов в ICSD. Исключение составляет horH структура, характеризующаяся той же топологией, что и T-структура. 
 \end{enumerate}
@@ -71,36 +74,19 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Introduction}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Transition metall dichalcogenides (TMD) crystallise in four main structural types: CdI2, MoS2, FeS2 (pyrite-type and less frequently marcasite-type).
-Fisrt two structural types are characterised by the layered structures with Ch-TM-Ch (Ch--chalcogenide, TM--transition metall) sandwiches bonded to each other by the weak Van-der-Waals bonds. 
-These quasi-2D sandwiches attract considerable attention due to their semiconducting, superconduting and magnetic properties.
-In particular, 2D layers of MoS2, WS2, MoSe2, WSe2, and MoTe2 have a direct band gap and can be used as transistors and due to the strong spin-orbit coupling are perspective spintronics.
-Due to trigonal and hexagonal symmetry of the separate sandwich-lyers produced from MoS2 and CdI2 structures, they can be designated as 1H and 1T respectively, according to Ramsdell notation.  
+Transition metal dichalcogenides (TMDs) represents a wide family of materials consisting of transition metal (TM, group IV, V or VI) surrounded by chalcogen atoms (Ch, S, Se or Te). TMDs crystallize in four main structural types including CdI2, MoS2 and FeS2 in pyrite-type and less frequently observed marcasite-type crystal structures \textcolor{red}{[ссылка]}.
+First two structural types are characterized by the layered structures with Ch-TM-Ch sandwiches bonded with each other by the weak Van-der-Waals bonds and, therefore, the crystals can be exfoliated into individual stable layers \cite{zhang2020intercalation}. These quasi-2D sandwiches attract considerable attention due to their outstanding properties \cite{li2017graphene, SHI20181, xi2016ising, hu2019recent, pi2019recent}. The zoo of TMDs include materials with various properties either semiconducting \cite{nayeri2018transport}, metallic \cite{zhao20212d}, semmetallic \cite{xu2020high, zhao2020observation} or superconducting \cite{wang2020nodeless} monolayers, exhibiting superconductivity \cite{hsu2017topological} or magnetism \cite{guo2020electronic} thus TMDs have a lot of potential applications. In particular, 2D monolayers of MoS2, WS2, MoSe2, WSe2, and MoTe2 have direct band gaps \cite{dybala2016pressure, huang2016controlling} and can be used as transistors \cite{sebastian2021benchmarking} and due to the strong spin-orbit coupling \cite{rossi2020van, zhou2019spin} are perspective in spintronics \cite{ahn20202d, zibouche2014transition}.
 
 
-The top-layer of sulphur in the the sandwich of MoS2 was successfully changed on the layer of Se with the formation of the so-called Janus SMoSe structure  \cite{lu2017}.
-In the present work we investigate stability and energy of Janus structures sufficiently different in geometry and topology from T and H structures.
-Using topological anlysis, we analyse uniquness of the found structures and acess possibility of their experimental synthesis.
-Preliminary calculations of the electronic structures shows that some of the found structures are direct band gap semiconductors (Захар, поправь меня, если я не прав).
-The special paper will be devoted to the results of these calculations.
+At ambient conditions TMCh2 (TM=Mo,W, Ch=S,Se) crystallize in the archetype of molybdenite (MoS2) structure which consists of close-packed layers of chalcogen atoms placed exactly one under another along c-axis and TM atoms occupied the center of trigonal prismatic cavities located between the chalcogen atoms layers. Different stacking of such a 2D layers produce different polytypes. If the stacking repetition is reproduced through each two layers the structure has hexagonal symmetry and according to Ramsdell notation is denoted as 2H-polytype (in this case isolated monolayers are denoted as H-phase) \cite{huang2020recent}. If one layer of chalcogen atoms shift to be placed in triangular holes the coordination polyhedron changes from trigonal prism to octahedron and the structure with CdI2 archetype is formed. Because of trignaly symmetry of TMDs monolayers, this structure can be designated as T-phase \cite{huang2020recent}. Depending on the exact chemical composition of the TMD monolayer one of 1H or 1T phase is thermodinamically stable \cite{manzeli20172d, ataca2012stable}. For example in the case of TM=Mo, W and Ch=S, Se, Te T-phase is less energetically favorable than H-phase with the same chemical composition, however T structure can be stabilized by intercalation \cite{kan2014structures, wang2014atomic}, by deformation \cite{duerloo2014structural} or surface functionalization \cite{tang2015stabilization, voiry2015covalent}. Vanadium atom is of separate notice because at ambient conditions it does not produce dichalcogenides \cite{murphy1977preparation, le1979elaboration}. VSe2 is known in the form of 2H structure with additional V atoms located in the centers of empty trigonal prisms between the sandwiches and have the composition of Se2V1.005.
 
 
-\subsubsection*{Crystal structures of MCh2, M=Mo,W,Vm, Ch=S,Se}
-At ambient conditions MoS2, WS2, MoSe2, WSe2 crystallise in the arche-type molibdenite (MoS2) structure.
-In these structure atoms of chalcogenes form close-packed layers placed exacly one under another along c-axis.
-TM atoms occupy center of trigonal prismatic cavities between the layers.
-Different stacking of such a 2D layers produce different polytypes.
-If the repition stacking is reprpoduced through each two layers the structure has hexagonal symmetry and according to Ramsdell notation is denoted as 2H-polytype. 
-As in the present manuscript, we consider only isolated 2D-layers, we will designate them as H-layers.
+Recently a new subclass of TMD - so called Janus structures (Ch1TMCh2) attracts significant interest. The top-layer of chalcogen atoms (Ch1) of the the H-MoCh12 (Ch1 = S, Se) monolayer was successfully changed on the layer of Ch2 atoms and the formation of Janus MoSSe structure was observed experimentally \cite{lu2017, zhang2017janus}. The opportunity to change the top layer of atoms opens an additional degree of freedom to manipulate the properties of TMDs. Janus TMDs have structural symmetry breaking \cite{li2017electronic, van2020first}  resulting in Rashba spin splitting \cite{hu2018intrinsic} and transverse dipole moment leading to large piezoelectricity \cite{dong2017large, li2018recent}. TMD Janus structures have a lot of potential applications for example in water-splitting \cite{xia2018universality, ma2018janus} or hydrogen evolution reaction \cite{er2018prediction, zhou2019janus}. Theoretical investigations show that, as in the case of pristine monolayers, Janus TMDs with different chemical compositions can be thermodynamically stable in stable at H and T phases typical for stoichiometric TMDs, however on the other side a non-equivalent structure in the transverse direction may lead to the stabilization of new phases which are not typical for stoichiometric TMDs. This encourages us to search for some new possible Janus TMD phases.
 
-If the layers of chalcogene atoms are shifted such that the top-layere is placed in triangular holes, the coordination polyhedron changes from trigonal prism to octahedron and archetype CdI2 structure is formed. 
-Due to trignaly symmetry of sandwich-layers of such a structure, they can be designated as T-layers.
 
-The 1T structure for TMCh2 compounds, where TM=Mo, W, and V, and S, Se, and Te are less energetically favourable than 2H structres of the same compoistion.
-However, these 1T structures can be stabilised by the impurities of Li atoms or by some deformations (Захар, добавь тут ссылку).
+In the present work we proposed new Janus TMDs structures having sufficiently different geometry and topology from famous T and H phases and  investigated their stability. Using topological analysis we analyzed the uniqueness of the found structures and investigated the possibility of their experimental synthesis.
 
-V is different from W and Mo in that it does not produce dichalcogenides at ambient conditions.
-VSe2 is known in the form 2H structure with additional V adoms in the centers of empty trigonal prisms in between the sandwiches and composition Se2V1.005
+% В интродакшене сейчас обозначение Ch1TMCh2, а в тексте кое-где встречается XMY, надо выбрать, какое обозначение будет использоваться. 
 
 Comment. 
 fes structure denoted as S-MS2 in \cite{tang2021_smose}, from square.
@@ -111,23 +97,23 @@ We can follow this notation, designating our phases by symmetry with addition of
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 		\section{Methods}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-The search for the lowest-enthalpy structures of XMY were performed using evolutionary algorithms implemented in the USPEX package \cite{uspex1,uspex2,uspex3} and the random sampling method implemented in the AIRSS software \cite{airss1,airss2} at 50, 100, 200, 300, and 400 GPa.
+The search for the lowest-enthalpy monolayer structures of XMY composition were performed using evolutionary algorithms implemented in the USPEX program package \cite{uspex1,uspex2,uspex3} and the random sampling method implemented in the AIRSS software \cite{airss1,airss2} at various pressures of 50, 100, 200, 300, and 400 GPa.
 
-The search with USPEX was performed in fixed composition mode with 2--6 formula units per unit cell.
-The size of the first generation in the calculations was equal to 180 structures.
+The crystal structure search within USPEX program was performed in fixed composition mode with 2--6 formula units per unit cell.
+The number of structures in the first generation in the calculations was equal to 180.
 50\% of the structures with the lowest enthalpy were selected after the optimization and then used to produce the next generation.
 A new generation was produced as follow: 50\% of all structures were generated by heredity, 10\% -- by atomic mutation, 10\% –- by lattice mutation, and 30\% –- randomly.
-In average, 40--47 generations have been produced and relaxed.
-Using AIRSS, about 5000--6000 structures were randomly generated and optimized for compounds with 4 and 6 formula units per unit cell, and those with the lowest enthalpy were selected.
+In average, 40--47 generations were produced and relaxed.
+Using AIRSS program about 5000--6000 structures were randomly generated and optimized for compounds with 4 and 6 formula units per unit cell and structures with the lowest enthalpy were selected.
 
-The total energies and forces were calculated by solving the Schr\"{o}dinger equation based on projector augmented plane-wave implementation of density functional theory (DFT) using the VASP package \cite{vasp1,vasp2}.
+The total energies and forces were calculated by solving the Schr\"{o}dinger equation based on projector augmented plane-wave implementation \cite{blochl1994projector} of density functional theory (DFT) using the VASP program package \cite{vasp1,vasp2}.
 Exchange correlation effects were treated in the generalized gradient approximation (GGA) with Perdew-B\"{u}rke-Ernzerhof scheme \cite{pbe}.
 
-In all crystal structure prediction calculations, medium-quality optimization was performed using the conjugate gradient method.
-The medium quality settings were as follows: plane-wave cutoff energy --- 420 eV; Monkhorst-Pack k-point sampling grid of spacing --- 0.5 \AA$^{-1}$; Gaussian smearing with parameter $\sigma$ = 0.15 eV.
-The most promising predicted structures were then optimized at various pressures with higher accuracy: the cutoff energy --- 700 eV, k-point sampling grid of spacing --- 0.2 \AA$^{-1}$, and $\sigma$ = 0.05 eV.
+In all crystal structure prediction calculations medium-quality optimization was performed using the conjugate gradient method \textcolor{red}{[ссылка]}. The energy cutoff of plane waves was set to 420 eV and 700 eV for the intermediate structures and then for the most promising of them. The first Brillouin zone was sampled according to Monkhorst-Pack scheme \cite{monkhorst1976special} with the density of k-point being equal to 0.5 \AA$^{-1}$ and --- 0.2 \AA$^{-1}$, respectively. 
+% проверить 2pi
 
-To study a dynamic stability of predicted structures phonon spectra were calculated with the PHONOPY code \cite{phonopy}.
+
+To study a dynamic stability of predicted structures phonon dispersion spectra were calculated within the PHONOPY code \cite{phonopy}.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
