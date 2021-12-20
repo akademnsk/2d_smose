@@ -1,11 +1,23 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.6)  17 NOV 2021 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.6)  16 DEC 2021 16:32
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **smose.tex
 (./smose.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
+
+./smose.tex:1: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 .
+     \documentclass[a4paperm]{article}
+? 
+Missing character: There is no . in font nullfont!
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/size10.clo
@@ -17,12 +29,17 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \c@subsubsection=\count82
 \c@paragraph=\count83
 \c@subparagraph=\count84
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--274
+[]
+ []
+
 \c@figure=\count85
 \c@table=\count86
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
+[1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 
@@ -1194,14 +1211,7 @@ LABELS NOT IMPORTED.
 LaTeX Warning: Unused global option(s):
     [a4paperm].
 
-(./smose.aux
-
-LaTeX Warning: Label `fes_fxt' multiply defined.
-
-
-LaTeX Warning: Label `airss-1' multiply defined.
-
-)
+No file smose.aux.
 \openout1 = `smose.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -1220,7 +1230,7 @@ LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 42.
 LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 42.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 42.
@@ -1296,182 +1306,245 @@ LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 59.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
-Overfull \hbox (21.78766pt too wide) in paragraph at lines 65--66
-[]\T2A/cmr/m/n/9 Проведены предсказания и обнаружено несколько новых структур,
- []
+) [2
+
+]
+
+LaTeX Warning: Citation `lu2017' on page 3 undefined on input line 81.
 
 
-Overfull \hbox (42.5915pt too wide) in paragraph at lines 66--67
-[]\T2A/cmr/m/n/9 Предсказанные структуры характеризуются динамической стабильно
-стью,
- []
+LaTeX Warning: Citation `tang2021_smose' on page 3 undefined on input line 105.
 
 
-Overfull \hbox (6.10191pt too wide) in paragraph at lines 66--67
-\T2A/cmr/m/n/9 однако энтальпии их образования выше энтальпий H и T структур. 
- []
+
+LaTeX Warning: Citation `ma2016_h'' on page 3 undefined on input line 106.
 
 
-Overfull \hbox (26.01965pt too wide) in paragraph at lines 67--68
-[]\T2A/cmr/m/n/9 С помощью автоматизированных топологических алгоритмов проведј
-н
- []
-
-[1
-
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Citation `lu2017' on page 2 undefined on input line 81.
-
-[2]
-
-LaTeX Warning: Reference `2prism_oct' on page 3 undefined on input line 129.
+LaTeX Warning: Reference `1H1T' on page 3 undefined on input line 123.
 
 
-LaTeX Warning: Citation `Pauling1929' on page 3 undefined on input line 130.
+LaTeX Warning: Reference `1H1T' on page 3 undefined on input line 125.
 
 
-LaTeX Warning: Reference `fes_SMoSe' on page 3 undefined on input line 136.
+LaTeX Warning: Reference `1H1T' on page 3 undefined on input line 126.
+
+[3]
+
+LaTeX Warning: Reference `2prism_oct' on page 4 undefined on input line 132.
 
 
-LaTeX Warning: Reference `fxt_SMoSe' on page 3 undefined on input line 138.
+LaTeX Warning: Citation `Pauling1929' on page 4 undefined on input line 133.
 
 
-LaTeX Warning: Reference `2prism_oct' on page 3 undefined on input line 139.
+LaTeX Warning: Reference `fes_SMoSe' on page 4 undefined on input line 139.
 
-<figures/1H.jpg, id=21, 719.68875pt x 474.77374pt>
+
+LaTeX Warning: Reference `fxt_SMoSe' on page 4 undefined on input line 141.
+
+
+LaTeX Warning: Reference `2prism_oct' on page 4 undefined on input line 142.
+
+<figures/1H.jpg, id=25, 719.68875pt x 474.77374pt>
 File: figures/1H.jpg Graphic file (type jpg)
  <use figures/1H.jpg>
-Package pdftex.def Info: figures/1H.jpg used on input line 144.
+Package pdftex.def Info: figures/1H.jpg used on input line 147.
 (pdftex.def)             Requested size: 137.9979pt x 91.03381pt.
 
-<figures/1T.jpg, id=22, 588.1975pt x 417.56pt>
+<figures/1T.jpg, id=26, 588.1975pt x 417.56pt>
 File: figures/1T.jpg Graphic file (type jpg)
  <use figures/1T.jpg>
-Package pdftex.def Info: figures/1T.jpg used on input line 145.
+Package pdftex.def Info: figures/1T.jpg used on input line 148.
 (pdftex.def)             Requested size: 137.9979pt x 97.96095pt.
- [3]
-<figures/fes_SMoSe.jpg, id=29, 1061.9675pt x 1038.88126pt>
+ [4]
+<figures/fes_SMoSe.jpg, id=33, 1061.9675pt x 1038.88126pt>
 File: figures/fes_SMoSe.jpg Graphic file (type jpg)
 
 <use figures/fes_SMoSe.jpg>
-Package pdftex.def Info: figures/fes_SMoSe.jpg used on input line 152.
+Package pdftex.def Info: figures/fes_SMoSe.jpg used on input line 155.
 (pdftex.def)             Requested size: 137.9979pt x 134.9959pt.
 
-<figures/fxt_SMoSe.jpg, id=30, 1135.24126pt x 843.15pt>
+<figures/fxt_SMoSe.jpg, id=34, 1135.24126pt x 843.15pt>
 File: figures/fxt_SMoSe.jpg Graphic file (type jpg)
 
 <use figures/fxt_SMoSe.jpg>
-Package pdftex.def Info: figures/fxt_SMoSe.jpg used on input line 153.
+Package pdftex.def Info: figures/fxt_SMoSe.jpg used on input line 156.
 (pdftex.def)             Requested size: 172.5pt x 128.11382pt.
 
-<figures/2prism_oct.jpg, id=31, 2902.845pt x 1296.845pt>
+<figures/2prism_oct.jpg, id=35, 2902.845pt x 1296.845pt>
 File: figures/2prism_oct.jpg Graphic file (type jpg)
 
 <use figures/2prism_oct.jpg>
-Package pdftex.def Info: figures/2prism_oct.jpg used on input line 159.
+Package pdftex.def Info: figures/2prism_oct.jpg used on input line 162.
 (pdftex.def)             Requested size: 172.5pt x 77.05539pt.
- [4 <./figures/1H.jpg> <./figures/1T.jpg> <./figures/fes_SMoSe.jpg> <./figures/
-fxt_SMoSe.jpg> <./figures/2prism_oct.jpg>]
-<figures/H-based.jpg, id=35, 577.4373pt x 652.5981pt>
-File: figures/H-based.jpg Graphic file (type jpg)
 
-<use figures/H-based.jpg>
-Package pdftex.def Info: figures/H-based.jpg used on input line 202.
-(pdftex.def)             Requested size: 276.00105pt x 311.93904pt.
- [5]
-<figures/H_hor_1.jpg, id=39, 830.10126pt x 580.1675pt>
+
+LaTeX Warning: Reference `enth' on page 5 undefined on input line 172.
+
+
+LaTeX Warning: Reference `phon' on page 5 undefined on input line 172.
+
+[5 <./figures/1H.jpg> <./figures/1T.jpg> <./figures/fes_SMoSe.jpg> <./figures/f
+xt_SMoSe.jpg> <./figures/2prism_oct.jpg>]
+<figures/Mo_H.png, id=39, 1261.71375pt x 456.70625pt>
+File: figures/Mo_H.png Graphic file (type png)
+ <use figures/Mo_H.png>
+Package pdftex.def Info: figures/Mo_H.png used on input line 179.
+(pdftex.def)             Requested size: 345.0pt x 124.8803pt.
+
+<figures/W_H.png, id=41, 1274.7625pt x 467.7475pt>
+File: figures/W_H.png Graphic file (type png)
+ <use figures/W_H.png>
+Package pdftex.def Info: figures/W_H.png used on input line 180.
+(pdftex.def)             Requested size: 345.0pt x 126.58614pt.
+
+<figures/V_H.png, id=42, 1256.695pt x 463.7325pt>
+File: figures/V_H.png Graphic file (type png)
+ <use figures/V_H.png>
+Package pdftex.def Info: figures/V_H.png used on input line 181.
+(pdftex.def)             Requested size: 345.0pt x 127.30392pt.
+
+<figures/smose_phon.png, id=43, 711.65875pt x 481.8pt>
+File: figures/smose_phon.png Graphic file (type png)
+
+<use figures/smose_phon.png>
+Package pdftex.def Info: figures/smose_phon.png used on input line 187.
+(pdftex.def)             Requested size: 103.50105pt x 70.06873pt.
+
+<figures/swse_phon.png, id=44, 803.0pt x 551.05875pt>
+File: figures/swse_phon.png Graphic file (type png)
+
+<use figures/swse_phon.png>
+Package pdftex.def Info: figures/swse_phon.png used on input line 188.
+(pdftex.def)             Requested size: 103.50105pt x 71.02632pt.
+
+<figures/svse_phon.png, id=45, 711.65875pt x 491.8375pt>
+File: figures/svse_phon.png Graphic file (type png)
+
+<use figures/svse_phon.png>
+Package pdftex.def Info: figures/svse_phon.png used on input line 189.
+(pdftex.def)             Requested size: 103.50105pt x 71.52849pt.
+ [6 <./figures/Mo_H.png> <./figures/W_H.png> <./figures/V_H.png>]
+
+LaTeX Warning: Reference `H_hor' on page 7 undefined on input line 199.
+
+<figures/H_hor_1.jpg, id=52, 830.10126pt x 580.1675pt>
 File: figures/H_hor_1.jpg Graphic file (type jpg)
 
 <use figures/H_hor_1.jpg>
-Package pdftex.def Info: figures/H_hor_1.jpg used on input line 224.
+Package pdftex.def Info: figures/H_hor_1.jpg used on input line 205.
 (pdftex.def)             Requested size: 258.75pt x 180.84155pt.
 
-<figures/H_hor_2.jpg, id=40, 942.52126pt x 274.02374pt>
+<figures/H_hor_2.jpg, id=53, 942.52126pt x 274.02374pt>
 File: figures/H_hor_2.jpg Graphic file (type jpg)
 
 <use figures/H_hor_2.jpg>
-Package pdftex.def Info: figures/H_hor_2.jpg used on input line 225.
+Package pdftex.def Info: figures/H_hor_2.jpg used on input line 206.
 (pdftex.def)             Requested size: 258.75pt x 75.22505pt.
- [6 <./figures/H-based.jpg>]
-<figures/T_hor_1.jpg, id=44, 590.205pt x 435.6275pt>
+ <figures/T_hor_1.jpg, id=54, 590.205pt x 435.6275pt>
 File: figures/T_hor_1.jpg Graphic file (type jpg)
- <use figures/T_hor_1.jpg>
-Package pdftex.def Info: figures/T_hor_1.jpg used on input line 232.
+
+<use figures/T_hor_1.jpg>
+Package pdftex.def Info: figures/T_hor_1.jpg used on input line 213.
 (pdftex.def)             Requested size: 258.75pt x 190.98538pt.
 
-<figures/T_hor_2.jpg, id=45, 588.1975pt x 138.5175pt>
+<figures/T_hor_2.jpg, id=55, 588.1975pt x 138.5175pt>
 File: figures/T_hor_2.jpg Graphic file (type jpg)
 
 <use figures/T_hor_2.jpg>
-Package pdftex.def Info: figures/T_hor_2.jpg used on input line 233.
+Package pdftex.def Info: figures/T_hor_2.jpg used on input line 214.
 (pdftex.def)             Requested size: 258.75pt x 60.93307pt.
- [7 <./figures/H_hor_1.jpg> <./figures/H_hor_2.jpg>]
-<figures/airss-1-1.jpg, id=50, 569.12625pt x 599.23875pt>
+ [7 <./figures/smose_phon.png> <./figures/swse_phon.png> <./figures/svse_phon.p
+ng> <./figures/H_hor_1.jpg> <./figures/H_hor_2.jpg>]
+
+LaTeX Warning: Reference `airss-1' on page 8 undefined on input line 229.
+
+<figures/airss-1-1.jpg, id=63, 569.12625pt x 599.23875pt>
 File: figures/airss-1-1.jpg Graphic file (type jpg)
 
 <use figures/airss-1-1.jpg>
-Package pdftex.def Info: figures/airss-1-1.jpg used on input line 251.
+Package pdftex.def Info: figures/airss-1-1.jpg used on input line 232.
 (pdftex.def)             Requested size: 258.75pt x 272.4529pt.
 
-<figures/airss-1-2.jpg, id=51, 724.7075pt x 171.64125pt>
+<figures/airss-1-2.jpg, id=64, 724.7075pt x 171.64125pt>
 File: figures/airss-1-2.jpg Graphic file (type jpg)
 
 <use figures/airss-1-2.jpg>
-Package pdftex.def Info: figures/airss-1-2.jpg used on input line 252.
+Package pdftex.def Info: figures/airss-1-2.jpg used on input line 233.
 (pdftex.def)             Requested size: 258.75pt x 61.2827pt.
- [8 <./figures/T_hor_1.jpg> <./figures/T_hor_2.jpg>] <figures/airss-3-1.jpg, id
-=55, 785.93625pt x 848.16875pt>
+ [8 <./figures/T_hor_1.jpg> <./figures/T_hor_2.jpg>]
+
+LaTeX Warning: Reference `airss-3' on page 9 undefined on input line 244.
+
+<figures/airss-3-1.jpg, id=68, 785.93625pt x 848.16875pt>
 File: figures/airss-3-1.jpg Graphic file (type jpg)
 
 <use figures/airss-3-1.jpg>
-Package pdftex.def Info: figures/airss-3-1.jpg used on input line 270.
+Package pdftex.def Info: figures/airss-3-1.jpg used on input line 251.
 (pdftex.def)             Requested size: 258.75pt x 279.23651pt.
 
-<figures/airss-3-2.jpg, id=56, 968.61874pt x 227.85126pt>
+<figures/airss-3-2.jpg, id=69, 968.61874pt x 227.85126pt>
 File: figures/airss-3-2.jpg Graphic file (type jpg)
 
 <use figures/airss-3-2.jpg>
-Package pdftex.def Info: figures/airss-3-2.jpg used on input line 271.
+Package pdftex.def Info: figures/airss-3-2.jpg used on input line 252.
 (pdftex.def)             Requested size: 258.75pt x 60.86703pt.
  [9 <./figures/airss-1-1.jpg> <./figures/airss-1-2.jpg>] [10 <./figures/airss-3
--1.jpg> <./figures/airss-3-2.jpg>] [11] (./smose.aux)
+-1.jpg> <./figures/airss-3-2.jpg>]
+Overfull \hbox (6.12953pt too wide) in paragraph at lines 277--277
+[]\T2A/cmr/bx/n/10 Structures with trig-o-nal pris-matic co-or-di-na-tion ^^U p
+os-si-ble struc-
+ []
+
+
+LaTeX Warning: Reference `H-based' on page 11 undefined on input line 280.
+
+
+LaTeX Warning: Reference `H-based' on page 11 undefined on input line 293.
+
+[11] <figures/H-based.jpg, id=80, 577.4373pt x 652.5981pt>
+File: figures/H-based.jpg Graphic file (type jpg)
+
+<use figures/H-based.jpg>
+Package pdftex.def Info: figures/H-based.jpg used on input line 309.
+(pdftex.def)             Requested size: 276.00105pt x 311.93904pt.
+ [12 <./figures/H-based.jpg>] (./smose.aux)
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 15454 strings out of 492995
- 276644 string characters out of 6132705
- 351705 words of memory out of 5000000
- 18774 multiletter control sequences out of 15000+600000
- 549260 words of font info for 68 fonts, out of 8000000 for 9000
+ 15490 strings out of 492995
+ 277315 string characters out of 6132705
+ 351599 words of memory out of 5000000
+ 18804 multiletter control sequences out of 15000+600000
+ 550134 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,42p,10347b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,7n,42p,10347b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
-}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></
-usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/loca
-l/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on smose.pdf (11 pages, 3511995 bytes).
+}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loca
+l/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/public/cm-super/sftt0800.pfb>
+Output written on smose.pdf (12 pages, 4845223 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 139 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
