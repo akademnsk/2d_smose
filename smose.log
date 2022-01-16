@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.5)  13 JAN 2022 17:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.5)  16 JAN 2022 21:43
 entering extended mode
 **./smose.tex
 (smose.tex
@@ -753,11 +753,11 @@ LaTeX Warning: Reference `2prism_oct' on page 7 undefined on input line 236.
 
 [7]
 Package epstopdf Info: Source file: <figures/phon_smose.eps>
-(epstopdf)                    date: 2022-01-13 17:18:26
-(epstopdf)                    size: 4452085 bytes
+(epstopdf)                    date: 2022-01-16 21:41:22
+(epstopdf)                    size: 4460491 bytes
 (epstopdf)             Output file: <./phon_smose-eps-converted-to.pdf>
-(epstopdf)                    date: 2022-01-13 17:18:42
-(epstopdf)                    size: 282642 bytes
+(epstopdf)                    date: 2022-01-16 21:43:04
+(epstopdf)                    size: 284124 bytes
 (epstopdf)             Command: <epstopdf --outfile=./phon_smose-eps-converted-
 to.pdf figures/phon_smose.eps>
 (epstopdf)             \includegraphics on input line 288.
@@ -926,7 +926,7 @@ X/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on smose.pdf (23 pages, 29734037 bytes).
+Output written on smose.pdf (23 pages, 29735519 bytes).
 PDF statistics:
  671 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
