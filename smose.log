@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.6)  8 FEB 2022 11:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.6)  11 FEB 2022 16:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1269,7 +1269,7 @@ Package newfloat Info: float type `suppfigure'=4 on input line 37.
 
 
 Package xr Warning: 
-No file supplementary/smose_supp.aux
+No file SI/smose_supp.aux
 LABELS NOT IMPORTED.
  on input line 40.
 
@@ -1309,26 +1309,26 @@ LaTeX Warning: Unused global option(s):
 (./smose.aux)
 \openout1 = `smose.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 46.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    ... okay on input line 46.
 
 Option `squaren' provided! 
  Command \squaren defined by SIunits package!
@@ -1350,18 +1350,18 @@ Option `squaren' provided!
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 44.
+. Activating mapping `default' on line 46.
 .................................................
-LaTeX Font Info:    Try loading font information for U+msa on input line 65.
+LaTeX Font Info:    Try loading font information for U+msa on input line 67.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 65.
+LaTeX Font Info:    Try loading font information for U+msb on input line 67.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 65.
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 67.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
@@ -1372,628 +1372,269 @@ File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 
 LaTeX Warning: Citation `wells1986_book' on page 2 undefined on input line 90.
 
-
-LaTeX Warning: Citation `zhang2020intercalation' on page 2 undefined on input l
-ine 92.
-
-
-LaTeX Warning: Citation `li2017graphene' on page 2 undefined on input line 92.
-
-
-LaTeX Warning: Citation `SHI20181' on page 2 undefined on input line 92.
-
-
-LaTeX Warning: Citation `xi2016ising' on page 2 undefined on input line 92.
-
-
-LaTeX Warning: Citation `hu2019recent' on page 2 undefined on input line 92.
-
-
-LaTeX Warning: Citation `pi2019recent' on page 2 undefined on input line 92.
-
-
-LaTeX Warning: Citation `nayeri2018transport' on page 2 undefined on input line
- 93.
-
-
-LaTeX Warning: Citation `zhao20212d' on page 2 undefined on input line 93.
-
-
-LaTeX Warning: Citation `xu2020high' on page 2 undefined on input line 93.
-
-
-LaTeX Warning: Citation `zhao2020observation' on page 2 undefined on input line
- 93.
-
-
-LaTeX Warning: Citation `wang2020nodeless' on page 2 undefined on input line 93
-.
-
-
-LaTeX Warning: Citation `hsu2017topological' on page 2 undefined on input line 
-93.
-
-
-LaTeX Warning: Citation `huang2020recent' on page 2 undefined on input line 102
-.
-
-
-LaTeX Warning: Citation `huang2020recent' on page 2 undefined on input line 103
-.
-
-
-LaTeX Warning: Citation `ataca2012stable' on page 2 undefined on input line 104
-.
-
-
-LaTeX Warning: Citation `kan2014structures' on page 2 undefined on input line 1
-06.
-
-
-LaTeX Warning: Citation `wang2014atomic' on page 2 undefined on input line 106.
-
-
-
-LaTeX Warning: Citation `duerloo2014structural' on page 2 undefined on input li
-ne 106.
-
-
-LaTeX Warning: Citation `tang2015stabilization' on page 2 undefined on input li
-ne 106.
-
-
-LaTeX Warning: Citation `voiry2015covalent' on page 2 undefined on input line 1
-06.
-
-
-LaTeX Warning: Citation `murphy1977preparation' on page 2 undefined on input li
-ne 107.
-
-
-LaTeX Warning: Citation `le1979elaboration' on page 2 undefined on input line 1
-07.
-
-
-LaTeX Warning: Citation `rigoult1982' on page 2 undefined on input line 108.
-
-[2]
-
-LaTeX Warning: Citation `lu2017' on page 3 undefined on input line 110.
-
-
-LaTeX Warning: Citation `zhang2017janus' on page 3 undefined on input line 110.
-
-
-
-LaTeX Warning: Citation `li2017electronic' on page 3 undefined on input line 11
-2.
-
-
-LaTeX Warning: Citation `van2020first' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `hu2018intrinsic' on page 3 undefined on input line 112
-.
-
-
-LaTeX Warning: Citation `dong2017large' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `li2018recent' on page 3 undefined on input line 112.
-
-
-LaTeX Warning: Citation `xia2018universality' on page 3 undefined on input line
- 113.
-
-
-LaTeX Warning: Citation `ma2018janus' on page 3 undefined on input line 113.
-
-
-LaTeX Warning: Citation `er2018prediction' on page 3 undefined on input line 11
-3.
-
-
-LaTeX Warning: Citation `zhou2019janus' on page 3 undefined on input line 113.
-
-<figures/1H.jpg, id=22, 719.68875pt x 474.77374pt>
-File: figures/1H.jpg Graphic file (type jpg)
- <use figures/1H.jpg>
-Package pdftex.def Info: figures/1H.jpg used on input line 122.
-(pdftex.def)             Requested size: 137.9979pt x 91.03381pt.
-
-<figures/1T.jpg, id=23, 588.1975pt x 417.56pt>
-File: figures/1T.jpg Graphic file (type jpg)
- <use figures/1T.jpg>
-Package pdftex.def Info: figures/1T.jpg used on input line 123.
-(pdftex.def)             Requested size: 137.9979pt x 97.96095pt.
-
-<figures/fes_SMoSe.jpg, id=24, 1061.9675pt x 1038.88126pt>
-File: figures/fes_SMoSe.jpg Graphic file (type jpg)
-
-<use figures/fes_SMoSe.jpg>
-Package pdftex.def Info: figures/fes_SMoSe.jpg used on input line 130.
-(pdftex.def)             Requested size: 137.9979pt x 134.9959pt.
-
-<figures/fxt_SMoSe.jpg, id=25, 1135.24126pt x 843.15praphic file (type pdf)
+[2] <figures/1H1T.png, id=24, 193.4427pt x 209.583pt>
+File: figures/1H1T.png Graphic file (type png)
+ <use figures/1H1T.png>
+Package pdftex.def Info: figures/1H1T.png used on input line 126.
+(pdftex.def)             Requested size: 137.9979pt x 149.51491pt.
+
+[3 <./figures/1H1T.png>] [4]
+Overfull \hbox (2.88617pt too wide) in paragraph at lines 204--207
+[]\T2A/cmr/m/n/10 According to the per-formed cal-cu-la-tions, 1H struc-ture is
+ the most favourable
+ []
+
+
+LaTeX Warning: Reference `fes_fxt' on page 5 undefined on input line 209.
+
+
+LaTeX Warning: Reference `fes_fxt' on page 5 undefined on input line 211.
+
+[5]
+
+LaTeX Warning: Reference `fes_fxt' on page 6 undefined on input line 222.
+
+
+LaTeX Warning: Reference `fes_fxt' on page 6 undefined on input line 224.
+
+[6]
+Package epstopdf Info: Source file: <figures/phon_smose.eps>
+(epstopdf)                    date: 2022-01-28 15:05:36
+(epstopdf)                    size: 4460491 bytes
+(epstopdf)             Output file: <./phon_smose-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-02-01 10:29:46
+(epstopdf)                    size: 284040 bytes
+(epstopdf)             Command: <repstopdf --outfile=./phon_smose-eps-converted
+-to.pdf figures/phon_smose.eps>
+(epstopdf)             \includegraphics on input line 281.
+Package epstopdf Info: Output file is already uptodate.
+ <./phon_smose-eps-converted-to.pdf, id=45, 485.815pt x 334.24875pt>
+File: ./phon_smose-eps-converted-to.pdf Graphic file (type pdf)
+
+<use ./phon_smose-eps-converted-to.pdf>
+Package pdftex.def Info: ./phon_smose-eps-converted-to.pdf used on input line 2
+81.
+(pdftex.def)             Requested size: 345.0pt x 237.36417pt.
+Package epstopdf Info: Source file: <figures/phon_svse.eps>
+(epstopdf)                    date: 2021-12-20 16:02:22
+(epstopdf)                    size: 4456574 bytes
+(epstopdf)             Output file: <./phon_svse-eps-converted-to.pdf>
+(epstopdf)                    date: 2022-02-10 15:58:54
+(epstopdf)                    size: 285852 bytes
+(epstopdf)             Command: <repstopdf --outfile=./phon_svse-eps-converted-
+to.pdf figures/phon_svse.eps>
+(epstopdf)             \includegraphics on input line 287.
+Package epstopdf Info: Output file is already uptodate.
+
+<./phon_svse-eps-converted-to.pdf, id=46, 490.83376pt x 334.24875pt>
+File: ./phon_svse-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./phon_svse-eps-converted-to.pdf>
-Package pdftex.def Info: ./phon_svse-eps-converted-to.pdf used on input line 29
+Package pdftex.def Info: ./phon_svse-eps-converted-to.pdf used on input line 28
 7.
 (pdftex.def)             Requested size: 345.0pt x 234.94666pt.
- [8 <./phon_smose-eps-converted-to.pdf>]
-Overfull \hbox (83.92235pt too wide) in paragraph at lines 307--362
+ [7 <./phon_smose-eps-converted-to.pdf>]
+Overfull \hbox (83.92235pt too wide) in paragraph at lines 297--352
  [][] 
  []
 
-[9 <./phon_svse-eps-converted-to.pdf>] [10]
-<figures/T_hor_hcb.png, id=68, 284.61516pt x 207.65327pt>
+[8 <./phon_svse-eps-converted-to.pdf>] [9]
+<figures/T_hor_hcb.png, id=65, 284.61516pt x 207.65327pt>
 File: figures/T_hor_hcb.png Graphic file (type png)
 
 <use figures/T_hor_hcb.png>
-Package pdftex.def Info: figures/T_hor_hcb.png used on input line 393.
+Package pdftex.def Info: figures/T_hor_hcb.png used on input line 383.
 (pdftex.def)             Requested size: 172.5pt x 125.85399pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 393--394
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
 
  []
 
-[11] <figures/T_hor_T.png, id=74, 483.56577pt x 287.64217pt>
+[10] <figures/T_hor_T.png, id=70, 483.56577pt x 287.64217pt>
 File: figures/T_hor_T.png Graphic file (type png)
 
 <use figures/T_hor_T.png>
-Package pdftex.def Info: figures/T_hor_T.png used on input line 400.
+Package pdftex.def Info: figures/T_hor_T.png used on input line 390.
 (pdftex.def)             Requested size: 276.00105pt x 164.17279pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
 
  []
 
-<figures/T_hor_slabs.png, id=75, 330.47444pt x 161.41562pt>
+<figures/T_hor_slabs.png, id=71, 330.47444pt x 161.41562pt>
 File: figures/T_hor_slabs.png Graphic file (type png)
 
 <use figures/T_hor_slabs.png>
-Package pdftex.def Info: figures/T_hor_slabs.png used on input line 406.
+Package pdftex.def Info: figures/T_hor_slabs.png used on input line 396.
 (pdftex.def)             Requested size: 241.49895pt x 117.95802pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
+Underfull \hbox (badness 10000) in paragraph at lines 396--397
 
  []
 
-[12 <./figures/T_hor_hcb.png> <./figures/T_hor_T.png>]
-<figures/T_hor_ch.png, id=81, 278.33409pt x 334.93929pt>
+[11 <./figures/T_hor_hcb.png> <./figures/T_hor_T.png>]
+<figures/T_hor_ch.png, id=77, 278.33409pt x 334.93929pt>
 File: figures/T_hor_ch.png Graphic file (type png)
 
 <use figures/T_hor_ch.png>
-Package pdftex.def Info: figures/T_hor_ch.png used on input line 412.
+Package pdftex.def Info: figures/T_hor_ch.png used on input line 402.
 (pdftex.def)             Requested size: 172.5pt x 207.58353pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--413
+Underfull \hbox (badness 10000) in paragraph at lines 402--403
 
  []
 
-<figures/T_hor_V.png, id=82, 189.03712pt x 235.04778pt>
+<figures/T_hor_V.png, id=78, 189.03712pt x 235.04778pt>
 File: figures/T_hor_V.png Graphic file (type png)
 
 <use figures/T_hor_V.png>
-Package pdftex.def Info: figures/T_hor_V.png used on input line 418.
+Package pdftex.def Info: figures/T_hor_V.png used on input line 408.
 (pdftex.def)             Requested size: 137.9979pt x 171.5906pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 418--419
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
 
  []
 
-[13 <./figures/T_hor_slabs.png> <./figures/T_hor_ch.png>]
+[12 <./figures/T_hor_slabs.png> <./figures/T_hor_ch.png>]
 
-LaTeX Warning: Citation `zhang2021_kagome' on page 14 undefined on input line 4
-29.
-
-
-LaTeX Warning: Citation `ortiz2021' on page 14 undefined on input line 429.
+LaTeX Warning: Citation `zhang2021_kagome' on page 13 undefined on input line 4
+19.
 
 
-LaTeX Warning: Citation `gerand1979' on page 14 undefined on input line 429.
+LaTeX Warning: Citation `ortiz2021' on page 13 undefined on input line 419.
 
 
-LaTeX Warning: Citation `Ta2V3Si' on page 14 undefined on input line 439.
+LaTeX Warning: Citation `gerand1979' on page 13 undefined on input line 419.
 
 
-LaTeX Warning: Citation `CaV3Sb4' on page 14 undefined on input line 439.
+LaTeX Warning: Citation `Ta2V3Si' on page 13 undefined on input line 429.
 
 
-LaTeX Warning: Citation `KV3Sb5' on page 14 undefined on input line 439.
+LaTeX Warning: Citation `CaV3Sb4' on page 13 undefined on input line 429.
 
 
-LaTeX Warning: Citation `ZrVCO' on page 14 undefined on input line 439.
+LaTeX Warning: Citation `KV3Sb5' on page 13 undefined on input line 429.
 
 
-LaTeX Warning: Citation `vanadium' on page 14 undefined on input line 442.
+LaTeX Warning: Citation `ZrVCO' on page 13 undefined on input line 429.
 
 
-LaTeX Warning: Citation `molybdenum' on page 14 undefined on input line 442.
+LaTeX Warning: Citation `vanadium' on page 13 undefined on input line 432.
 
-[14 <./figures/T_hor_V.png>]
-<figures/airss1_tm.png, id=93, 201.8742pt x 491.9178pt>
+
+LaTeX Warning: Citation `molybdenum' on page 13 undefined on input line 432.
+
+[13 <./figures/T_hor_V.png>]
+<figures/airss1_tm.png, id=89, 201.8742pt x 491.9178pt>
 File: figures/airss1_tm.png Graphic file (type png)
 
 <use figures/airss1_tm.png>
-Package pdftex.def Info: figures/airss1_tm.png used on input line 462.
-(pdftex.def)             Requested size: 172.5pt x 420.36891pt.
+Package pdftex.def Info: figures/airss1_tm.png used on input line 452.
+(pdftex.def)             Requested size: 120.7521pt x 294.25223pt.
 
-<figures/airss1v_s.png, id=94, 177.3024pt x 258.4857pt>
+<figures/airss1v_s.png, id=90, 177.3024pt x 258.4857pt>
 File: figures/airss1v_s.png Graphic file (type png)
 
 <use figures/airss1v_s.png>
-Package pdftex.def Info: figures/airss1v_s.png used on input line 468.
-(pdftex.def)             Requested size: 172.5pt x 251.4881pt.
+Package pdftex.def Info: figures/airss1v_s.png used on input line 458.
+(pdftex.def)             Requested size: 120.7521pt x 176.04404pt.
 
-<figures/airss1_s_comp.png, id=95, 360.8682pt x 268.3626pt>
-File: figures/airss1_s_comp.png Graphic file (type png)
-
-<use figures/airss1_s_comp.png>
-Package pdftex.def Info: figures/airss1_s_comp.png used on input line 474.
-(pdftex.def)             Requested size: 172.5pt x 128.28024pt.
-
-<figures/airss1_v_poly.png, id=96, 202.1151pt x 266.4354pt>
+<figures/airss1_v_poly.png, id=91, 202.1151pt x 266.4354pt>
 File: figures/airss1_v_poly.png Graphic file (type png)
 
 <use figures/airss1_v_poly.png>
-Package pdftex.def Info: figures/airss1_v_poly.png used on input line 480.
-(pdftex.def)             Requested size: 172.5pt x 227.39807pt.
- [15] [16 <./figures/airss1_tm.png>] [17 <./figures/airss1v_s.png> <./figures/a
-irss1_s_comp.png>]
-<figures/H-hor.png, id=109, 572.1375pt x 144.0582pt>
+Package pdftex.def Info: figures/airss1_v_poly.png used on input line 465.
+(pdftex.def)             Requested size: 120.7521pt x 159.18353pt.
+ [14 <./figures/airss1_v_poly.png>] [15 <./figures/airss1_tm.png>] <figures/H-h
+or.png, id=100, 572.1375pt x 144.0582pt>
 File: figures/H-hor.png Graphic file (type png)
- <use figures/H-hor.png>
-Package pdftex.def Info: figures/H-hor.png used on input line 503.
-(pdftex.def)             Requested size: 345.0pt x 86.8686pt.
 
-[18 <./figures/airss1_v_poly.png>]
-<figures/H-hor_Mo.png, id=114, 219.9417pt x 207.6558pt>
+<use figures/H-hor.png>
+Package pdftex.def Info: figures/H-hor.png used on input line 488.
+(pdftex.def)             Requested size: 345.0pt x 86.8686pt.
+ [16 <./figures/airss1v_s.png>]
+<figures/H-hor_Mo.png, id=105, 219.9417pt x 207.6558pt>
 File: figures/H-hor_Mo.png Graphic file (type png)
 
 <use figures/H-hor_Mo.png>
-Package pdftex.def Info: figures/H-hor_Mo.png used on input line 510.
-(pdftex.def)             Requested size: 172.5pt x 162.8644pt.
- [19 <./figures/H-hor.png> <./figures/H-hor_Mo.png>]
-Overfull \hbox (6.84927pt too wide) in paragraph at lines 538--539
-[]\T2A/cmr/m/n/10 !!!Тут нам нужно переименовать airss3-MoSSe, т.к. это другая 
+Package pdftex.def Info: figures/H-hor_Mo.png used on input line 495.
+(pdftex.def)             Requested size: 137.9979pt x 130.29152pt.
+ [17 <./figures/H-hor.png> <./figures/H-hor_Mo.png>]
+Overfull \hbox (6.84927pt too wide) in paragraph at lines 523--524
+[]\T2A/cmr/m/n/10 !!!Тут нам нужно переименовать airss3-SMoSe, т.к. это другая 
 структура. 
  []
 
-<figures/airss3_side.png, id=121, 511.1898pt x 65.5248pt>
+<figures/airss3_side.png, id=111, 511.1898pt x 65.5248pt>
 File: figures/airss3_side.png Graphic file (type png)
 
 <use figures/airss3_side.png>
-Package pdftex.def Info: figures/airss3_side.png used on input line 550.
+Package pdftex.def Info: figures/airss3_side.png used on input line 535.
 (pdftex.def)             Requested size: 345.0pt x 44.22232pt.
 
-<figures/airss3_svse.png, id=122, 244.9953pt x 388.0899pt>
+<figures/airss3_svse.png, id=112, 244.9953pt x 388.0899pt>
 File: figures/airss3_svse.png Graphic file (type png)
 
 <use figures/airss3_svse.png>
-Package pdftex.def Info: figures/airss3_svse.png used on input line 556.
+Package pdftex.def Info: figures/airss3_svse.png used on input line 541.
 (pdftex.def)             Requested size: 172.5pt x 273.25995pt.
- [20 <./figures/airss3_side.png>]
-<figures/airss3_smose.png, id=127, 225.0006pt x 416.9979pt>
+ [18 <./figures/airss3_side.png>]
+<figures/airss3_smose.png, id=117, 225.0006pt x 416.9979pt>
 File: figures/airss3_smose.png Graphic file (type png)
 
 <use figures/airss3_smose.png>
-Package pdftex.def Info: figures/airss3_smose.png used on input line 562.
+Package pdftex.def Info: figures/airss3_smose.png used on input line 547.
 (pdftex.def)             Requested size: 172.5pt x 319.69589pt.
- [21 <./figures/airss3_svse.png>]
-<figures/airss3_S_Se.png, id=132, 469.755pt x 209.3421pt>
+ [19 <./figures/airss3_svse.png>]
+<figures/airss3_S_Se.png, id=123, 469.755pt x 209.3421pt>
 File: figures/airss3_S_Se.png Graphic file (type png)
 
 <use figures/airss3_S_Se.png>
-Package pdftex.def Info: figures/airss3_S_Se.png used on input line 568.
+Package pdftex.def Info: figures/airss3_S_Se.png used on input line 553.
 (pdftex.def)             Requested size: 345.0pt x 153.7448pt.
- [22 <./figures/airss3_smose.png>]
-<figures/airss3_poly.png, id=137, 495.7722pt x 199.4652pt>
+ [20 <./figures/airss3_smose.png>]
+<figures/airss3_poly.png, id=128, 495.7722pt x 199.4652pt>
 File: figures/airss3_poly.png Graphic file (type png)
 
 <use figures/airss3_poly.png>
-Package pdftex.def Info: figures/airss3_poly.png used on input line 574.
+Package pdftex.def Info: figures/airss3_poly.png used on input line 559.
 (pdftex.def)             Requested size: 345.0pt x 138.80899pt.
- [23 <./figures/airss3_S_Se.png> <./figures/airss3_poly.png>]
+ [21 <./figures/airss3_S_Se.png> <./figures/airss3_poly.png>]
 
-LaTeX Warning: Citation `MoV' on page 24 undefined on input line 623.
+LaTeX Warning: Citation `MoV' on page 22 undefined on input line 608.
 
 
-LaTeX Warning: Citation `momo' on page 24 undefined on input line 626.
+LaTeX Warning: Citation `momo' on page 22 undefined on input line 611.
 
-[24] <figures/H-based.png, id=146, 462.0462pt x 388.3308pt>
+[22] <figures/H-based.png, id=137, 462.0462pt x 388.3308pt>
 File: figures/H-based.png Graphic file (type png)
 
 <use figures/H-based.png>
-Package pdftex.def Info: figures/H-based.png used on input line 632.
+Package pdftex.def Info: figures/H-based.png used on input line 617.
 (pdftex.def)             Requested size: 345.0pt x 289.96155pt.
 
-<figures/test3_momo.png, id=147, 127.8623pt x 119.92055pt>
+<figures/test3_momo.png, id=138, 127.8623pt x 119.92055pt>
 File: figures/test3_momo.png Graphic file (type png)
 
 <use figures/test3_momo.png>
-Package pdftex.def Info: figures/test3_momo.png used on input line 638.
+Package pdftex.def Info: figures/test3_momo.png used on input line 623.
 (pdftex.def)             Requested size: 103.50105pt x 97.07288pt.
- [25 <./figures/H-based.png>] [26 <./figures/test3_momo.png>]
-Overfull \hbox (3.51675pt too wide) in paragraph at lines 672--674
+ [23 <./figures/H-based.png>] [24 <./figures/test3_momo.png>]
+Overfull \hbox (3.51675pt too wide) in paragraph at lines 657--659
 \T2A/cmr/m/n/10 добавить пояснение. Так как это послднее предложение, хорошо бы
  добавить
  []
 
-(./smose.bbl [27] [28] [29] [30]) [31] (./smose.aux)
+(./smose.bbl [25] [26] [27] [28]) [29] [30] (./smose.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 16016 strings out of 492995
- 285357 string characters out of 6132705
- 367441 words of memory out of 5000000
- 19307 multiletter control sequences out of 15000+600000
- 552974 words of font info for 79 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 44i,11n,42p,10347b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}
-</usr/local/texlive/2017/texmf-dist/fonts/type1/pdef)             Requested size: 172.5pt x 207.58353pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 412--413
-
- []
-
-<figures/T_hor_V.png, id=82, 189.03712pt x 235.04778pt>
-File: figures/T_hor_V.png Graphic file (type png)
-
-<use figures/T_hor_V.png>
-Package pdftex.def Info: figures/T_hor_V.png used on input line 418.
-(pdftex.def)             Requested size: 137.9979pt x 171.5906pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 418--419
-
- []
-
-[13 <./figures/T_hor_slabs.png> <./figures/T_hor_ch.png>]
-
-LaTeX Warning: Citation `zhang2021_kagome' on page 14 undefined on input line 4
-29.
-
-
-LaTeX Warning: Citation `ortiz2021' on page 14 undefined on input line 429.
-
-
-LaTeX Warning: Citation `gerand1979' on page 14 undefined on input line 429.
-
-
-LaTeX Warning: Reference `airss1_tm' on page 14 undefined on input line 431.
-
-
-LaTeX Warning: Reference `airss1_tm' on page 14 undefined on input line 434.
-
-
-LaTeX Warning: Citation `Ta2V3Si' on page 14 undefined on input line 439.
-
-
-LaTeX Warning: Citation `CaV3Sb4' on page 14 undefined on input line 439.
-
-
-LaTeX Warning: Citation `KV3Sb5' on page 14 undefined on input line 439.
-
-
-LaTeX Warning: Citation `ZrVCO' on page 14 undefined on input line 439.
-
-
-LaTeX Warning: Citation `vanadium' on page 14 undefined on input line 442.
-
-
-LaTeX Warning: Citation `molybdenum' on page 14 undefined on input line 442.
-
-[14 <./figures/T_hor_V.png>]
-
-LaTeX Warning: Reference `airss1_s' on page 15 undefined on input line 447.
-
-
-LaTeX Warning: Reference `airss1_s' on page 15 undefined on input line 448.
-
-
-LaTeX Warning: Reference `airss1_poly' on page 15 undefined on input line 456.
-
-
-LaTeX Warning: Reference `airss1_poly' on page 15 undefined on input line 457.
-
-<figures/airss1_tm.png, id=93, 201.8742pt x 491.9178pt>
-File: figures/airss1_tm.png Graphic file (type png)
-
-<use figures/airss1_tm.png>
-Package pdftex.def Info: figures/airss1_tm.png used on input line 462.
-(pdftex.def)             Requested size: 172.5pt x 420.36891pt.
-
-<figures/airss1v_s.png, id=94, 177.3024pt x 258.4857pt>
-File: figures/airss1v_s.png Graphic file (type png)
-
-<use figures/airss1v_s.png>
-Package pdftex.def Info: figures/airss1v_s.png used on input line 468.
-(pdftex.def)             Requested size: 172.5pt x 251.4881pt.
-
-<figures/airss1_s_comp.png, id=95, 360.8682pt x 268.3626pt>
-File: figures/airss1_s_comp.png Graphic file (type png)
-
-<use figures/airss1_s_comp.png>
-Package pdftex.def Info: figures/airss1_s_comp.png used on input line 474.
-(pdftex.def)             Requested size: 172.5pt x 128.28024pt.
-
-<figures/airss1_v_poly.png, id=96, 202.1151pt x 266.4354pt>
-File: figures/airss1_v_poly.png Graphic file (type png)
-
-<use figures/airss1_v_poly.png>
-Package pdftex.def Info: figures/airss1_v_poly.png used on input line 480.
-(pdftex.def)             Requested size: 172.5pt x 227.39807pt.
- [15] [16 <./figures/airss1_tm.png>] [17 <./figures/airss1v_s.png> <./figures/a
-irss1_s_comp.png>]
-
-LaTeX Warning: Reference `phon_smose' on page 18 undefined on input line 488.
-
-
-LaTeX Warning: Reference `phon_svse' on page 18 undefined on input line 488.
-
-
-LaTeX Warning: Reference `H-hor' on page 18 undefined on input line 492.
-
-
-LaTeX Warning: Reference `H-hor' on page 18 undefined on input line 493.
-
-
-LaTeX Warning: Reference `H-hor_Mo' on page 18 undefined on input line 497.
-
-
-LaTeX Warning: Reference `t:str' on page 18 undefined on input line 500.
-
-<figures/H-hor.png, id=109, 572.1375pt x 144.0582pt>
-File: figures/H-hor.png Graphic file (type png)
- <use figures/H-hor.png>
-Package pdftex.def Info: figures/H-hor.png used on input line 503.
-(pdftex.def)             Requested size: 345.0pt x 86.8686pt.
-
-[18 <./figures/airss1_v_poly.png>]
-<figures/H-hor_Mo.png, id=114, 219.9417pt x 207.6558pt>
-File: figures/H-hor_Mo.png Graphic file (type png)
-
-<use figures/H-hor_Mo.png>
-Package pdftex.def Info: figures/H-hor_Mo.png used on input line 510.
-(pdftex.def)             Requested size: 172.5pt x 162.8644pt.
- [19 <./figures/H-hor.png> <./figures/H-hor_Mo.png>]
-Overfull \hbox (6.84927pt too wide) in paragraph at lines 538--539
-[]\T2A/cmr/m/n/10 !!!Тут нам нужно переименовать airss3-MoSSe, т.к. это другая 
-структура. 
- []
-
-
-LaTeX Warning: Reference `airss3_poly' on page 20 undefined on input line 541.
-
-
-LaTeX Warning: Reference `airss3_poly' on page 20 undefined on input line 542.
-
-
-LaTeX Warning: Reference `airss3_poly' on page 20 undefined on input line 544.
-
-
-LaTeX Warning: Reference `airss3_poly' on page 20 undefined on input line 545.
-
-<figures/airss3_side.png, id=121, 511.1898pt x 65.5248pt>
-File: figures/airss3_side.png Graphic file (type png)
-
-<use figures/airss3_side.png>
-Package pdftex.def Info: figures/airss3_side.png used on input line 550.
-(pdftex.def)             Requested size: 345.0pt x 44.22232pt.
-
-<figures/airss3_svse.png, id=122, 244.9953pt x 388.0899pt>
-File: figures/airss3_svse.png Graphic file (type png)
-
-<use figures/airss3_svse.png>
-Package pdftex.def Info: figures/airss3_svse.png used on input line 556.
-(pdftex.def)             Requested size: 172.5pt x 273.25995pt.
- [20 <./figures/airss3_side.png>]
-<figures/airss3_smose.png, id=127, 225.0006pt x 416.9979pt>
-File: figures/airss3_smose.png Graphic file (type png)
-
-<use figures/airss3_smose.png>
-Package pdftex.def Info: figures/airss3_smose.png used on input line 562.
-(pdftex.def)             Requested size: 172.5pt x 319.69589pt.
- [21 <./figures/airss3_svse.png>]
-<figures/airss3_S_Se.png, id=132, 469.755pt x 209.3421pt>
-File: figures/airss3_S_Se.png Graphic file (type png)
-
-<use figures/airss3_S_Se.png>
-Package pdftex.def Info: figures/airss3_S_Se.png used on input line 568.
-(pdftex.def)             Requested size: 345.0pt x 153.7448pt.
- [22 <./figures/airss3_smose.png>]
-<figures/airss3_poly.png, id=137, 495.7722pt x 199.4652pt>
-File: figures/airss3_poly.png Graphic file (type png)
-
-<use figures/airss3_poly.png>
-Package pdftex.def Info: figures/airss3_poly.png used on input line 574.
-(pdftex.def)             Requested size: 345.0pt x 138.80899pt.
-
-
-LaTeX Warning: Reference `H-based' on page 23 undefined on input line 592.
-
-
-LaTeX Warning: Reference `H-based' on page 23 undefined on input line 593.
-
-
-LaTeX Warning: Reference `H-based' on page 23 undefined on input line 594.
-
-
-LaTeX Warning: Reference `H-based' on page 23 undefined on input line 595.
-
-
-LaTeX Warning: Reference `H-based' on page 23 undefined on input line 597.
-
-
-LaTeX Warning: Reference `H-based' on page 23 undefined on input line 598.
-
-[23 <./figures/airss3_S_Se.png> <./figures/airss3_poly.png>]
-
-LaTeX Warning: Reference `phon_svse' on page 24 undefined on input line 604.
-
-
-LaTeX Warning: Reference `phon_smose' on page 24 undefined on input line 604.
-
-
-LaTeX Warning: Reference `H-based' on page 24 undefined on input line 608.
-
-
-LaTeX Warning: Reference `H-based' on page 24 undefined on input line 612.
-
-
-LaTeX Warning: Reference `H-based' on page 24 undefined on input line 613.
-
-
-LaTeX Warning: Reference `phon_smose' on page 24 undefined on input line 614.
-
-
-LaTeX Warning: Citation `MoV' on page 24 undefined on input line 623.
-
-
-LaTeX Warning: Citation `momo' on page 24 undefined on input line 626.
-
-
-LaTeX Warning: Reference `test3_momo' on page 24 undefined on input line 627.
-
-[24] <figures/H-based.png, id=146, 462.0462pt x 388.3308pt>
-File: figures/H-based.png Graphic file (type png)
-
-<use figures/H-based.png>
-Package pdftex.def Info: figures/H-based.png used on input line 632.
-(pdftex.def)             Requested size: 345.0pt x 289.96155pt.
-
-<figures/test3_momo.png, id=147, 127.8623pt x 119.92055pt>
-File: figures/test3_momo.png Graphic file (type png)
-
-<use figures/test3_momo.png>
-Package pdftex.def Info: figures/test3_momo.png used on input line 638.
-(pdftex.def)             Requested size: 103.50105pt x 97.07288pt.
- [25 <./figures/H-based.png>] [26 <./figures/test3_momo.png>]
-Overfull \hbox (3.51675pt too wide) in paragraph at lines 672--674
-\T2A/cmr/m/n/10 добавить пояснение. Так как это послднее предложение, хорошо бы
- добавить
- []
-
-(./smose.bbl [27] [28] [29] [30]) [31] (./smose.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
-Here is how much of TeX's memory you used:
- 16016 strings out of 492995
- 285357 string characters out of 6132705
- 366954 words of memory out of 5000000
- 19307 multiletter control sequences out of 15000+600000
+ 15986 strings out of 492995
+ 284725 string characters out of 6132705
+ 367377 words of memory out of 5000000
+ 19283 multiletter control sequences out of 15000+600000
  552974 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,11n,42p,10347b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2002,27 +1643,29 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></u
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2017/texmf
--dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017/texmf-d
-ist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2017/texmf-dist/
-fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2017/texmf-dist/fo
-nts/type1/public/cm-super/sftt0800.pfb>
-Output written on smose.pdf (31 pages, 34843974 bytes).
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/lo
+cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
+/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
+2017/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2017/t
+exmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2017/tex
+mf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2017/texmf
+-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2017/texmf-d
+ist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2017/texmf-dist/
+fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017/texmf-dist/fo
+nts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/
+type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/public/cm-super/sftt0800.pfb>
+Output written on smose.pdf (30 pages, 33524933 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
+ 239 PDF objects out of 1000 (max. 8388607)
+ 146 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

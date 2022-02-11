@@ -37,15 +37,17 @@
  \DeclareFloatingEnvironment[name={Supplementary Figure}]{suppfigure}
 
 \graphicspath{{figures/}}
-\externaldocument{supplementary/smose_supp}
+\externaldocument{SI/smose_supp}
 
 \usepackage[outdir=./]{epstopdf}
+
+
 
 \begin{document}
 
 %\linenumbers
 
-\title{The Janus-structures of transition metal dichalcogenides with low enthalpy and new crystallchemistry}
+\title{Janus structures of SMoSe and SVSe compositions with low enthalpy and unusual crystallchemistry}
 
 
 \author[1,2,3]{Pavel N. Gavryushkin
@@ -67,18 +69,16 @@
 %\linenumbers
 
 \begin{abstract}
-Transition metal dichalcogenides (TMDs) like MoS2 or WS2 together with graphene and \textcolor{red}{its derivatives are most perspective and widely investigated 2D structures Захар замени это более подходящей фразой}.
-TMDs with upper and lower layers of different chalcogen atoms were produced experimentally and was called Janus structures.
-In the present work, we perform the theoretical search of the new Janus structures on the  wide range of TMDCs compounds and reveal new perspective structures.
-Yanus structures of XTMY compositions, where X and Y are S, Se, Te, or O and TM is Mo, V, or W were considered.
-Two of the found structures, called T-hor and airss-1 of SMoSe and SVSe compositions, are especially perspective for experimental synthesis and practical application.
+Transition metal dichalcogenides (TMDs) like MoS$_2$ or WS$_2$ together with graphene and \textcolor{red}{its derivatives are the most perspective and widely investigated 2D structures (Захар замени это более конкретной фразой)}.
+TMDs with top and bottom layers consisting of sulphur and selenium atoms, respectively, were produced experimentally and were called Janus structures.
+In the present work, we perform the theoretical search of the new Janus structures with compositions SMoSe and SVSe and reveal new crystal structures.
+Three of the found structures, called SMoSe-airss1, SVSe-T-hor and SVSe-airss-1 are especially perspective for experimental synthesis and practical application.
 These structures show dynamic stability and have enthalpies lower than enthalpy of experimentally synthesised although metastable 1T structure.
 For  SVSe composition, enthalpy of airss-1 structure is 0.22 ev/f.u lower than that of 1T structure and 0.08  ev/f.u higher than that of  1H structure.
-Presence of the vanadium atoms having magnetic moment in the crystal structure implies the possible practical application as \textcolor{red}{magnetic materials (?)}.
-Also we revel several dynamically stable crystal structures with unique crystal chemistry which are important for the further crystallchemical design of the new TMDs structures, among them test-3 and airss-3 crystall structure.
-Test-3 is characterised by the Mo dimers with Mo--Mo distance sufficiently lower than in any other structure of TMDs, just 2.2.\AA.
-I the structure of airss-3, TM atoms are in the plane of chalcogen atoms and thus 3-layered sandwhich chalcogen--TM--chalcogen is transformed into two layered (chlcogen,TM)--(chalcogen,TM).
-
+Presence of the vanadium atoms having magnetic moment in the crystal structure implies the possible application of these structues as \textcolor{red}{magnetic materials (Захар, уточни здесь])}.
+Also we revel several dynamically stable crystal structures with unique crystal chemical features, such as formation of quadruble Mo--Mo bond or covalent S--S or Se--Se bonds.
+Nothing similar have not been earlier observed for TMDs.
+Bsed on crystal chemical analysis we show the tendency of Mo-bearing TMDs to the foramtion of strong Mo-Mo bonds forming chains or isolated  dimeres of molybdenum atoms.
 
 \end{abstract}
 
@@ -86,58 +86,49 @@ I the structure of airss-3, TM atoms are in the plane of chalcogen atoms and thu
 \section{Introduction}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Transition metal dichalcogenides (TMDs) represent a wide family of materials consisting of transition metal (TM: group IV, V or VI) surrounded by chalcogen atoms (Ch: S, Se or Te). 
-TMDs crystallize in four main structural types including CdI2, MoS2 and FeS2 in pyrite-type and less frequently in marcasite-type structural types \cite{wells1986_book} [A.F. Wells. Structural Inorganic Chemistry, 1986]
+Transition metal dichalcogenides (TMDs) represent a wide family of materials consisting of transition metal (TM) of group IV, V or VI surrounded by chalcogen atoms (Ch) of S, Se or Te. 
+TMDs crystallize in four main structural types, CdI$_2$, MoS$_2$ and FeS$_2$-pyrite, and less frequently in FeS$_2$-marcasite structural type \cite{wells1986_book} [A.F. Wells. Structural Inorganic Chemistry, 1986]
 
 The first two structural types are characterized by the layered structures with Ch-TM-Ch sandwiches bonded with each other by the weak Van-der-Waals bonds and, therefore, the crystals can be exfoliated into individual stable layers \cite{zhang2020intercalation}. These quasi-2D sandwiches attract considerable attention due to their wide range of properties \cite{li2017graphene, SHI20181, xi2016ising, hu2019recent, pi2019recent}. 
-Particularly the TMDCs with TMCh2 stoichiometry can act as semiconductors \cite{nayeri2018transport}, metals \cite{zhao20212d}, semimetals \cite{xu2020high, zhao2020observation} or superconductors \cite{wang2020nodeless,hsu2017topological} which make family of TMDs suitable for a lot of applications. 
+Particularly the TMDCs can act as semiconductors \cite{nayeri2018transport}, metals \cite{zhao20212d}, semimetals \cite{xu2020high, zhao2020observation} or superconductors \cite{wang2020nodeless,hsu2017topological} which make family of TMDs suitable for a lot of applications. 
 
-At ambient conditions MX2 (M=Mo,W, X=S,Se) structures crystallize in the archetype of molybdenite structure (MoS2) which consists of close-packed layers of chalcogen atoms placed exactly one under another along c-axis and TM atoms occupied the centers of half trigonal prismatic cavities located between the layers of chalcogen atoms. 
-In the most stable polytype of molybdenite structure M--X--M multiplet layers similarly to {\it hcp} structure, which is close-packed structure with periodicity of stacking through each two layers, the structure has hexagonal symmetry and according to Ramsdell notation is denoted as 2H.
-In the present work we consider isolated multiplet M--X--M layers, which are usually denoted as 1H.
-Such a sandiwich, which in crystllchemical community usually termed as multiplet layer, we will call {\it monolayer}.
-The last term is more accepted one in the field of 2D materials. 
+At ambient conditions MX$_2$ (M=Mo,W, X=S,Se) structures crystallize in the archetype molybdenite structure (MoS$_2$) which consists of close-packed layers of chalcogen atoms placed exactly one under/above another and TM atoms occupy one half of the  trigonal prismatic cavities located between the layers of chalcogen atoms. 
+In the most stable polytype of molybdenite (MoS$_2$) structure M--X--M multiplet layers are arranged similarly to the close-packed layers of {\it hcp} structure -- close-packed structure with periodicity of stacking through each two layers, the structure (Figure \ref{1H1T}a).
+Due to hexagonal symmetry this structure of TMD according to Ramsdell notation can be denoted as 2H.
+In the present work, we do not consider the stacking sequence of M--X--M sandwich and will denote all structures as 1H.
+Such a sandwich, consisting of three layers, in crystllchemical community usually termed as {\it multiplet layer}.
+Hoewere in 2D community the term {\it monolayer}, emphasising absence of van-der-waals bonds wihtin the layer, is more accepted and we will follow the last tradition. 
 
-If one layer of chalcogen atoms in M--X--M monolayer  layer is shifted, the coordination polyhedron of metal atoms changes from trigonal prism to the octahedron and the structure of CdI2 structural type is formed. 
-The monolayer of such a structure has trigonal symmetry and will be designated as 1T \cite{huang2020recent}. 
-The deformed 1T structure denoted as 1T' \cite{huang2020recent} will be also considered in the manuscript.
+If one layer of chalcogen atoms in M--X--M monolayer is shifted, the coordination polyhedron of metal atoms is changed from trigonal prism to the octahedron (Figure \ref{1H1T}b).
+This is CdI$_2$ structural type. 
+The monolayer of such a structure has trigonal symmetry and can be designated as 1T \cite{huang2020recent}. 
+The deformed 1T structure with chains of Mo atoms connected by the shorted bonds is denoted as 1T' \cite{huang2020recent}.
 Depending on the exact chemical composition of the TMD monolayer, 1H or 1T phase is thermodynamically stable \cite{ataca2012stable}. 
-For the disulphides (as well as diselenides and ditellurides) of Mo or W, the  1T-phase is less energetically favorable than 1H-phase with the same chemical composition. 
-However 1T structure can be obtained metastably by means of intercalation \cite{kan2014structures, wang2014atomic}, deformation \cite{duerloo2014structural} or surface functionalization \cite{tang2015stabilization, voiry2015covalent}. 
+For the disulphides, diselenides, and ditellurides of Mo or W, the  1T-phase is less energetically favorable than 1H-phase with the same chemical composition. 
+However 1T structure can be obtained by means of intercalation \cite{kan2014structures, wang2014atomic}, deformation \cite{duerloo2014structural} or surface functionalization \cite{tang2015stabilization, voiry2015covalent}. 
 In contrast to Mo, W and most of the other TMs, dichalcogenides of vanadium are not known \cite{murphy1977preparation, le1979elaboration}. 
-However, VSe2 structure is known in the form of 2H structure with additional V atoms located in the centers of empty trigonal prisms between the sandwiches and have the composition of Se2V1.005 \cite{rigoult1982}.
+Only Se$_2$V$1.005$ with additional vanadium atoms located in the centers of empty trigonal prismatic cavities is known in the form of 2H structure \cite{rigoult1982}.
 
-Recently a new subclass of TMDs, the so-called Janus structures, where top and bottom layers are formed by different chalcogen atoms, were produced and attracts significant interest \cite{lu2017, zhang2017janus}. 
+Recently a new subclass of TMDs where top and bottom layers are formed by different chalcogen atoms, were produced and attracts significant interest \cite{lu2017, zhang2017janus}. 
+Such a structures were called called Janus structures.
 The opportunity to change the top layer of atoms opens an additional degree of freedom to manipulate the properties of TMDs. 
 Janus TMDs have structural symmetry breaking \cite{li2017electronic, van2020first} resulting in Rashba spin splitting \cite{hu2018intrinsic} and transverse dipole moment leading to large piezoelectricity \cite{dong2017large, li2018recent}. 
 The Janus structures of TMDs have a lot of potential applications, among which water-splitting \cite{xia2018universality, ma2018janus} or hydrogen evolution reaction \cite{er2018prediction, zhou2019janus}. 
-Theoretical investigations show that, as in the case of pristine monolayers, Janus TMDs with different chemical compositions can be thermodynamically stable in the 1H and 1T structures desrcibed above
-Meanwhile, the different composition of the upper and bottom layers assume the possibility for the stabilization of the new structures, substantially different from 1H or 1T.
-This assumption was the motivation for us to perform the search for the new Janus TMDs structure with unbiased methods of crystal structure prediction, which have not been performed jet.
+Theoretical investigations show that, as in the case of pristine monolayers, Janus TMDs with different chemical compositions can be thermodynamically stable in the 1H and 1T structures desrcibed above.
+Meanwhile, the different composition of the top and bottom layers assume the possibility for the stabilization of the new structures, substantially different from 1H or 1T.
+
+This assumption was the motivation for us to perform the search for the new Janus TMDs structure using unbiased methods of crystal structure prediction, which have not been performed jet.
 
 
 
 
 \begin{figure}[H]
-        \includegraphics[width=0.4\textwidth]{1H.jpg}
-        \includegraphics[width=0.4\textwidth]{1T.jpg}
-        \caption{Packing of trigonal prisms and octahedra in H and T structures}
+        \includegraphics[width=0.4\textwidth]{1H1T.png}
+        \caption{Packing of trigonal prisms and octahedra in 1H (a) and 1T (b) structures of SMoSe.}
 \label{1H1T}
-\label{fes_fxt}
 \end{figure}
 
-\begin{figure}[H] \centering
-	\includegraphics[width=0.4\textwidth]{fes_SMoSe.jpg}
-        \includegraphics[width=0.5\textwidth]{fxt_SMoSe.jpg}
-	\caption{Packing of trigonal prisms in fes and fxt structures.}
-\label{fes_fxt}
-\end{figure}
 
-\begin{figure}[H] \centering
-	\includegraphics[width=0.5\textwidth]{2prism_oct.jpg}
-	\caption{Two face-shared trigonal prisms and octahedra, the diviation from the horisontal plane in the last case is clearly visible}
-\label{2prism_oct.jpg}
-\end{figure}
 
 
 
@@ -150,11 +141,11 @@ This assumption was the motivation for us to perform the search for the new Janu
 %%%%%%%%%
 
 
-The search for the lowest-enthalpy monolayer structures of SMSe (M = Mo, V) composition was performed using evolutionary algorithms implemented in the USPEX program package \cite{uspex1,uspex2,uspex3} and the random sampling method implemented in the AIRSS software \cite{airss1,airss2}.
+The search for the lowest-enthalpy monolayer structures of SMoSe and SVSe compositions was performed using evolutionary algorithms implemented in the USPEX program package \cite{uspex1,uspex2,uspex3} and the random sampling method implemented in the AIRSS software \cite{airss1,airss2}.
 
 The crystal structure search within USPEX was performed in fixed composition mode with 2--6 formula units per unit cell.
 The number of structures in the first generation of the calculations was equal to 180.
-50\% of the structures with the lowest enthalpy were selected after the optimization and then used to produce the next generation.
+Half of the structures with the lowest enthalpy were selected after the optimization and then used to produce the next generation.
 A new generation was produced as follow: 50\% of all structures were generated by heredity, 10\% -- by atomic mutation, 10\% –- by lattice mutation, and 30\% –- randomly.
 In average, 40--47 generations were produced and relaxed.
 Using AIRSS program about 5000--6000 structures were randomly generated and optimized for compounds with 4 and 6 formula units per unit cell and structures with the lowest enthalpy were selected.
@@ -169,20 +160,20 @@ The first Brillouin zone was sampled according to Monkhorst-Pack scheme \cite{mo
 
 To study a dynamic stability of predicted structures phonon dispersion spectra were calculated within the PHONOPY code \cite{phonopy}. 
 We used VESTA program for crystal structures visualization and figures preparation \cite{momma2011vesta}.
-\textcolor{red}{Instruments of Bilbao Crystallographic server have been used for the structures symmetrisation \cite{}}
+Instruments of Bilbao Crystallographic server have been used for the structures symmetrisation \cite{bilbao}.
 
 
 %%%%%%%%
 \subsection*{Topological search}
 %%%%%%%%
 
-Original crystal-structural information was selected from the Inorganic Crystal Structure Database (ICSD, release 2020/2) \cite{icsd_1} and Cambridge Structural Database (CSD, release 2021) \cite{icsd_2}.
+Within topologocal search, original crystal-structural information was selected from the Inorganic Crystal Structure Database (ICSD, release 2020/2) \cite{icsd_1} and Cambridge Structural Database (CSD, release 2021) \cite{icsd_2}.
+In this case, the procedures of screening of structural-graphic databases of compounds by the methods of the combined geometric-topological analysis with ToposPro (http://topospro.com) package have been used \cite{topos_1}. 
 
-The procedures of screening of structural-graphic data bases of compounds by the methods of the combined geometric-topological analysis with ToposPro (http://topospro.com) package have been used \cite{topos_1}. 
-We use bold three-letter symbols of the Reticular Chemistry Structure Resource nomenclature (for the three-letter nomenclature of polyhedral and nets see Reticular Chemistry Structure Resource, http://rcsr.anu.edu.au/, and \cite{rcsr} or ToposPro NDk-n symbols \cite{rcsr_2}) to designate the topological types of the underlying nets. 
+We use bold three-letter symbols of the Reticular Chemistry Structure Resource nomenclature (for the three-letter nomenclature of polyhedral and nets see Reticular Chemistry Structure Resource, http://rcsr.anu.edu.au/, and \cite{rcsr}) or ToposPro NDk-n symbols \cite{rcsr_2}) to designate the topological types of the underlying nets. 
 The topology of an underlying net is determined in an automated mode by comparison of a set of topological indices of the net with those for the reference nets from the ToposPro TTD collection \cite{TTD}.
 
-For the topological analysis we have used only fully solved crystal structures , without errors in the determination of interatomic bonds or chemical composition,
+For the topological analysis we have used only fully solved crystal structures without errors in the determination of interatomic bonds or chemical composition,
 The nets of interatomic bonds were determined by the Domains methods with the program AutoCN \cite{blatov2016_rods}. 
 Only strong interatomic bonds  with solid angles of the faces of Voronoi-Dirihle polyhedron $\Omega \geq 5 $ of the whole 4$\pi$ solid angle were considered.
 Structures with the great values of unit cell parameters were excluded from the consideration.
@@ -199,41 +190,40 @@ Due to the short interatomic bonds, the topologies were not determined for the c
 			\section{Results}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection*{Earlier known MX2 structures and their enthalpies}
+\subsection*{Earlier known MX$_2$ structures and their enthalpies}
 
 Although H and T structures are characterized by the different coordination polyhedra, they are similar in the manner of their interconnection.
-The H structure consists of trigonal prisms [MX6] ([MX3Y3] for Janus structures), and T structure – of the [MX6] octahedra (Figure\ref{1H1T}).
-Each trigonal prism share all three vertical edges with the neighbouring prisms and does not share any faces.
-As the result, each vertex and each vertical edge of the trigonal prism is common for three prisms (Figure \ref{1H1T}).
-Similarly in T structure, each octahedron share all edges inclined to the plane of sulphur atoms with neighbouring octahedra, and each vertex is common for three octahedra (Figure \ref{1H1T}).
-Bond valence of Mo--S bond is nearly equal to +4/6 and there are necessary three such a bonds to compensate negative charge of S$2{2-}$.
-Interconnection through the faces gives shorter bonds high-charged M$^{4+}$ ions, increasing the energy of Couloumb interaction, and making the structure less favourable \cite{pauling1929}.
-As we will shown below the interconnection through the faces is also realised for predicted structures, although in most of the found structures coordination polyhedra share only common edges.
+The H structure consists of trigonal prisms [MX$_6$], and T structure –- of the [MX6] octahedra, where X is chalcogen atom of sulphur or selenium (Figure\ref{1H1T}).
+Each trigonal prism share all three vertical edges with the neighbouring prisms and does not share any faces (Figure \ref{1H1T}a).
+As the result, each vertex and each vertical edge of the trigonal prism is common for three prisms (Figure \ref{1H1T}a).
+Similarly in T structure, each octahedron share all edges inclined to the plane of sulphur atoms with neighbouring octahedra, and each vertex is common for three octahedra (Figure \ref{1H1T}b).
+Bond valence of Mo--S bond is nearly equal to +4/6 and there are necessary three such a bonds to compensate negative charge of S$_2^{2-}$.
+Interconnection through the faces gives shorter bonds between high-charged M$^{4+}$ ions, increasing the energy of Couloumb interaction, and making the structure less favourable \cite{pauling1929}.
+As we will shown below the interconnection through the faces is also realised for predicted structures, but they are less favourable than 1H or 1t structure.
 
-According to the performed calculations, 1H structure is the most favourable for SMoSe composition, but it is less favourable than 1T and 1T for SVSe composition.
+According to the performed calculations, 1H structure is the most favourable for SMoSe composition, but it is less favourable than 1T and 1T' for SVSe composition.
 The difference of enthalpies $H(1H)-H(1T)$ is equal to -0.73 ev/f.u. for SMoSe and 0.09 for SVSe (Table \ref{t:enthalpy}).
-For SVSe composition the most favourable phase is 1T', the deformed analogue of 1T, which enthalpy is 0.11 ev/f.u lower than the enthalpy of 1T Table \ref{t:enthalpy}. 
+For SVSe composition the most favourable phase is 1T', which enthalpy is 0.11 ev/f.u lower than the enthalpy of 1T (Table \ref{t:enthalpy}). 
 
 The recently found fes and fxt structures are also characterised by the trigonal prismatic coordination.
-However, in these structure prisms are connected not only through edges but also through the faces.
-The structure can be built by means of connecting through the vertices double (edge-connected) trigonal prisms (Figure \ref{2prism_oct}b).
+However, in these structure prisms are connected not only through edges but also through the faces (Figure \ref{fes_fxt}).
 In accordance with above consideration, the enthalpies of fxt and fes structures are higher than that of 1H structure, although lower than that of 1T structures.
-As well as in 1H and 1T structures, in fxt and fes structures,  each chalcogen atoms is connected to three atoms of transition metal, providing the local charge balance (Figure \ref{2prism_oct}b).
-As we will show below this is also not the obligatory requirement and some of the predicted structures are not charactersied by the local charge balance.
-According to our calculations, fes and fxt structures are close in enthalpy values.
-For both SMoSe and SVSe, fes is more energetically favourable than fxt, with enthalpies difference equal to 0.01 ev/f.u. for SMoSe and 0.06 ev/f.u. for SVSe.
+As well as in 1H and 1T structures, in fxt and fes structures,  each chalcogen atoms is connected to three atoms of transition metal, providing the local charge balance (Figure \ref{fes_fxt}).
+As we will show below, this is also not the obligatory requirement and some of the revealed structures are not charactersied by the local charge balance.
+According to our calculations, fes and fxt structures are chacterised by the close values of enthalpies.
+For both SMoSe and SVSe, fes is more energetically favourable than fxt, with enthalpies difference equal to 0.01 ev/f.u. for SMoSe and 0.06 ev/f.u. for SVSe (Table \ref{t:enthalpy}).
 In turn, enthalpy of SMoSe-fes structure is 0.79 eV/f.u. higher than enthalpy of the 1H structure.
-Enthalpy of SVSe-fex is 0.64 higher than enthaly of 1T'.
-According to our calculations, the fxt and fes structures are less favourable than 1T structure, which was obtained experimentally, despite its metastability.
-\textcolor{red}{The last fact contradicts to the earlier results according to which the fxt (fes?) structure if more favourable than 1T \cite{}. Поправьте меня если я не прав, Я точно помню эту фразу в статье по fxt или fes, но не смог найти статью}
+Enthalpy of SVSe-fex is 0.64 higher than that of 1T'.
+According to our calculations, the fxt and fes structures in the Janus form are less favourable than 1T .
 
-1H and 1T structures provide the most uniform distribution of the chalсogen and transition metall atoms. 
-Both nets of transition metall atoms and chalcogen atoms consist of the geometrically equal triangular rings.
-Edge-sharing interconnection of trigonal prisms realised in fxt and fes structures inevitably results in the appearance of the cavities bigger than that in 1H and 1T structures. 
-In fes structure the cavities have the form of the slightly compressed cube (Figure \ref{fes_SMoSe}).
-The volume of these cavities is almost two times larger than the volume of the cavities in 1H structure (38.8 against 17.7 \AA$^3$).
-In case of fxt structure, the volume of hexagonal cavities (Figure \ref{fxt_SMoSe} is almost 8 times larger than that in 1H structure (137.8 against 17.7 \AA$^3$).
-In contrast to trigonal prisms, the face-sharing of the right octahedra seems to be problematic for quasi 2D structure, as it is results in the deviation from the flat arrangement (Figure\ref{2prism_oct}b -- supplementary).
+1H and 1T structures provide the most uniform distribution of the chalсogen and transition metall atoms.
+Nets of  both transition metall and chalcogen atoms consist of the geometrically equal triangular rings.
+Edge-sharing interconnection of trigonal prisms realised in fxt and fes structures inevitably results in the appearance of the cavities greater in volume than the cavities of 1H and 1T structures. 
+In fes structure the cavities have the form of the slightly compressed cube (Figure \ref{fes_fxt}a).
+The volume of these cavities is almost two times greater than the volume of the cavities in 1H structure (38.8 \AA$^3$ against 17.7 \AA$^3$).
+In case of fxt structure, the volume of hexagonal cavities (Figure \ref{fes_fxt}b is almost 8 times larger than that in 1H structure (137.8 \AA\ against 17.7 \AA$^3$).
+
+In contrast to trigonal prisms, the face-sharing of the octahedra seems to be problematic for quasi 2D structure, as it is results in the deviation from the flat arrangement.
 However, as it will be shown below, the dynamically stable quasi 2D structure structures with face sharing octahedra coordination polyhedrons can be also produced.
 
 
@@ -365,9 +355,9 @@ Below we describe crystal structure, beginning from the most energetically favou
 %%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{T-hor, airss-1, and H-hor crystal structures}
 %%%%%%%%%%%%%%%%%%%%%%%
-T-hor structure was predicted using USPEX for VSSe, and for this composition it is more  energeticaly favourable than both 1H and 1T structure, although it is less favourable than 1T' (Figure \ref{t:enthalpy}).
-Based on the VSSe-T-hor, the MoSSe-T-hor structure was constructed.
-For MoSSe-T-hor is more favourable than 1T, although less favourable than 1H and 1T' (Figure \ref{t:enthalpy}).
+T-hor structure was predicted using USPEX for SVSe, and for this composition it is more  energeticaly favourable than both 1H and 1T structure, although it is less favourable than 1T' (Figure \ref{t:enthalpy}).
+Based on the SVSe-T-hor, the SMoSe-T-hor structure was constructed.
+For SMoSe-T-hor is more favourable than 1T, although less favourable than 1H and 1T' (Figure \ref{t:enthalpy}).
 
 Crystallchemically T-hor structure is similar to the 1T structure.
 Both structures are characterised by octahedral coordination polyhedrons around TM atoms.
@@ -382,7 +372,7 @@ This let to consider T-hor structure as the ordered polysyntheitic twin of 1T st
 
 The described rearrangement of coordination octahedra results in the sufficient rearrangement of V atoms, with the appaearance of the zig-zag chain of V atoms connected by the shorter bonds (Figure \ref{T_hor_V}).
 The nets of chalcogen atoms are not affected to much and in T-hor structure it is topologically the same as that in 1T structure, although the difference of geometrical parameters is sufficient (Figure \ref{T_hor_hcb}).
-The angles between S--S bonds in VSSe-T-hor structure vary in the range 91.38-139.8\textdegree, while in VS2-1T structure all the angles are equal to 120\textdegree.
+The angles between S--S bonds in SVSe-T-hor structure vary in the range 91.38-139.8\textdegree, while in VS2-1T structure all the angles are equal to 120\textdegree.
 The S--S bond lengths in T-hor are in the range 3.45--3.87\AA, while in 1T all they are equal to 3.41 \AA.
 
 T-hor structure is characterised by the uniqe topology– 3,3,5,8-coordinated net if short V--V bonds are considered and 3,3,5,6-coordinated net if V--V bonds are not considered.
@@ -421,18 +411,18 @@ The fact that H(1T)<H(T-hor)<H(1T') suggest the possibility for the formation
 \end{figure}
 
 
-The structure called AIRSS1 in contrast to T-hor structure is dynamically stable for both VSSe and MoSSe compositions.
-For MoSSe composition, the enthlpy ratio is the following: 1T > airrs1 > 1T' > 1H.
+The structure called AIRSS1 in contrast to T-hor structure is dynamically stable for both SVSe and SMoSe compositions.
+For SMoSe composition, the enthlpy ratio is the following: 1T > airrs1 > 1T' > 1H.
 The enthalpy of airss1 structure in this case lie inbetween values of enthalpies of 1T and 1T' structures, being more favourable than 1T on nearly 0.1 eV/f.u.
-For VSSe composition -- 1T' < 1T < 1H < airrs1 and airss1 structure is less favourable than 1H on same value.
+For SVSe composition -- 1T' < 1T < 1H < airrs1 and airss1 structure is less favourable than 1H on same value.
 
 The structure airss1 can be better described based on the net of transition metall atoms, which forms the well known Kagome lattice\cite{zhang2021_kagome}, observed for instance in AV$_3$Sb$_5$ \cite{ortiz2021} and WO3 \cite{gerand1979} compounds.
-In both MoSSe and VSSe structures, Kagome lattices are not of ideal hexagonal symmetry, there is dispersion in bond lenghts and deviation of bond angles from ideal values of 120\textdegree.
-In VSSe  structure, the bond lengths vary in the range 3.07--3.49 \AA\ and bonds between the angles – in the rage 115-122.9\textdegree (Figure \ref{airss1_tm}).
-In MoSSe bond lengths are in the wide range of 2.78--3.79 \AA, and bond angles are in the range 113.9--125.7 \textdegree.
-Airss1 structure of MoSSe is different from VSSe structure in that it is charactersied by the presence of trinagular clusters of transition metall atoms with sufficiently shorter bond lengths.
+In both SMoSe and SVSe structures, Kagome lattices are not of ideal hexagonal symmetry, there is dispersion in bond lenghts and deviation of bond angles from ideal values of 120\textdegree.
+In SVSe  structure, the bond lengths vary in the range 3.07--3.49 \AA\ and bonds between the angles – in the rage 115-122.9\textdegree (Figure \ref{airss1_tm}).
+In SMoSe bond lengths are in the wide range of 2.78--3.79 \AA, and bond angles are in the range 113.9--125.7 \textdegree.
+Airss1 structure of SMoSe is different from SVSe structure in that it is charactersied by the presence of trinagular clusters of transition metall atoms with sufficiently shorter bond lengths.
 The bond leghts within clusters are equal to 2.78--2.81 \AA, while other Mo--Mo bonds are on 0.5--1 \AA longer (Figure \ref{airss1_tm}).
-In 1T' structure of MoSSe the zif-zag chains of Mo atoms are connected by the short bond of the same length (2.79 \AA).
+In 1T' structure of SMoSe the zif-zag chains of Mo atoms are connected by the short bond of the same length (2.79 \AA).
 As it will be also shown below, the formation of clusters and chains in which atoms are connected by the shorted bonds is observed for many structures with molybdenum and it is untypical for V-bearing structure.
 
 To evaluate the probability for the synhtesis of airss1 structure on the substrate of other compound with similar kagome lattice of vandium or molybdenum we have performed the automated topological search through the whole ICSD.
@@ -440,53 +430,48 @@ As the result 17 structures containing kagome lattice of vanadium atoms have bee
 For molybdenum, such a structures have not been found.
 The lengths of V--V bonds in the found structures vary in the range 2.43--2.81 \AA  crystal structures.
 The pure vanadium and molybdenum are characterised by the similar bond length, which are equal to 2.62 \AA\ \cite{vanadium} and 2.72 \AA\ \cite{molybdenum}, respectively.
-This is close to the lengths of bonds in the mentioned triangular clusters of Mo atoms and sufficiently higher than the lengths of V--V bonds in kagome net of VSSe-airss1 crystal structure.
+This is close to the lengths of bonds in the mentioned triangular clusters of Mo atoms and sufficiently higher than the lengths of V--V bonds in kagome net of SVSe-airss1 crystal structure.
 Thus, based on the structres presented in ICSD it is problematic to suggest the proper substrate for the synthesis of airss1.
 
 
 The net of sulphur atoms in airss1 structure is different from that in 1T or 1H structures (Figure \ref{airss1_s}).
 However bot nets can be transformed into each other by the shift shown in the Figure \ref{airss1_s} and subsequent deformations.
-Differences of bond angles and bons lengths in airss1 structures of MoSSe and VSSe do not exceed 0.1\AA\ and 1\textdegree.
+Differences of bond angles and bons lengths in airss1 structures of SMoSe and SVSe do not exceed 0.1\AA\ and 1\textdegree.
 Net of sulphur atom is not planar, the aplanarity are nearly equal to $\pm$10\textdegree.
 
 In airss1 structures, each transition metall atoms is cooridnated by  chalcogen atoms arranged in highly deformed tetragonal pyramids.
 The composition of such a pyramids are VS$_3$Se$_2$ or VS$_2$Se$_3$ (MoS$_3$Se$_2$ or MoS$_2$Se$_3$).
 Airss1 is the only favourble structure among predicted, which is characterised by the coordination number of transition metall different from six.
-The bond distances between transtion metall and chalcogen atoms varies in the range 2.26--2.58 \AA\ for VSSe and in the range 2.29--2.63 \AA for MoSSe.
+The bond distances between transtion metall and chalcogen atoms varies in the range 2.26--2.58 \AA\ for SVSe and in the range 2.29--2.63 \AA for SMoSe.
 The pyramids are connected through the common edges in triangular clusters, corresponding to the triangular rings of the mentioned kagome lattice (Figure \ref{airss1_poly}).
 Between clusters there are the big holes -- the centers of hexagonals rings of kagome lattice \ref{airss1_poly}).
 
 
 
 \begin{figure}
-	\includegraphics [width=0.5\textwidth]{airss1_tm.png}
-	\caption{The Kagome atomic nets of transition metal atoms in VSeSe-airss1 and MoSSe-airss1; tringular clusters of Mo atoms are highlighted in blue} 
+	\includegraphics [width=0.35\textwidth]{airss1_tm.png}
+	\caption{The Kagome atomic nets of transition metal atoms in VSeSe-airss1 and SMoSe-airss1; tringular clusters of Mo atoms are highlighted in blue} 
 \label{airss1_tm}
 \end{figure}
 
 \begin{figure}
-	\includegraphics[width=0.5\textwidth]{airss1v_s.png}
-	\caption{Net of sulphur atoms in VSSe-airss1 structure; values of interatomic distances are given in \AA; dashed line shows the plane of the shift transforming the net to the hexagonal net of T and H structures}
+	\includegraphics[width=0.35\textwidth]{airss1v_s.png}
+	\caption{Net of sulphur atoms in SVSe-airss1 structure; values of interatomic distances are given in \AA; dashed line shows the plane of the shift transforming the net to the hexagonal net of T and H structures}
 \label{airss1_s}
 \end{figure}
 
-\begin{figure}
-	\includegraphics[width=0.5\textwidth]{airss1_s_comp.png}
-	\caption{Interatomic distances and bond angles of sulphr nets in VSSe-airss1 (a) and MoSSe-airss1 (b). \bf{Supplementary}}
-\label{airss1_s_comp}
-\end{figure}
 
 \begin{figure}[H]
-        \includegraphics[width=0.5\textwidth]{airss1_v_poly.png}
-        \caption{VSSe-airss1 structure with outlined cooridnation polyhedrons around V atoms; kagome lattive of V atoms is highlighted in grey}
+        \includegraphics[width=0.35\textwidth]{airss1_v_poly.png}
+        \caption{SVSe-airss1 structure with outlined cooridnation polyhedrons around V atoms; kagome lattive of V atoms is highlighted in grey}
 \label{airss1_poly}
 \end{figure}
 
 
 
 H-hor crystal structure was found using USPEX package.
-It is dynamically stable for MoSSe composition and it is anstable for the V-bearing counterpart (Figure \ref{phon_smose} Figure \ref{phon_svse}).
-Enthalpy of MoSSe-H-hor is higher than enthalies of the abovementioned T-hor and airss-1, it is also higher than enthalpy of 1T on 0.05 eV/f.u.
+It is dynamically stable for SMoSe composition and it is anstable for the V-bearing counterpart (Figure \ref{phon_smose} Figure \ref{phon_svse}).
+Enthalpy of SMoSe-H-hor is higher than enthalies of the abovementioned T-hor and airss-1, it is also higher than enthalpy of 1T on 0.05 eV/f.u.
 
 H-hor structure is different from other structues in that it is characterised by the square net of chalcogen atoms.
 The rings of the net are almost right squares (Figure \ref{H-hor}).
@@ -501,78 +486,78 @@ The $a$ and $b$ axes parallel to the plane of the layer are orthogonal and $a$ i
 
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{H-hor.png}
-	\caption{Nets of sulphur (yellow) and selenium (green) atoms (a) and arrangement of coordination polyhedrons around Mo atoms (b) in MoSSe-H-hor crystal structure.}
+	\caption{Nets of sulphur (yellow) and selenium (green) atoms (a) and arrangement of coordination polyhedrons around Mo atoms (b) in SMoSe-H-hor crystal structure.}
 \label{H-hor}
 \end{figure} 
 
 
 \begin{figure}[H]
-	\includegraphics[width=0.5\textwidth]{H-hor_Mo.png}
-	\caption{Chains of molybdenum atoms in MoSSe-H-hor crystal structure.}
+	\includegraphics[width=0.4\textwidth]{H-hor_Mo.png}
+	\caption{Chains of molybdenum atoms in SMoSe-H-hor crystal structure.}
 \label{H-hor_Mo}
 \end{figure} 
 
 
 
 
-Crystal structure called airss3 were predicted using AIRSS code for VSSe composition.
+Crystal structure called airss3 were predicted using AIRSS code for SVSe composition.
 This structure is the good illustration for the different effects of vanadium and molybdenum on the crystal structure of dichalcogenides.
-Structures in both compositions (MoSSe and VSSe) are dynamically stable.
-For VSSe composition airss3 structure is more favourable than fes and fxt structures on nearly 0.4 eV/f.u., while for MoSSe is less favourable on the same value of energy.
+Structures in both compositions (SMoSe and SVSe) are dynamically stable.
+For SVSe composition airss3 structure is more favourable than fes and fxt structures on nearly 0.4 eV/f.u., while for SMoSe is less favourable on the same value of energy.
 
 Optimisation drastically changes initial airss-3 crystal structure.
 It can be clearly seen in side viwew, that in V-bearing crystal structure atoms of transition metall are nearly in the same plane as sulphur and selenium while for Mo-bearing structure they are between the leayers of sulphur and selenium.
 
 The net of chalcogen are also sufficiently different.
-For VSSe the topology of the net corresponds to the hexagonal net, while for MoSSe composition – for triangular net, if the weak contacs are consdered.
-The new crystallchemical feature, found fo VSSe composition, is the presence of S--S and Se--Se dimers with the bond length of 2.09 \AA\ and 2.37 \AA\, respectively/
+For SVSe the topology of the net corresponds to the hexagonal net, while for SMoSe composition – for triangular net, if the weak contacs are consdered.
+The new crystallchemical feature, found fo SVSe composition, is the presence of S--S and Se--Se dimers with the bond length of 2.09 \AA\ and 2.37 \AA\, respectively/
 This bond lenghts corresponds to the lengths of the bond in the crystals tructures of elemental sulphur and selenium.
 Sucher a clusters were not observed in crystal structures of dichalcogenides before.
 Other S--S and Se--Se bonds sufficiently longer, varying in the range 3.17--3.73 \AA.
-In the nets of chclcogen atoms in MoSSe composition, there are no clusters and S--S bond lengths vary in the range 3.24-3.79 \AA\ with the weak contacts of 4.58--4.64 \AA\ length.
+In the nets of chclcogen atoms in SMoSe composition, there are no clusters and S--S bond lengths vary in the range 3.24-3.79 \AA\ with the weak contacts of 4.58--4.64 \AA\ length.
 
 The net of transition metall are also drastically different which can be seen from the figures ( a  b).
-Similarly to the described above for the MoSSe-airss1 crystl structure, the net of Mo-bearing airss3 crystal structure is characterised by the presence of Mo--Mo dimers with the bond leghts of 2.85 \AA, while other bonds vary in the range 3.04--3.74 \AA.
-There is no such a short bonds in VSSe-airss-3 crystal sructure, and the bond smoothly vary in the range 3.32--3.79 \AA.
+Similarly to the described above for the SMoSe-airss1 crystl structure, the net of Mo-bearing airss3 crystal structure is characterised by the presence of Mo--Mo dimers with the bond leghts of 2.85 \AA, while other bonds vary in the range 3.04--3.74 \AA.
+There is no such a short bonds in SVSe-airss-3 crystal sructure, and the bond smoothly vary in the range 3.32--3.79 \AA.
 
-!!!Тут нам нужно переименовать airss3-MoSSe, т.к. это другая структура.
+!!!Тут нам нужно переименовать airss3-SMoSe, т.к. это другая структура.
 
 
-Mo atoms in MoSSe-airss3 structure are four- and five-coordinated by chaclcogen atoms, with coordination polyhedra of the deformed tetrahedron and trigonal bipyramid (Figure \ref{airss3_poly}b).
-In structure VSSe-airss3 atoms of transition metall are five and six-coordinated (Figure \ref{airss3_poly}a).
+Mo atoms in SMoSe-airss3 structure are four- and five-coordinated by chaclcogen atoms, with coordination polyhedra of the deformed tetrahedron and trigonal bipyramid (Figure \ref{airss3_poly}b).
+In structure SVSe-airss3 atoms of transition metall are five and six-coordinated (Figure \ref{airss3_poly}a).
 Coordination polyhedra are  deformed tetragonal pyramid and trigonal prism, respectively.
 Two of six atoms in six-coordinated environment are the dimers of sulphur or slenium (Figure \ref{airss3_poly}a).
-In structure of MoSSe infinite chain of cooridnation polyhedra, while in crystal structure of VSSe infinite quadruple chain of cooridnation poluhedra can be distinguished (Figure \ref{airss3_poly}).
+In structure of SMoSe infinite chain of cooridnation polyhedra, while in crystal structure of SVSe infinite quadruple chain of cooridnation poluhedra can be distinguished (Figure \ref{airss3_poly}).
 Within the chain coordination polyhedra are connected through common edges.
-The adjacent chains in VSSe structure are also connected through the common edges, while in MoSSe structure – through the common edges.
+The adjacent chains in SVSe structure are also connected through the common edges, while in SMoSe structure – through the common edges.
 
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{airss3_side.png}
-	\caption{The side view of airss3 structure in MoSSe and VSSe compositions}
+	\caption{The side view of airss3 structure in SMoSe and SVSe compositions}
 	\label{airss3_side}
 \end{figure}
 
 \begin{figure}[H]
 	\includegraphics[width=0.5\textwidth]{airss3_svse.png}
-	\caption{The net of sulphur (a) and vanadium (b) atoms in VSSe-airss3 crystal structure}
+	\caption{The net of sulphur (a) and vanadium (b) atoms in SVSe-airss3 crystal structure}
 	\label{airss3_svse}
 \end{figure}
 
 \begin{figure}[H]
 	\includegraphics[width=0.5\textwidth]{airss3_smose.png}
-	\caption{The net of sulphur (a) and molybdenum (b) atoms in MoSSe-airss3 crystal structure}
+	\caption{The net of sulphur (a) and molybdenum (b) atoms in SMoSe-airss3 crystal structure}
 	\label{airss3_smose}
 \end{figure}
 
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{airss3_S_Se.png}
-	\caption{The net of sulphur (a) and slenium (b) atoms in VSSe-airss3 crystal structure}
+	\caption{The net of sulphur (a) and slenium (b) atoms in SVSe-airss3 crystal structure}
 	\label{airss3_S_Se}
 \end{figure}
 
 \begin{figure}[H]
 	\includegraphics[width=\textwidth]{airss3_poly.png}
-	\caption{Crystal structures airss3 of VSSe (a) and MoSSe (b) with outlined cooridnation polyhedra}
+	\caption{Crystal structures airss3 of SVSe (a) and SMoSe (b) with outlined cooridnation polyhedra}
 	\label{airss3_poly}
 \end{figure}
 
@@ -586,7 +571,7 @@ The adjacent chains in VSSe structure are also connected through the common edge
 In this section we consider crystal structures produced manually based on the 1H structure by the procedure which can be also used for the generation of the fxt and fes structures.
 Similarly to fxt and fes these stracters can be considered as the possible grain boundaries.
 As it will be shown, below the enthalpies of obtained strucrures are higher then enthalpies of fxt and fes.
-However, we add their decription hear together with the description of fxt and fes, to illustrate the formation of molybdenum dimers in MoSSe structures.
+However, we add their decription hear together with the description of fxt and fes, to illustrate the formation of molybdenum dimers in SMoSe structures.
 Also we would like to descibe the procedure of structure generation, which can be also applied for the generation of the other structures.
 
 To produce new structures with trigonal prismatic coordination of TM atoms, we present the structures as different fillings of the hexagonal net of sulphur atoms (Figure \ref{H-based}).
@@ -596,13 +581,13 @@ After optimisation, these rhombuses trasform into the right squares (Figure \ref
 In fxt structure, the empty rings are of two types.
 The first are primitive (non-centered) triangles, and the second are face-centered hexagons consisting six triangular rings connected through the faces (Figure \ref{H-based}c).
 The optimisation does not sufficiently change the forms of the empty rings, slightly deforming hexagons (Figure \ref{H-based}c).
-In MoSSe and VSSe compositions, both fxt and fes are energetically less favourable than predicted H-hor, T-hor and airrs-1.
+In SMoSe and SVSe compositions, both fxt and fes are energetically less favourable than predicted H-hor, T-hor and airrs-1.
 In one case, for H-hor and fxt structures of SMoSe composition, enthalpies can be considered as equal within the error of the method.
 
 Three new structures were produced in the similar way as it has been done for fxt and fes.
 We named these structures abstractly test1, test2, and test3.
-These structures are not dynamically stable for VSSe composition (Figure \ref{phon_svse}), and for MoSSe composition test1 and test3 are stable, while test2 are not (Figure \ref{phon_smose}).
-For MoSSe composition enthalpis of dynamically stable test1 and and test3 structures are higher than that of  fes and fxt on nearly 0.1 eV/fu.
+These structures are not dynamically stable for SVSe composition (Figure \ref{phon_svse}), and for SMoSe composition test1 and test3 are stable, while test2 are not (Figure \ref{phon_smose}).
+For SMoSe composition enthalpis of dynamically stable test1 and and test3 structures are higher than that of  fes and fxt on nearly 0.1 eV/fu.
 
 We failed to produce new structures obeying the local charge balance, i.e. the structures in which each vertex of the trigonal prism is common for three prisms, as it is in 1H, fxt and fes.
 In the structure test1, sulphur atoms are common for two or four trigonal prisms, in test2 and test3 – for two or three, or fourtrigonal prisms (Figure \ref{H-based}).
@@ -611,7 +596,7 @@ As it will be shown below this is important for the formation of Mo--Mo dimers.
 Optimisation of test3 structure sufficiently affect the arrangement of sulphur atoms.
 In the final structure the net of sulphur atoms is not more the hexagonal one (Figure \ref{H-based}f).
 Mo atoms in test3 structure are not only in trigonal prismatic but also in quadratic coordination (Figure \ref{H-based}f).
-Despite this drastic structural changes at optimisation stage, test3 structure is dynamically stable for MoSSe composition (Figure \ref{phon_smose}).
+Despite this drastic structural changes at optimisation stage, test3 structure is dynamically stable for SMoSe composition (Figure \ref{phon_smose}).
 
 Presense of common edges and faces of [MoO$_6$] trigonal prisms in fxt, fes, test1, test2, and test3 structures results in shorter Mo--Mo distances in comparison with 1H structure, where prisms have only common edges.
 In 1H structure, Mo atoms form regular hexagonal net with all Mo--Mo bonds being equal to 3.25 \AA.
@@ -636,7 +621,7 @@ The possibility which was not considered earlier.
 
 \begin{figure}[H]
 	\includegraphics[width=0.3\textwidth]{test3_momo.png}
-	\caption{Qadruple Mo--Mo bond in MoSSe-test3 structure}
+	\caption{Qadruple Mo--Mo bond in SMoSe-test3 structure}
 \label{test3_momo}
 \end{figure}
 
@@ -667,7 +652,7 @@ Hwever, as ICSD is specialised on the coolection of mainly 3D, experimentally de
 As it was mentioned the special manuscript will be devoted the calculations of physical properties of the predicted structures.
 Here, wou would like only to speculate about the possibility of practical applications of the found structures.
 
-The crystal field theory proceeds from the fact that the nature of ligands and their location around the central ion (symmetry of the complex) reduce the degeneracy of d-orbitals and change their energy. As all investigated structures consist of transition metal atoms surrounded by ligands (chalcogen atoms), the presence of the ligands splits the d-electrons levels depending on local symmetry. Thereby the correlation between structure and electronic properties can be interpreted in terms of crystal field theory. According to crystal field theory, in an octahedral environment (1T polymorph), the d-shell splits into a low-energy triplet (t2g) and a high-energy doublet (eg). In a trigonal prismatic geometry (1H), the low-energy triplet further splits into a doublet and a singlet [https://doi.org/10.1088/2053-1583/ab0188]. The two polymorphs of MoS2 have distinct electronic properties, the 1H-MoS2 is a semiconductor and the 1T-MoS2 is metallic. The fes-MoSSe despite the prismatic environment of TM atom becomes a semi-metal [10.1016/j.physe.2020.114485 , 10.1039/D1NA00112D] and fxt Mo and W based TMDs are gapless semiconductors or, alternatively, semimetals [10.1103/PhysRevB.93.035442]. The proposed structure airss-1 is characterized by a distorted trigonal bipyramidal local environment of the TM atom, which should make these structures more metallic due to degenerate d-orbitals. The squire pyramidal environment in airss-3 with the bare square facet of the pyramid can apply this structure for molecular sorption which makes materials in such structure perspective for sensoric and catalytic applications. In addition, despite the fact that the surroundings of metal atoms have a prismatic environment in the geometries fxt and fes make metal atoms available for use in chemical applications due to the steric factor.
+The crystal field theory proceeds from the fact that the nature of ligands and their location around the central ion (symmetry of the complex) reduce the degeneracy of d-orbitals and change their energy. As all investigated structures consist of transition metal atoms surrounded by ligands (chalcogen atoms), the presence of the ligands splits the d-electrons levels depending on local symmetry. Thereby the correlation between structure and electronic properties can be interpreted in terms of crystal field theory. According to crystal field theory, in an octahedral environment (1T polymorph), the d-shell splits into a low-energy triplet (t2g) and a high-energy doublet (eg). In a trigonal prismatic geometry (1H), the low-energy triplet further splits into a doublet and a singlet [https://doi.org/10.1088/2053-1583/ab0188]. The two polymorphs of MoS2 have distinct electronic properties, the 1H-MoS2 is a semiconductor and the 1T-MoS$_2$ is metallic. The fes-SMoSe despite the prismatic environment of TM atom becomes a semi-metal [10.1016/j.physe.2020.114485 , 10.1039/D1NA00112D] and fxt Mo and W based TMDs are gapless semiconductors or, alternatively, semimetals [10.1103/PhysRevB.93.035442]. The proposed structure airss-1 is characterized by a distorted trigonal bipyramidal local environment of the TM atom, which should make these structures more metallic due to degenerate d-orbitals. The squire pyramidal environment in airss-3 with the bare square facet of the pyramid can apply this structure for molecular sorption which makes materials in such structure perspective for sensoric and catalytic applications. In addition, despite the fact that the surroundings of metal atoms have a prismatic environment in the geometries fxt and fes make metal atoms available for use in chemical applications due to the steric factor.
 
 The variation of structures dictates variation electronic properties based on different d-splitting and electron filling of d-orbitals which makes it possible to manipulate electronic properties through phase transformation.
 \textcolor{blue}{Захар. Не понятно как последнее предложение соотносится со всем текстом, нужно добавить пояснение. Так как это послднее предложение, хорошо бы добавить какие-то обощающие ремарки по возможности крвсивые}
