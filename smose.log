@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.6)  21 FEB 2022 09:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.6)  21 FEB 2022 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1372,21 +1372,18 @@ File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ) [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 87--98
+Underfull \hbox (badness 10000) in paragraph at lines 86--97
 
  []
 
-
-LaTeX Warning: Citation `wells' on page 2 undefined on input line 105.
-
-[2] <figures/1H1T.png, id=24, 193.4427pt x 209.583pt>
+[2] <figures/1H1T.png, id=23, 193.4427pt x 209.583pt>
 File: figures/1H1T.png Graphic file (type png)
  <use figures/1H1T.png>
-Package pdftex.def Info: figures/1H1T.png used on input line 141.
+Package pdftex.def Info: figures/1H1T.png used on input line 140.
 (pdftex.def)             Requested size: 137.9979pt x 149.51491pt.
 
 [3] [4 <./figures/1H1T.png>] [5]
-Overfull \hbox (2.88617pt too wide) in paragraph at lines 219--222
+Overfull \hbox (2.88617pt too wide) in paragraph at lines 218--221
 []\T2A/cmr/m/n/10 According to the per-formed cal-cu-la-tions, 1H struc-ture is
  the most favourable
  []
@@ -1400,14 +1397,14 @@ Package epstopdf Info: Source file: <figures/phon_svse.eps>
 (epstopdf)                    size: 285898 bytes
 (epstopdf)             Command: <repstopdf --outfile=./phon_svse-eps-converted-
 to.pdf figures/phon_svse.eps>
-(epstopdf)             \includegraphics on input line 296.
+(epstopdf)             \includegraphics on input line 295.
 Package epstopdf Info: Output file is already uptodate.
- <./phon_svse-eps-converted-to.pdf, id=49, 490.83376pt x 334.24875pt>
+ <./phon_svse-eps-converted-to.pdf, id=48, 490.83376pt x 334.24875pt>
 File: ./phon_svse-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./phon_svse-eps-converted-to.pdf>
 Package pdftex.def Info: ./phon_svse-eps-converted-to.pdf used on input line 29
-6.
+5.
 (pdftex.def)             Requested size: 345.0pt x 234.94666pt.
 Package epstopdf Info: Source file: <figures/phon_smose.eps>
 (epstopdf)                    date: 2022-02-17 09:19:22
@@ -1417,44 +1414,44 @@ Package epstopdf Info: Source file: <figures/phon_smose.eps>
 (epstopdf)                    size: 283866 bytes
 (epstopdf)             Command: <repstopdf --outfile=./phon_smose-eps-converted
 -to.pdf figures/phon_smose.eps>
-(epstopdf)             \includegraphics on input line 303.
+(epstopdf)             \includegraphics on input line 302.
 Package epstopdf Info: Output file is already uptodate.
 
-<./phon_smose-eps-converted-to.pdf, id=50, 485.815pt x 334.24875pt>
+<./phon_smose-eps-converted-to.pdf, id=49, 485.815pt x 334.24875pt>
 File: ./phon_smose-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./phon_smose-eps-converted-to.pdf>
 Package pdftex.def Info: ./phon_smose-eps-converted-to.pdf used on input line 3
-03.
+02.
 (pdftex.def)             Requested size: 345.0pt x 237.36417pt.
  [8 <./phon_svse-eps-converted-to.pdf>]
-Overfull \hbox (109.96706pt too wide) in alignment at lines 309--335
+Overfull \hbox (109.96706pt too wide) in alignment at lines 308--334
  [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (109.96706pt too wide) in alignment at lines 335--356
+Overfull \hbox (109.96706pt too wide) in alignment at lines 334--355
  [] [] [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (109.96706pt too wide) in alignment at lines 356--377
+Overfull \hbox (109.96706pt too wide) in alignment at lines 355--376
  [] [] [] [] [] [] [] [] [] [] 
  []
 
 [9 <./phon_smose-eps-converted-to.pdf>]
-Overfull \hbox (109.96706pt too wide) in alignment at lines 377--396
+Overfull \hbox (109.96706pt too wide) in alignment at lines 376--395
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[10] <figures/T_hor_T.png, id=66, 483.56577pt x 287.64217pt>
+[10] <figures/T_hor_T.png, id=65, 483.56577pt x 287.64217pt>
 File: figures/T_hor_T.png Graphic file (type png)
 
 <use figures/T_hor_T.png>
-Package pdftex.def Info: figures/T_hor_T.png used on input line 430.
+Package pdftex.def Info: figures/T_hor_T.png used on input line 429.
 (pdftex.def)             Requested size: 276.00105pt x 164.17279pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
 
  []
 
@@ -1462,10 +1459,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 430--431
 File: figures/T_hor_slabs.png Graphic file (type png)
 
 <use figures/T_hor_slabs.png>
-Package pdftex.def Info: figures/T_hor_slabs.png used on input line 436.
+Package pdftex.def Info: figures/T_hor_slabs.png used on input line 435.
 (pdftex.def)             Requested size: 241.49895pt x 117.95802pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
 
  []
 
@@ -1473,10 +1470,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 436--437
 File: figures/T_hor_V.png Graphic file (type png)
 
 <use figures/T_hor_V.png>
-Package pdftex.def Info: figures/T_hor_V.png used on input line 443.
+Package pdftex.def Info: figures/T_hor_V.png used on input line 442.
 (pdftex.def)             Requested size: 137.9979pt x 171.5906pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 443--444
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
 
  []
 
@@ -1485,10 +1482,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 443--444
 File: figures/T_hor_hcb.png Graphic file (type png)
 
 <use figures/T_hor_hcb.png>
-Package pdftex.def Info: figures/T_hor_hcb.png used on input line 449.
+Package pdftex.def Info: figures/T_hor_hcb.png used on input line 448.
 (pdftex.def)             Requested size: 172.5pt x 125.85399pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--450
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
 
  []
 
@@ -1496,10 +1493,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 449--450
 File: figures/T_hor_ch.png Graphic file (type png)
 
 <use figures/T_hor_ch.png>
-Package pdftex.def Info: figures/T_hor_ch.png used on input line 456.
+Package pdftex.def Info: figures/T_hor_ch.png used on input line 455.
 (pdftex.def)             Requested size: 172.5pt x 207.58353pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 456--457
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
 
  []
 
@@ -1507,7 +1504,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 456--457
 <figures/H-hor.png, id=86, 572.1375pt x 144.0582pt>
 File: figures/H-hor.png Graphic file (type png)
  <use figures/H-hor.png>
-Package pdftex.def Info: figures/H-hor.png used on input line 481.
+Package pdftex.def Info: figures/H-hor.png used on input line 480.
 (pdftex.def)             Requested size: 345.0pt x 86.8686pt.
 
 [14 <./figures/T_hor_ch.png>]
@@ -1515,28 +1512,28 @@ Package pdftex.def Info: figures/H-hor.png used on input line 481.
 File: figures/H-hor_Mo.png Graphic file (type png)
 
 <use figures/H-hor_Mo.png>
-Package pdftex.def Info: figures/H-hor_Mo.png used on input line 488.
+Package pdftex.def Info: figures/H-hor_Mo.png used on input line 487.
 (pdftex.def)             Requested size: 137.9979pt x 130.29152pt.
  [15 <./figures/H-hor.png> <./figures/H-hor_Mo.png>]
 <figures/airss1_tm.png, id=97, 201.8742pt x 491.9178pt>
 File: figures/airss1_tm.png Graphic file (type png)
 
 <use figures/airss1_tm.png>
-Package pdftex.def Info: figures/airss1_tm.png used on input line 531.
+Package pdftex.def Info: figures/airss1_tm.png used on input line 530.
 (pdftex.def)             Requested size: 120.7521pt x 294.25223pt.
 
 <figures/airss1v_s.png, id=98, 177.3024pt x 258.4857pt>
 File: figures/airss1v_s.png Graphic file (type png)
 
 <use figures/airss1v_s.png>
-Package pdftex.def Info: figures/airss1v_s.png used on input line 537.
+Package pdftex.def Info: figures/airss1v_s.png used on input line 536.
 (pdftex.def)             Requested size: 120.7521pt x 176.04404pt.
 
 <figures/airss1_v_poly.png, id=99, 202.1151pt x 266.4354pt>
 File: figures/airss1_v_poly.png Graphic file (type png)
 
 <use figures/airss1_v_poly.png>
-Package pdftex.def Info: figures/airss1_v_poly.png used on input line 544.
+Package pdftex.def Info: figures/airss1_v_poly.png used on input line 543.
 (pdftex.def)             Requested size: 120.7521pt x 159.18353pt.
  [16 <./figures/airss1_v_poly.png>] [17 <./figures/airss1_tm.png>] [18 <./figur
 es/airss1v_s.png>]
@@ -1544,80 +1541,76 @@ es/airss1v_s.png>]
 File: figures/airss3_side.png Graphic file (type png)
 
 <use figures/airss3_side.png>
-Package pdftex.def Info: figures/airss3_side.png used on input line 582.
+Package pdftex.def Info: figures/airss3_side.png used on input line 581.
 (pdftex.def)             Requested size: 345.0pt x 44.22232pt.
 
 <figures/airss3_svse.png, id=113, 244.9953pt x 388.0899pt>
 File: figures/airss3_svse.png Graphic file (type png)
 
 <use figures/airss3_svse.png>
-Package pdftex.def Info: figures/airss3_svse.png used on input line 588.
+Package pdftex.def Info: figures/airss3_svse.png used on input line 587.
 (pdftex.def)             Requested size: 172.5pt x 273.25995pt.
 
 <figures/airss3_smose.png, id=114, 225.0006pt x 416.9979pt>
 File: figures/airss3_smose.png Graphic file (type png)
 
 <use figures/airss3_smose.png>
-Package pdftex.def Info: figures/airss3_smose.png used on input line 594.
+Package pdftex.def Info: figures/airss3_smose.png used on input line 593.
 (pdftex.def)             Requested size: 172.5pt x 319.69589pt.
  [19 <./figures/airss3_side.png> <./figures/airss3_svse.png>] <figures/airss3_p
 oly.png, id=121, 495.7722pt x 199.4652pt>
 File: figures/airss3_poly.png Graphic file (type png)
 
 <use figures/airss3_poly.png>
-Package pdftex.def Info: figures/airss3_poly.png used on input line 601.
+Package pdftex.def Info: figures/airss3_poly.png used on input line 600.
 (pdftex.def)             Requested size: 345.0pt x 138.80899pt.
  [20 <./figures/airss3_smose.png> <./figures/airss3_poly.png>] [21] <figures/H-
 based.png, id=130, 462.0462pt x 388.3308pt>
 File: figures/H-based.png Graphic file (type png)
 
 <use figures/H-based.png>
-Package pdftex.def Info: figures/H-based.png used on input line 661.
+Package pdftex.def Info: figures/H-based.png used on input line 660.
 (pdftex.def)             Requested size: 345.0pt x 289.96155pt.
  [22]
 <figures/test3_momo.png, id=134, 127.8623pt x 119.92055pt>
 File: figures/test3_momo.png Graphic file (type png)
 
 <use figures/test3_momo.png>
-Package pdftex.def Info: figures/test3_momo.png used on input line 667.
+Package pdftex.def Info: figures/test3_momo.png used on input line 666.
 (pdftex.def)             Requested size: 103.50105pt x 97.07288pt.
  [23 <./figures/H-based.png> <./figures/test3_momo.png>] [24] (./smose.bbl [25]
- [26] [27] [28] [29]) [30] (./smose.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+ [26] [27] [28] [29]) [30] (./smose.aux) ) 
 Here is how much of TeX's memory you used:
  16022 strings out of 492995
  285127 string characters out of 6132705
- 374277 words of memory out of 5000000
+ 374281 words of memory out of 5000000
  19318 multiletter control sequences out of 15000+600000
  552974 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,10n,42p,10347b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}
-</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
-al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
-texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2017/te
-xmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2017/texm
-f-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2017/texmf-
-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017/texmf-di
-st/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2017/texmf-dist
-/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2017/texmf-dist/f
-onts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2017/texmf-dist/fon
-ts/type1/public/cm-super/sftt0800.pfb>
-Output written on smose.pdf (30 pages, 32807189 bytes).
+{/usr/local/texlive/2017/texmf-dist/f
+onts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2017/texmf-dist/fo
+nts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/local/texlive/2017/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
+/cm-super/sfbx0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/c
+m-super/sfbx1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-
+super/sfbx1200.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-su
+per/sfbx1440.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-supe
+r/sfrm0600.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/
+sfrm0800.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sf
+rm0900.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm
+1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm12
+00.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1728
+.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1000.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb
+></usr/local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
+Output written on smose.pdf (30 pages, 32806832 bytes).
 PDF statistics:
  229 PDF objects out of 1000 (max. 8388607)
  140 compressed objects within 2 object streams
