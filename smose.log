@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.6)  17 FEB 2022 12:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.7.6)  17 FEB 2022 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -981,6 +981,14 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/xr.sty
 Package: xr 1994/05/28 v5.02 eXternal References (DPC)
 )
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen122
+\extrarowheight=\dimen123
+\NC@list=\toks33
+\extratabsurround=\skip62
+\backup@length=\skip63
+)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/miller/miller.sty
 Package: miller 2004/09/20 v1.2 print miller indices
 )
@@ -1003,18 +1011,18 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 \l__iow_line_target_int=\count125
 \l__iow_one_indent_int=\count126
 \l__iow_indent_int=\count127
-\c_zero_dim=\dimen122
-\c_max_dim=\dimen123
-\l_tmpa_dim=\dimen124
-\l_tmpb_dim=\dimen125
-\g_tmpa_dim=\dimen126
-\g_tmpb_dim=\dimen127
-\c_zero_skip=\skip62
-\c_max_skip=\skip63
-\l_tmpa_skip=\skip64
-\l_tmpb_skip=\skip65
-\g_tmpa_skip=\skip66
-\g_tmpb_skip=\skip67
+\c_zero_dim=\dimen124
+\c_max_dim=\dimen125
+\l_tmpa_dim=\dimen126
+\l_tmpb_dim=\dimen127
+\g_tmpa_dim=\dimen128
+\g_tmpb_dim=\dimen129
+\c_zero_skip=\skip64
+\c_max_skip=\skip65
+\l_tmpa_skip=\skip66
+\l_tmpb_skip=\skip67
+\g_tmpa_skip=\skip68
+\g_tmpb_skip=\skip69
 \c_zero_muskip=\muskip11
 \c_max_muskip=\muskip12
 \l_tmpa_muskip=\muskip13
@@ -1050,23 +1058,23 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 \l_tmpb_box=\box35
 \g_tmpa_box=\box36
 \g_tmpb_box=\box37
-\l__box_top_dim=\dimen128
-\l__box_bottom_dim=\dimen129
-\l__box_left_dim=\dimen130
-\l__box_right_dim=\dimen131
-\l__box_top_new_dim=\dimen132
-\l__box_bottom_new_dim=\dimen133
-\l__box_left_new_dim=\dimen134
-\l__box_right_new_dim=\dimen135
+\l__box_top_dim=\dimen130
+\l__box_bottom_dim=\dimen131
+\l__box_left_dim=\dimen132
+\l__box_right_dim=\dimen133
+\l__box_top_new_dim=\dimen134
+\l__box_bottom_new_dim=\dimen135
+\l__box_left_new_dim=\dimen136
+\l__box_right_new_dim=\dimen137
 \l__box_internal_box=\box38
 \l__coffin_internal_box=\box39
-\l__coffin_internal_dim=\dimen136
-\l__coffin_offset_x_dim=\dimen137
-\l__coffin_offset_y_dim=\dimen138
-\l__coffin_x_dim=\dimen139
-\l__coffin_y_dim=\dimen140
-\l__coffin_x_prime_dim=\dimen141
-\l__coffin_y_prime_dim=\dimen142
+\l__coffin_internal_dim=\dimen138
+\l__coffin_offset_x_dim=\dimen139
+\l__coffin_offset_y_dim=\dimen140
+\l__coffin_x_dim=\dimen141
+\l__coffin_y_dim=\dimen142
+\l__coffin_x_prime_dim=\dimen143
+\l__coffin_y_prime_dim=\dimen144
 \c_empty_coffin=\box40
 \l__coffin_aligned_coffin=\box41
 \l__coffin_aligned_internal_coffin=\box42
@@ -1075,16 +1083,16 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 \l__coffin_display_coffin=\box45
 \l__coffin_display_coord_coffin=\box46
 \l__coffin_display_pole_coffin=\box47
-\l__coffin_display_offset_dim=\dimen143
-\l__coffin_display_x_dim=\dimen144
-\l__coffin_display_y_dim=\dimen145
-\l__coffin_bounding_shift_dim=\dimen146
-\l__coffin_left_corner_dim=\dimen147
-\l__coffin_right_corner_dim=\dimen148
-\l__coffin_bottom_corner_dim=\dimen149
-\l__coffin_top_corner_dim=\dimen150
-\l__coffin_scaled_total_height_dim=\dimen151
-\l__coffin_scaled_width_dim=\dimen152
+\l__coffin_display_offset_dim=\dimen145
+\l__coffin_display_x_dim=\dimen146
+\l__coffin_display_y_dim=\dimen147
+\l__coffin_bounding_shift_dim=\dimen148
+\l__coffin_left_corner_dim=\dimen149
+\l__coffin_right_corner_dim=\dimen150
+\l__coffin_bottom_corner_dim=\dimen151
+\l__coffin_top_corner_dim=\dimen152
+\l__coffin_scaled_total_height_dim=\dimen153
+\l__coffin_scaled_width_dim=\dimen154
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
@@ -1161,14 +1169,14 @@ rs
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count266
 \calc@Bcount=\count267
-\calc@Adimen=\dimen153
-\calc@Bdimen=\dimen154
-\calc@Askip=\skip68
-\calc@Bskip=\skip69
+\calc@Adimen=\dimen155
+\calc@Bdimen=\dimen156
+\calc@Askip=\skip70
+\calc@Bskip=\skip71
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count268
-\calc@Cskip=\skip70
+\calc@Cskip=\skip72
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
@@ -1235,38 +1243,38 @@ stry (CN)
 .................................................
 )
 \l__mhchem_ce_distanceFromLastComma_int=\count276
-\__mhchem_arrow_extPgfLength_skip=\skip71
-\mhchem@minispace@tmp=\skip72
-\mhchem@minibackspace@tmp=\skip73
-\mhchem@bondwidth=\skip74
-\mhchem@bondheight=\skip75
-\mhchem@smallbondwidth@tmpA=\skip76
-\mhchem@smallbondwidth@tmpB=\skip77
-\mhchem@smallbondwidth=\skip78
-\mhchem@bondtmp@minussidebearingleft=\skip79
-\mhchem@bondtmp@minussidebearingright=\skip80
+\__mhchem_arrow_extPgfLength_skip=\skip73
+\mhchem@minispace@tmp=\skip74
+\mhchem@minibackspace@tmp=\skip75
+\mhchem@bondwidth=\skip76
+\mhchem@bondheight=\skip77
+\mhchem@smallbondwidth@tmpA=\skip78
+\mhchem@smallbondwidth@tmpB=\skip79
+\mhchem@smallbondwidth=\skip80
+\mhchem@bondtmp@minussidebearingleft=\skip81
+\mhchem@bondtmp@minussidebearingright=\skip82
 \l__mhchem_option_version_int=\count277
-\mhchem@option@minusmathsidebearingleft=\dimen155
-\mhchem@option@minusmathsidebearingright=\dimen156
-\mhchem@option@minustextsidebearingleft=\dimen157
-\mhchem@option@minustextsidebearingright=\dimen158
+\mhchem@option@minusmathsidebearingleft=\dimen157
+\mhchem@option@minusmathsidebearingright=\dimen158
+\mhchem@option@minustextsidebearingleft=\dimen159
+\mhchem@option@minustextsidebearingright=\dimen160
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count278
-\float@exts=\toks33
+\float@exts=\toks34
 \float@box=\box49
-\@float@everytoks=\toks34
+\@float@everytoks=\toks35
 \@floatcapt=\box50
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/caption/newfloat.sty
 Package: newfloat 2015/09/17 v1.1-109 Defining new floating environments (AR)
 )
 Package newfloat Info: New float `suppfigure' with options `name={Supplementary
- Figure}' on input line 37.
+ Figure}' on input line 38.
 \c@suppfigure=\count279
-Package newfloat Info: float type `suppfigure'=4 on input line 37.
-Package xr Info: IMPORTING LABELS FROM SI/smose_supp.aux on input line 40.
+Package newfloat Info: float type `suppfigure'=4 on input line 38.
+Package xr Info: IMPORTING LABELS FROM SI/smose_supp.aux on input line 41.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
@@ -1301,33 +1309,29 @@ e
 LaTeX Warning: Unused global option(s):
     [a4paperm].
 
-(./smose.aux
-
-LaTeX Warning: Label `t:enthalpy' multiply defined.
-
-)
+(./smose.aux)
 \openout1 = `smose.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 47.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    ... okay on input line 47.
 
 Option `squaren' provided! 
  Command \squaren defined by SIunits package!
@@ -1335,32 +1339,32 @@ Option `squaren' provided!
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count280
-\scratchdimen=\dimen159
+\scratchdimen=\dimen161
 \scratchbox=\box51
 \nofMPsegments=\count281
 \nofMParguments=\count282
-\everyMPshowfont=\toks35
+\everyMPshowfont=\toks36
 \MPscratchCnt=\count283
-\MPscratchDim=\dimen160
+\MPscratchDim=\dimen162
 \MPnumerator=\count284
 \makeMPintoPDFobject=\count285
-\everyMPtoPDFconversion=\toks36
+\everyMPtoPDFconversion=\toks37
 )
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 46.
+. Activating mapping `default' on line 47.
 .................................................
-LaTeX Font Info:    Try loading font information for U+msa on input line 67.
+LaTeX Font Info:    Try loading font information for U+msa on input line 68.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 67.
+LaTeX Font Info:    Try loading font information for U+msb on input line 68.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 67.
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 68.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
@@ -1368,22 +1372,27 @@ File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ) [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 88--99
 
-LaTeX Warning: Citation `wells1986_book' on page 2 undefined on input line 90.
+ []
+
+
+LaTeX Warning: Citation `wells1986_book' on page 2 undefined on input line 107.
+
 
 [2] <figures/1H1T.png, id=24, 193.4427pt x 209.583pt>
 File: figures/1H1T.png Graphic file (type png)
  <use figures/1H1T.png>
-Package pdftex.def Info: figures/1H1T.png used on input line 126.
+Package pdftex.def Info: figures/1H1T.png used on input line 143.
 (pdftex.def)             Requested size: 137.9979pt x 149.51491pt.
 
-[3 <./figures/1H1T.png>] [4]
-Overfull \hbox (2.88617pt too wide) in paragraph at lines 204--207
+[3] [4 <./figures/1H1T.png>] [5]
+Overfull \hbox (2.88617pt too wide) in paragraph at lines 221--224
 []\T2A/cmr/m/n/10 According to the per-formed cal-cu-la-tions, 1H struc-ture is
  the most favourable
  []
 
-[5] [6]
+[6] [7]
 Package epstopdf Info: Source file: <figures/phon_svse.eps>
 (epstopdf)                    date: 2022-02-17 09:19:22
 (epstopdf)                    size: 7261758 bytes
@@ -1392,16 +1401,15 @@ Package epstopdf Info: Source file: <figures/phon_svse.eps>
 (epstopdf)                    size: 285898 bytes
 (epstopdf)             Command: <repstopdf --outfile=./phon_svse-eps-converted-
 to.pdf figures/phon_svse.eps>
-(epstopdf)             \includegraphics on input line 281.
+(epstopdf)             \includegraphics on input line 298.
 Package epstopdf Info: Output file is already uptodate.
- <./phon_svse-eps-converted-to.pdf, id=45, 490.83376pt x 334.24875pt>
+ <./phon_svse-eps-converted-to.pdf, id=49, 490.83376pt x 334.24875pt>
 File: ./phon_svse-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./phon_svse-eps-converted-to.pdf>
-Package pdftex.def Info: ./phon_svse-eps-converted-to.pdf used on input line 28
-1.
+Package pdftex.def Info: ./phon_svse-eps-converted-to.pdf used on input line 29
+8.
 (pdftex.def)             Requested size: 345.0pt x 234.94666pt.
- [7]
 Package epstopdf Info: Source file: <figures/phon_smose.eps>
 (epstopdf)                    date: 2022-02-17 09:19:22
 (epstopdf)                    size: 7235518 bytes
@@ -1410,204 +1418,210 @@ Package epstopdf Info: Source file: <figures/phon_smose.eps>
 (epstopdf)                    size: 283866 bytes
 (epstopdf)             Command: <repstopdf --outfile=./phon_smose-eps-converted
 -to.pdf figures/phon_smose.eps>
-(epstopdf)             \includegraphics on input line 288.
+(epstopdf)             \includegraphics on input line 305.
 Package epstopdf Info: Output file is already uptodate.
 
 <./phon_smose-eps-converted-to.pdf, id=50, 485.815pt x 334.24875pt>
 File: ./phon_smose-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./phon_smose-eps-converted-to.pdf>
-Package pdftex.def Info: ./phon_smose-eps-converted-to.pdf used on input line 2
-88.
+Package pdftex.def Info: ./phon_smose-eps-converted-to.pdf used on input line 3
+05.
 (pdftex.def)             Requested size: 345.0pt x 237.36417pt.
-
-Overfull \hbox (83.92235pt too wide) in paragraph at lines 298--385
- [][] 
+ [8 <./phon_svse-eps-converted-to.pdf>]
+Overfull \hbox (109.96706pt too wide) in alignment at lines 311--337
+ [] [] [] [] [] [] [] [] [] [] 
  []
 
-[8 <./phon_svse-eps-converted-to.pdf> <./phon_smose-eps-converted-to.pdf>]
-Overfull \vbox (312.83324pt too high) has occurred while \output is active []
+
+Overfull \hbox (109.96706pt too wide) in alignment at lines 337--358
+ [] [] [] [] [] [] [] [] [] [] 
+ []
 
 
-[9] <figures/T_hor_T.png, id=65, 483.56577pt x 287.64217pt>
+Overfull \hbox (109.96706pt too wide) in alignment at lines 358--379
+ [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[9 <./phon_smose-eps-converted-to.pdf>]
+Overfull \hbox (109.96706pt too wide) in alignment at lines 379--398
+ [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[10] <figures/T_hor_T.png, id=66, 483.56577pt x 287.64217pt>
 File: figures/T_hor_T.png Graphic file (type png)
 
 <use figures/T_hor_T.png>
-Package pdftex.def Info: figures/T_hor_T.png used on input line 418.
+Package pdftex.def Info: figures/T_hor_T.png used on input line 432.
 (pdftex.def)             Requested size: 276.00105pt x 164.17279pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 418--419
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
 
  []
 
-[10] <figures/T_hor_slabs.png, id=70, 330.47444pt x 161.41562pt>
+[11] <figures/T_hor_slabs.png, id=71, 330.47444pt x 161.41562pt>
 File: figures/T_hor_slabs.png Graphic file (type png)
 
 <use figures/T_hor_slabs.png>
-Package pdftex.def Info: figures/T_hor_slabs.png used on input line 424.
+Package pdftex.def Info: figures/T_hor_slabs.png used on input line 438.
 (pdftex.def)             Requested size: 241.49895pt x 117.95802pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 424--425
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
 
  []
 
-<figures/T_hor_V.png, id=71, 189.03712pt x 235.04778pt>
+<figures/T_hor_V.png, id=72, 189.03712pt x 235.04778pt>
 File: figures/T_hor_V.png Graphic file (type png)
 
 <use figures/T_hor_V.png>
-Package pdftex.def Info: figures/T_hor_V.png used on input line 431.
+Package pdftex.def Info: figures/T_hor_V.png used on input line 445.
 (pdftex.def)             Requested size: 137.9979pt x 171.5906pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--432
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
 
  []
 
-[11 <./figures/T_hor_T.png> <./figures/T_hor_slabs.png>]
-<figures/T_hor_hcb.png, id=77, 284.61516pt x 207.65327pt>
+[12 <./figures/T_hor_T.png> <./figures/T_hor_slabs.png>]
+<figures/T_hor_hcb.png, id=78, 284.61516pt x 207.65327pt>
 File: figures/T_hor_hcb.png Graphic file (type png)
 
 <use figures/T_hor_hcb.png>
-Package pdftex.def Info: figures/T_hor_hcb.png used on input line 437.
+Package pdftex.def Info: figures/T_hor_hcb.png used on input line 451.
 (pdftex.def)             Requested size: 172.5pt x 125.85399pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 437--438
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
 
  []
 
-<figures/T_hor_ch.png, id=78, 278.33409pt x 334.93929pt>
+<figures/T_hor_ch.png, id=79, 278.33409pt x 334.93929pt>
 File: figures/T_hor_ch.png Graphic file (type png)
 
 <use figures/T_hor_ch.png>
-Package pdftex.def Info: figures/T_hor_ch.png used on input line 444.
+Package pdftex.def Info: figures/T_hor_ch.png used on input line 458.
 (pdftex.def)             Requested size: 172.5pt x 207.58353pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 444--445
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
 
  []
 
-[12 <./figures/T_hor_V.png> <./figures/T_hor_hcb.png>]
-<figures/H-hor.png, id=84, 572.1375pt x 144.0582pt>
+[13 <./figures/T_hor_V.png> <./figures/T_hor_hcb.png>]
+<figures/H-hor.png, id=86, 572.1375pt x 144.0582pt>
 File: figures/H-hor.png Graphic file (type png)
  <use figures/H-hor.png>
-Package pdftex.def Info: figures/H-hor.png used on input line 469.
+Package pdftex.def Info: figures/H-hor.png used on input line 483.
 (pdftex.def)             Requested size: 345.0pt x 86.8686pt.
 
-[13 <./figures/T_hor_ch.png>]
-<figures/H-hor_Mo.png, id=90, 219.9417pt x 207.6558pt>
+[14 <./figures/T_hor_ch.png>]
+<figures/H-hor_Mo.png, id=91, 219.9417pt x 207.6558pt>
 File: figures/H-hor_Mo.png Graphic file (type png)
 
 <use figures/H-hor_Mo.png>
-Package pdftex.def Info: figures/H-hor_Mo.png used on input line 476.
+Package pdftex.def Info: figures/H-hor_Mo.png used on input line 490.
 (pdftex.def)             Requested size: 137.9979pt x 130.29152pt.
- [14 <./figures/H-hor.png> <./figures/H-hor_Mo.png>]
-<figures/airss1_tm.png, id=96, 201.8742pt x 491.9178pt>
+ [15 <./figures/H-hor.png> <./figures/H-hor_Mo.png>]
+<figures/airss1_tm.png, id=97, 201.8742pt x 491.9178pt>
 File: figures/airss1_tm.png Graphic file (type png)
 
 <use figures/airss1_tm.png>
-Package pdftex.def Info: figures/airss1_tm.png used on input line 525.
+Package pdftex.def Info: figures/airss1_tm.png used on input line 539.
 (pdftex.def)             Requested size: 120.7521pt x 294.25223pt.
 
-<figures/airss1v_s.png, id=97, 177.3024pt x 258.4857pt>
+<figures/airss1v_s.png, id=98, 177.3024pt x 258.4857pt>
 File: figures/airss1v_s.png Graphic file (type png)
 
 <use figures/airss1v_s.png>
-Package pdftex.def Info: figures/airss1v_s.png used on input line 531.
+Package pdftex.def Info: figures/airss1v_s.png used on input line 545.
 (pdftex.def)             Requested size: 120.7521pt x 176.04404pt.
 
-<figures/airss1_v_poly.png, id=98, 202.1151pt x 266.4354pt>
+<figures/airss1_v_poly.png, id=99, 202.1151pt x 266.4354pt>
 File: figures/airss1_v_poly.png Graphic file (type png)
 
 <use figures/airss1_v_poly.png>
-Package pdftex.def Info: figures/airss1_v_poly.png used on input line 538.
+Package pdftex.def Info: figures/airss1_v_poly.png used on input line 552.
 (pdftex.def)             Requested size: 120.7521pt x 159.18353pt.
- [15] [16 <./figures/airss1_tm.png>] [17 <./figures/airss1v_s.png> <./figures/a
+ [16] [17 <./figures/airss1_tm.png>] [18 <./figures/airss1v_s.png> <./figures/a
 irss1_v_poly.png>]
-<figures/airss3_side.png, id=111, 511.1898pt x 65.5248pt>
+<figures/airss3_side.png, id=112, 511.1898pt x 65.5248pt>
 File: figures/airss3_side.png Graphic file (type png)
 
 <use figures/airss3_side.png>
-Package pdftex.def Info: figures/airss3_side.png used on input line 576.
+Package pdftex.def Info: figures/airss3_side.png used on input line 590.
 (pdftex.def)             Requested size: 345.0pt x 44.22232pt.
 
-<figures/airss3_svse.png, id=112, 244.9953pt x 388.0899pt>
+<figures/airss3_svse.png, id=113, 244.9953pt x 388.0899pt>
 File: figures/airss3_svse.png Graphic file (type png)
 
 <use figures/airss3_svse.png>
-Package pdftex.def Info: figures/airss3_svse.png used on input line 582.
+Package pdftex.def Info: figures/airss3_svse.png used on input line 596.
 (pdftex.def)             Requested size: 172.5pt x 273.25995pt.
- [18 <./figures/airss3_side.png>]
-<figures/airss3_smose.png, id=117, 225.0006pt x 416.9979pt>
+ [19 <./figures/airss3_side.png>]
+<figures/airss3_smose.png, id=119, 225.0006pt x 416.9979pt>
 File: figures/airss3_smose.png Graphic file (type png)
 
 <use figures/airss3_smose.png>
-Package pdftex.def Info: figures/airss3_smose.png used on input line 588.
+Package pdftex.def Info: figures/airss3_smose.png used on input line 602.
 (pdftex.def)             Requested size: 172.5pt x 319.69589pt.
- [19 <./figures/airss3_svse.png>]
-<figures/airss3_poly.png, id=123, 495.7722pt x 199.4652pt>
+ [20 <./figures/airss3_svse.png>]
+<figures/airss3_poly.png, id=124, 495.7722pt x 199.4652pt>
 File: figures/airss3_poly.png Graphic file (type png)
 
 <use figures/airss3_poly.png>
-Package pdftex.def Info: figures/airss3_poly.png used on input line 595.
+Package pdftex.def Info: figures/airss3_poly.png used on input line 609.
 (pdftex.def)             Requested size: 345.0pt x 138.80899pt.
- [20 <./figures/airss3_smose.png> <./figures/airss3_poly.png>] [21] <figures/H-
-based.png, id=132, 462.0462pt x 388.3308pt>
+ [21 <./figures/airss3_smose.png> <./figures/airss3_poly.png>] [22] <figures/H-
+based.png, id=133, 462.0462pt x 388.3308pt>
 File: figures/H-based.png Graphic file (type png)
 
 <use figures/H-based.png>
-Package pdftex.def Info: figures/H-based.png used on input line 654.
+Package pdftex.def Info: figures/H-based.png used on input line 669.
 (pdftex.def)             Requested size: 345.0pt x 289.96155pt.
- [22]
-<figures/test3_momo.png, id=136, 127.8623pt x 119.92055pt>
+ [23]
+<figures/test3_momo.png, id=137, 127.8623pt x 119.92055pt>
 File: figures/test3_momo.png Graphic file (type png)
 
 <use figures/test3_momo.png>
-Package pdftex.def Info: figures/test3_momo.png used on input line 660.
+Package pdftex.def Info: figures/test3_momo.png used on input line 675.
 (pdftex.def)             Requested size: 103.50105pt x 97.07288pt.
- [23 <./figures/H-based.png> <./figures/test3_momo.png>] [24] (./smose.bbl [25]
- [26] [27] [28] [29]) [30] (./smose.aux)
+ [24 <./figures/H-based.png> <./figures/test3_momo.png>] [25] (./smose.bbl [26]
+ [27] [28] [29] [30]) [31] (./smose.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 15981 strings out of 492995
- 284604 string characters out of 6132705
- 378478 words of memory out of 5000000
- 19279 multiletter control sequences out of 15000+600000
+ 16027 strings out of 492995
+ 285177 string characters out of 6132705
+ 374293 words of memory out of 5000000
+ 19323 multiletter control sequences out of 15000+600000
  552974 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,11n,42p,10347b,360s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,10n,42p,10347b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></u
-sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
-/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texli
-ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
-2017/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texlive/20
-17/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2017/t
-exmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2017/tex
-mf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2017/texmf
--dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2017/texmf-d
-ist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2017/texmf-dist/
-fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017/texmf-dist/fo
-nts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2017/texmf-dist/font
-s/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2017/texmf-dist/fonts/
-type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
-pe1/public/cm-super/sftt0800.pfb>
-Output written on smose.pdf (30 pages, 32824779 bytes).
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
+al/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/local/texlive
+/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2017/
+texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2017/te
+xmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2017/texm
+f-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2017/texmf-
+dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2017/texmf-di
+st/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/texlive/2017/texmf-dist
+/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2017/texmf-dist/f
+onts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2017/texmf-dist/fon
+ts/type1/public/cm-super/sftt0800.pfb>
+Output written on smose.pdf (31 pages, 32809315 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 146 compressed objects within 2 object streams
+ 233 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
