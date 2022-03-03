@@ -57,8 +57,9 @@
    \thanks{Electronic address: \texttt{gavryushkin@igm.nsc.ru, p.gavryushkin@g.nsu.ru}; Corresponding author}}     
 \author[2]{Nursultan Sagatov}
 \author[1]{Ekaterina V. Sukhanova}
+\author[4]{Inna V. Medrish}
 \author[1]{Zakhar I. Popov}
-\author[4]{Inna Medrish}
+
 
 \affil[1]{Emanuel Institute of Biochemical Physics of Russian Academy of Sciences, 4 Kosygin Street, Moscow, 119334, Russian Federation}
 \affil[2]{Sobolev Institute of Geology and Mineralogy, Siberian Branch of Russian Academy of Sciences, prosp. acad. Koptyuga 3, 630090 Novosibirsk, Russian Federation}
@@ -73,10 +74,11 @@
 
 \begin{abstract}
 The recent synthesis of single-layer Janus type transition metal dichalcogenides (TMDs) raise the question of the existence of other possible 2D structures with an asymmetric out-of-plane structural configuration.
-In the present work, we perform the theoretical search for the new Janus structures having SMoSe and SVSe compositions. We performed the detailed crystal-chemical analysis of the predicted structures and showed that some of the dynamically stable structures are characterized by the unique for TMDs crystal-chemical features, among which are quadruple Mo-Mo bonds and covalent S-S, Se-Se bonds. We also illustrated the tendency of Mo-bearing TMDs to form strong Mo--Mo bonds with chains or isolated dimers of molybdenum atoms while in the case of vanadium-containing TMDs this feature is not characteristic. Two from predicted crystal structures, called as 1M-SVSe and 1A'-SMoSe, are especially promising for experimental synthesis and practical application due to their dynamical stability and rather low value of the enthalpy compared to known structures: the enthalpy of the 1M-SVSe phase is 0.22 ev/f.u. lower than that of 1T-SVSe, while the enthalpy of 1A'-SMoSe structure is 0.12 ev/f.u. lower than the enthalpy of 1T-SMoSe. The performed topological analysis showed that the predicted structures are unique and do not have analogs in the ICSD database.
+In the present work, we perform the theoretical search for the new Janus structures having SMoSe and SVSe compositions. We performed the detailed crystal-chemical analysis of the predicted structures and showed that some of the dynamically stable structures are characterized by the unique for TMDs crystal-chemical features, among which are quadruple Mo-Mo bonds and covalent S-S, Se-Se bonds. We also illustrated the tendency of Mo-bearing TMDs to form strong Mo--Mo bonds with chains or isolated dimers of molybdenum atoms while in the case of vanadium-containing TMDs this feature is not characteristic. Two predicted crystal structures, called as 1M-SVSe and 1A'-SMoSe, are especially promising for experimental synthesis and practical application due to their dynamical stability and rather low value of the enthalpy compared to known structures: the enthalpy of the 1M-SVSe is 0.22 ev/f.u. lower than that of 1T-SVSe, while the enthalpy of 1A'-SMoSe is 0.12 ev/f.u. lower than the enthalpy of 1T-SMoSe. The performed topological analysis showed that the predicted structures are unique and do not have analogs in the ICSD database.
 \end{abstract}
 
 
+\begin{comment}
 \section*{Phase renaming}
 fes = 1S \\
 fxt = 1H' \\
@@ -89,10 +91,11 @@ SMoSe-airss3 = 1A'''-SMoSe \\
 test1 (SMoSe) = 1O \\
 test2 (SMoSe) = 1O' \\
 test3 (SMoSe) = 1M'' \\
+\end{comment}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Introduction}
+\section*{Introduction}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Transition metal dichalcogenides (TMDs) represent a wide family of materials consisting of transition metal (TM) of group IV--VI surrounded by chalcogen atoms (Ch): S, Se, or Te. 
@@ -102,26 +105,28 @@ The first two structural types are characterized by the layered structures with 
 Particularly, the TMDs can act as semiconductors \cite{nayeri2018transport}, metals \cite{zhao20212d}, semimetals \cite{xu2020high, zhao2020observation}, or superconductors \cite{wang2020nodeless,hsu2017topological} which make the family of TMDs suitable for a lot of applications. 
 
 
-For example at ambient conditions the MX$_2$ (M=Mo, W, X=S, Se) compounds crystallize in the archetype molybdenite structure (MoS$_2$) which consists of close-packed layers of chalcogen atoms placed exactly one under/above another and TM atoms occupied one-half of the trigonal prismatic cavities located between the layers of chalcogen atoms. 
+At ambient conditions the MX$_2$ (M=Mo, W, X=S, Se) compounds crystallize in the archetype molybdenite structure (MoS$_2$) which consists of close-packed layers of chalcogen atoms placed exactly one under/above another and TM atoms occupied one-half of the trigonal prismatic cavities located between the layers of chalcogen atoms. 
 In the most stable polytype of molybdenite, X--M--X multiplet layers are arranged similar to the close-packed layers of {\it hcp} structure, i.e. with periodicity through each two layers (Figure \ref{1H1T}a).
 Due to hexagonal symmetry, this structure of TMDs can be denoted as 2H according to Ramsdell notation.
 In the present work, we do not consider the stacking sequence of X--M--X sandwiches, and the structures will be designated as 1H, 1T, 1H' and etc.
 
 
-X--M--X sandwich, consisting of three layers, in crystal-chemical community, usually is termed as {\it multiplet layer}, while in the community of low-dimensional material scientist the term {\it monolayer}, is more accepted and here we will follow the last tradition. 
+X--M--X sandwich, consisting of three layers, in crystal-chemical community, usuallyь is termed as {\it multiplet layer}, while in the community of low-dimensional material scientist -- as {\it monolayer}.
+Here we will follow the last tradition. 
 
 
 If one layer of chalcogen atoms in the X--M--X monolayer is shifted, the coordination polyhedron of TM atom is changed from a trigonal prism to a octahedron (Figure \ref{1H1T}b). 
 The monolayer of such a structure has a trigonal symmetry and can be designated as 1T \cite{huang2020recent}. 
 The deformed 1T structure with chains of Mo atoms connected by the shorter bonds is denoted as 1T' \cite{huang2020recent}.
-Depending on the exact chemical composition of the TMD monolayer, either trigonal prismatic or octahedral phase are preferable \cite{ataca2012stable}, for example, in the case of the molybdenum disulfides, diselenides, and ditellurides the 1T-phase is less energetically favorable than the 1H-phase. However 1T structure can be obtained by means of intercalation \cite{kan2014structures, wang2014atomic}, deformation \cite{duerloo2014structural} or surface functionalization \cite{tang2015stabilization, voiry2015covalent}. 
+Depending on the exact chemical composition of the TMD monolayer, either trigonal prismatic or octahedral phase are preferable \cite{ataca2012stable}.
+For instance, in the case of the molybdenum disulfides, diselenides, and ditellurides the 1T-phase is less energetically favorable than the 1H-phase. However 1T structure can be obtained by means of intercalation \cite{kan2014structures, wang2014atomic}, deformation \cite{duerloo2014structural} or surface functionalization \cite{tang2015stabilization, voiry2015covalent}. 
 
 Recently, compounds of a new subclass of TMDs in which the top and bottom layers are formed by different chalcogen atoms (so called Janus structures) were fabricated and attracted significant interest \cite{lu2017, zhang2017janus} of the researchers. 
 The opportunity to change the top layer of atoms opens an additional degree of freedom to manipulate the properties of TMDs. 
 Janus structures have structural symmetry breaking \cite{li2017electronic, van2020first} resulting in Rashba spin splitting \cite{hu2018intrinsic} and transverse dipole moment leading to large piezoelectricity \cite{dong2017large, li2018recent}. 
 The Janus structures of TMDs have a lot of potential applications, for example in water-splitting \cite{xia2018universality, ma2018janus} or hydrogen evolution reaction \cite{er2018prediction, zhou2019janus}. 
 Theoretical investigations showed that, as in the case of pristine monolayers, Janus TMDs with different chemical compositions can be thermodynamically stable in the 1H or 1T structures described above.
-Meanwhile, the different chemical composition of the top and bottom layers assumes the possibility for the stabilization of the new structures, substantially different from known 1H, 1T or 1T' phases.
+Meanwhile, the different chemical composition of the top and bottom layers assumes the possibility for the stabilization of the new structures, substantially different from known 1H, 1T or 1T'.
 Based on this assumption we performed the search for the new Janus TMDs structures using unbiased methods of crystal structure prediction, which have not been performed yet.
 
 
@@ -163,12 +168,11 @@ The energy cutoff of plane waves was set to 420 eV and 700 eV for the intermedia
 The first Brillouin zone was sampled according to Monkhorst-Pack scheme \cite{monkhorst1976special} with the density of k-points being equal to 0.5 \AA$^{-1}$ and 0.2 \AA$^{-1}$, respectively. 
 The manually produced structures were optimized with the same high-quality optimization parameters.
 
-To test the proposed methodology of crystal structure prediction, we revealed not only the well known 1H, 1T, and 1T' structures but also recently suggested 1H' and 1S. \textcolor{red}{что имеется в виду? эти фазы найдены успехом или аирсом? или энергии посчитаны отдельно, но автоматический поиск их не нашел?}
+To test the proposed methodology of crystal structure prediction, we revealed not only the well known 1H, 1T, and 1T' structures but also recently suggested 1H' and 1S, using both USPEX and AIRSS. 
 
 
 To study a dynamic stability of predicted structures phonon dispersion spectra were calculated within the PHONOPY code \cite{phonopy}. 
-We used VESTA program for crystal structures visualization \cite{momma2011vesta}.
-Instruments of Bilbao Crystallographic server were used for the structures symmetrization \cite{bilbao}.
+We used VESTA program for crystal structures visualization \cite{momma2011vesta} and instruments of Bilbao Crystallographic server -- for the structures symmetrization \cite{bilbao}.
 
 
 
@@ -177,23 +181,20 @@ Instruments of Bilbao Crystallographic server were used for the structures symme
 %%%%%%%%
 
 Within the topological search, original structural information was selected from the Inorganic Crystal Structure Database (ICSD, release 2020/2) \cite{icsd_1} and Cambridge Structural Database (CSD, release 2021) \cite{icsd_2} 
-\textcolor{red}{Инна, а CSD в итоге пользовались или нет? Ниже по тексту только ICSD упоминается и никаких комментариев по органике}.
-In this case, the procedures of screening  by the methods of the combined geometric-topological analysis with ToposPro (http://topospro.com) package have been used \cite{topos_1}. 
+In this case, the procedures of screening  by the methods of the combined geometric-topological analysis with ToposPro (http: //topospro.com) package have been used \cite{topos_1}. 
 
-We use bold three-letter symbols of the Reticular Chemistry Structure Resource nomenclature (\cite{rcsr}, http://rcsr.anu.edu.au/) or ToposPro NDk-n symbols \cite{rcsr_2}) to designate the topological types of the underlying nets
-\textcolor{red}{Инна, в текущей версии у нас в одном месте используется трёх-буквенное kgd-обозначение, а топосовских последовательносей цифр нигде нет. Поэтому я предлагаю удалить вторую часть фразы}.
+We use bold three-letter symbols of the Reticular Chemistry Structure Resource nomenclature (\cite{rcsr}, http: //rcsr.anu.edu.au/) or ToposPro NDk-n symbols \cite{rcsr_2}) to designate the topological types of the underlying nets.
 The topology of an underlying net was determined in an automated mode by comparison of a set of topological indices of the net with those for the reference nets from the ToposPro TTD collection \cite{TTD}.
 
 For the topological analysis, we have used only fully solved crystal structures without errors in the determination of interatomic bonds or chemical composition.
 The nets of interatomic bonds were determined by the Domains methods using the program AutoCN \cite{blatov2016_rods}. 
-Only strong interatomic bonds with solid angles of the faces of Voronoi-Dirihle polyhedron ($\Omega \geq 5 $ of the whole 4$\pi$) solid angle were considered.
+Only strong interatomic bonds with solid angles of the faces of Voronoi-Dirihle polyhedron ($\Omega \geq 5 $ of the whole 4$\pi$ solid angle) were considered.
 Structures with great values of unit cell parameters were excluded from the consideration.
 For instance, we did not consider polytypes of ZnS with cell parameters more than 50 \AA.
 
 Earlier the numerous structural relations between unhydrous simple salts and more simple binary inorganic compounds have been shown \cite{blatov2011_salts, medrish2020_zintl}. 
 Due to this well-known structural phenomena, we analyse topology not only for the complete  representation, but also the topology of the underlying net.
 In the complete representation, the net corresponds to the all strong interatomic bonds, while the underlying net is determined between metals and centers of ligands.
-\textcolor{red}{Инна, а разве мы что-то упрощали в этом случае? Если да -- то нужно пояснить что, если нет -- то просто удалим}
 
 Due to the short interatomic bonds, the topologies were not determined for the crystal structures 1A, 1A', 1H', and  1M''.
 
@@ -202,28 +203,24 @@ Due to the short interatomic bonds, the topologies were not determined for the c
 			\section{Results}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\subsection*{Earlier known MX$_2$ structures}
+\subsection{Earlier known MX$_2$ structures}
 
-According to the calculations performed, 1H structure is the most energetically favorable in the case of SMoSe composition  (Table \ref{t:enthalpy}) which is consistent with previously reported results \cite{wang20182h}. But in the case of SVSe composition, the most energetically favorable structure is 1T' monolayer (Table \ref{t:enthalpy}). It well known that enthalpy difference of V-based dichalcogenide phases is sensitive to computational parameters \cite{C6CP06732H}. In the framework GGA+U approach at the U$_eff$>2.5 the 1T phase of VS$_2$ becomes energetically favorable \cite{PhysRevB.93.054429} in contrast to HSE06, which displayed lower energy for the 2H-VS$_2$ configuration. A small difference in energy between the phases of the V-based dichalcogenides shows the necessity of a careful choice of calculation method for an accurate description of the atomic and electronic structure \cite{C6CP06732H}.
+According to the calculations performed, 1H structure is the most energetically favorable in the case of SMoSe composition  (Table \ref{t:enthalpy}) which is consistent with previously reported results \cite{wang20182h}. 
+But in the case of SVSe composition, the most energetically favorable structure is 1T' monolayer (Table \ref{t:enthalpy}). 
+It is well known that enthalpy difference of V-based dichalcogenide phases is sensitive to computational parameters \cite{C6CP06732H}. 
+In the framework GGA+U approach at the U$_eff$>2.5, the 1T phase of VS$_2$ becomes energetically favorable \cite{PhysRevB.93.054429} in contrast to HSE06, which displayed lower energy for the 1H-VS$_2$ configuration.
+A small difference in energy between the phases of the V-based dichalcogenides shows the necessity of a careful choice of calculation method for an accurate description of the atomic and electronic structure \cite{C6CP06732H}.
 
-
-The previously proposed 1S and 1H' structures \cite{tang2021_janus,ma2016_fxt} have close values of enthalpy.
-For both SMoSe and SVSe compositions, 1S structure is more energetically favourable than 1H' and the enthalpy difference is equal to 0.01 ev/f.u. for SMoSe and 0.06 ev/f.u. for SVSe (Table \ref{t:enthalpy}).
+The previously proposed 1S and 1H' structures \cite{tang2021_janus,ma2016_fxt}, also designated as $fxt$ and $fes$ \cite{PhysRevB.93.035442, Terrones_2014,PhysRevB.92.085427},  have close values of enthalpy.
+For both SMoSe and SVSe compositions, 1S structure is more energetically favourable than 1H' and the enthalpy difference is equal to 0.01 eV/f.u. for SMoSe and 0.06 eV/f.u. for SVSe (Table \ref{t:enthalpy}).
 Also for both SMoSe and SVSe, 1H' and 1S structures are less preferred than 1H, 1T, and 1T' structures (Table \ref{t:enthalpy}).
 
-
-Another designation of 1H' and 1S structures are $fxt$ and $fes$ \cite{PhysRevB.93.035442, Terrones_2014,PhysRevB.92.085427}\textcolor{red}{Захар, поставь ссылку где используются эти обозначения}.
-In our manuscript, we used {\it 1H'} and {\it 1S} to make the structures designation uniform.
-Structurally, 1S and 1H' are different from 1T, in that in 1S and 1H' coordination polyhedra share not only common edges but also common faces (Figure \ref{fes_fxt}), which as will be shown below results in the shorter interatomic Mo--Mo bonds.
-1H and 1T structures provide the most uniform distribution of the chalсogen and transition metal atoms.
-Nets of both transition metal and chalcogen atoms consist of geometrically equal triangular rings.
-Edge-sharing interconnection of trigonal prisms realized in 1H' and 1S structures inevitably results in the appearance of the cavities greater in volume than the cavities of 1H and 1T. 
-Cavities of 1S have the form of the slightly compressed cube (Figure \ref{fes_fxt}a) and the volume of these cavities is almost two times greater than the volume of the cavities in the 1H structure (38.8 \AA$^3$ against 17.7 \AA$^3$ for SMoSe).
-The volume of hexagonal cavities of 1H' structure (Figure \ref{fes_fxt}b is almost 8 times greater than the volume of cavities in the 1H phase (137.8 \AA\ against 17.7 \AA$^3$ for SMoSe).
-
-
-In contrast to trigonal prisms, the face-sharing of the octahedra seems to be problematic for quasi 2D structure because it results in the deviation from the flat arrangement.
-However, as it will be shown below, the dynamically stable quasi-2D structure characterised by the face-sharing of octahedra was also predicted.
+1H, 1S, and 1H' are characterised by the trigonal prismatic coordination polyhedron, and the difference between these structures is in the manner of interconnection of trigonal prisms. 
+In 1S and 1H', trigonal prisms share not only common edges, as in 1H, but also common faces (Figure \ref{fes_fxt}).
+Edge-sharing interconnection of trigonal prisms realized in 1H' and 1S structures inevitably results in the appearance of the cavities greater in volume than the cavities of 1H and 1T, which provide the most uniform distribution of the Ch and TM atoms. 
+Cavities of 1S have the form of the slightly compressed cube (Figure \ref{fes_fxt}a) and the volume of these cavities is almost two times greater than the volume of the cavities in the 1H structure.
+In case of SMoSe, the cavities have the volumes 38.8 \AA$^3$ and 17.7 \AA$^3$, respectively.
+The volume of hexagonal cavities of 1H' structure (Figure \ref{fes_fxt}b) is almost eight times greater than the volume of cavities in the 1H phase, 137.8 \AA\ against 17.7 \AA$^3$.
 
 
 
@@ -235,7 +232,7 @@ However, as it will be shown below, the dynamically stable quasi-2D structure ch
 New crystal structures were produced in two different ways, in an automated manner by USPEX or AIRSS, and analytically -- based on the 1H structure.
 
 
-The new structures are characterized by triclinic, monocliniс, or orthorhombic symmetries and we will designate them as 1A, 1M, and 1O, respectively.
+The new structures are characterized by triclinic, monocliniс, and orthorhombic symmetries and we will designate them as 1A, 1M, and 1O, respectively.
 To distinguish structures with the same symmetry we will use single quotes.
 For instance, {\it 1A, 1A', 1A''}, and {\it 1A'''} are the crystal structures with triclinic symmetry having sufficiently different atomic arrangements.
 
@@ -244,20 +241,19 @@ For instance, {\it 1A, 1A', 1A''}, and {\it 1A'''} are the crystal structures wi
 %%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{The structures revealed with {\it unbiased} algorithms}
 %%%%%%%%%%%%%%%%%%%%%%%
-Table \ref{t:enthalpy} shows the values of the predicted structures, figures \ref{phon_svse} and  \ref{phon_smose} -- their phonon dispersion curves. 
+Table \ref{t:enthalpy} shows the values of the predicted structures, figures \ref{phon_smose} and  \ref{phon_svse} -- their phonon dispersion curves. 
 
-Among the predicted structures, 1M-SVSe and 1A'-SMoSe are the most promising ones, because in addition to dynamic stability the formation enthalpies of 1A'-SMoSe and 1M-SVSe are lower than that of 1T phases with the same composition. 
+Among the predicted structures, 1M-SVSe and 1A'-SMoSe are the most promising ones, because in addition to dynamic stability the formation enthalpies of 1A'-SMoSe and 1M-SVSe are lower than that of 1T structures with the same compositions.
 
 
-In the case of SMoSe composition, 1M', 1A''',and 1M'' crystal structures are dynamically stable, but energetically are less favourable than 1H or 1T phases (Figure \ref{phon_smose}, Table \ref{t:enthalpy}).
-For SVSe composition, 1A and 1A'' structures are also dynamically stable (Figure \ref{phon_svse}). 
+In the case of SMoSe composition, 1M', 1A''', and 1M'' crystal structures are dynamically stable, but energetically they are less favourable than 1H or 1T (Figure \ref{phon_smose}, Table \ref{t:enthalpy}).
+For SVSe composition, 1A and 1A'' structures also show dynamic stability (Figure \ref{phon_svse}). 
 
-Below we described the revealed crystal structures, stating from the most energetically favorable ones.
 To simplify the description of the structural relations between numerous revealed structures, below we showed in pairs crystal structures obtained through the optimisation of the same structure and these structures will be described together.
 The dynamically stable structures are highlighted in bold, and only these structures will be considered further.
 
 
-\begin{tabbing} \centering
+\begin{tabbing} 
 	AAAAAAAAAA \= AAAAAAAAA \kill
 	{\bf 1M-SVSe} \> 1M-SMoSe \\
 	1M'-SVSe \> {\bf 1M'-SMoSe} \\
@@ -270,11 +266,11 @@ The dynamically stable structures are highlighted in bold, and only these struct
 \end{tabbing}
 
 \begin{table}[H]
-	\caption{Calculated enthalpies of SMoSe and SVSe structures obtained within crystal structure prediction techniques.} \label{t:enthalpy} \vspace{2mm}
+	\caption{Calculated enthalpies of SMoSe and SVSe structures.} \label{t:enthalpy} \vspace{2mm}
 	\centering
 	\begin{tabular}{l*{5}{l}}
 		\hline \hline
-		\multirow{2}*{Phase} & \multicolumn{2}{c}{Enthalpy (eV/f.u.)} & \multicolumn{2}{c}{Relative  to the most favourable (eV/f.u.)}	\\
+		\multirow{2}*{Phase} & \multicolumn{2}{c}{Enthalpy (eV/f.u.)} & \multicolumn{2}{c}{Relative enthalpy}	\\
 		\cline{2-3} \cline{4-5}
 		& SMoSe & SVSe & SMoSe & SVSe\\
 		\hline    		
@@ -305,295 +301,6 @@ The dynamically stable structures are highlighted in bold, and only these struct
 	\caption{Phonon dispersion curves of SVSe structures.}
 	\label{phon_svse}
 \end{figure}
-
-
-
-
-
-
-\paragraph{1M-SVSe}
-
-
-The structure with monoclinic symmetry was predicted using USPEX program for SVSe and was called 1M-SVSe. 
-For SVSe composition this structures is more energetically favourable than both 1H and 1T structures, although it is less favourable than 1T' phase (Table \ref{t:enthalpy}).
-Calculation of phonon dispersion curves proved the dynamic stability of 1M-SVSe (Figure \ref{phon_svse}) and instability of 1M-SMoSe structures (Figure \ref{phon_smose}).
-
-
-1M structure is characterized by the same octahedral coordination polyhedron as can be observed in 1T structure.
-The difference is in the arrangement of the [TMSSe$_3$] octahedra coordination.
-As it was mentioned above, in the case of 1T structure octahedra share only common edges, while in 1M structure - edges and faces.
-Both structures can be described within a modular approach and, in this case, 1T and 1M structures can be restored from the same structural module which is the double row of octahedra connected through the common edges.
-In Figure \ref{T_hor_T} one of such double rows is the row consisting of the rows \# 2 and \# 3.
-In the 1M structure, the adjacent double rows are attached through the common faces of the octahedra (the face I(II)III on the Figure \ref{T_hor_T}).
-In the 1T structure, the interconnection of double rows is edge-sharing (the edge II'III' in Figure \ref{T_hor_T}). 
-The comparison of these two types of interconnection is shown in Figure \ref{T_hor_slabs}.
-
-
-The presence of common faces of coordination octahedra results in the formation of shorter V--V bonds, forming the zig-zag chains of V atoms (Figure \ref{T_hor_V}) which in turn results in the undulation of the whole structure (Figures \ref{T_hor_hcb}).
-The nets of chalcogen atoms in 1M structure are topologically the same as in 1T structure, although are sufficiently deformed (Figure \ref{T_hor_hcb}).
-The angles between S--S bonds in the 1M-SVSe structure vary in the range of 91.38-139.8\textdegree, while in 1T structure all angles are equal to 120\textdegree (Figure \ref{T_hor_ch}).
-The S--S bond lengths in 1M structures are in the range of 3.45--3.87\AA, while in 1T-SVSe all distances are equal to 3.41 \AA (Figure \ref{T_hor_ch}).
-
-
-\begin{figure}[H]
-	\includegraphics[width=0.8\textwidth]{T_hor_T.png} \\
-	\caption{Comparison of 1M and 1T crystal structures.}
-	\label{T_hor_T}
-\end{figure}
-
-\begin{figure}[H]
-	\includegraphics[width=0.7\textwidth]{T_hor_slabs.png} \\
-	\caption{The arrangement of double octahedral rows in 1M (a) and 1T (b) structures; the dashed lines show the common atoms in the adjacent slabs.}
-	\label{T_hor_slabs}
-\end{figure}
-
-
-\begin{figure}[H]
-	\includegraphics[width=0.4\textwidth]{T_hor_V.png} \\
-	\caption{The comparison of the TM atoms nets in 1M (a) and 1T (b) crystal structures; the values of interatomic distances are given in \AA.}
-	\label{T_hor_V}
-\end{figure}
-
-\begin{figure}[H]
-        \includegraphics[width=0.5\textwidth]{T_hor_hcb.png} \\
-        \caption{The undulated net of chalcogen atom in 1M structure: top- (a) and side-view (b); sulphur is shown in yellow, selenium -- in green, vanadium -- in red colours, respectively.}
-\label{T_hor_hcb}
-\end{figure}
-
-
-
-\paragraph{1M'-SMoSe}
-Another structure with monoclinic symmetry sufficiently different from 1M phase was found using the USPEX package for SMoSe composition and this structure was named as SMoSe-1M'.
-1M' structure is dynamically stable for SMoSe (Figure \ref{phon_smose}) and unstable for SVSe (Figure \ref{phon_svse}) chemical composition.
-
-The enthalpy of 1M'-SMoSe is higher than the enthalpy of 1T-SMoSe on 0.05 eV/f.u. (Table \ref{t:str}). 
-
-1M' structure is different from the other structures in that it is characterized by the almost right square net of chalcogen atoms (Figure \ref{H-hor}).
-The bottom (selenium) layer is shifted relatively to top (sulfur) one (Figure \ref{H-hor}), while the transition metal atoms are arranged to have trigonal prismatic coordination.
-Like in the 1H phase, in 1M' structure trigonal prisms share only common edges, but not common faces.
-Molybdenum atoms are connected by the bonds of 3.08--3.22 \AA\ lengths in quasi-1D chains (Figure \ref{H-hor_Mo}).
-The chains are connected by the sufficiently weaker bonds of 4.08 \AA\ length (Figure \ref{H-hor_Mo}).
-
-
-\begin{figure}[H]
-	\includegraphics[width=\textwidth]{H-hor.png}
-	\caption{The nets of sulfur (yellow) and selenium (green) atoms (a) and the arrangement of coordination polyhedra around Mo atoms (b) in 1M'-SMoSe.}
-	\label{H-hor}
-\end{figure} 
-
-
-\begin{figure}[H]
-	\includegraphics[width=0.4\textwidth]{H-hor_Mo.png}
-	\caption{The chains of molybdenum atoms in 1M'-SMoSe.}
-	\label{H-hor_Mo}
-\end{figure} 
-
-
-\paragraph{1A-SVSe and 1A'-SMoSe}
-The structure with triclinic symmetry called 1A' was revealed with AIRSS package for SVSe composition.
-Despite sufficient structural similarity between optimized 1A structure for SMoSe and SVSe compositions, there is an apparent crystallographic difference between them like in the case of 1T and 1T' phases.
-Based on the fact mentioned we will designate the structures as 1A-SVSe and 1A'-SMoSe.
-Both 1A-SVSe and 1A'-SMoSe are dynamically stable (Figures \ref{phon_smose} and \ref{phon_svse}).
-
-The enthalpy of 1A'-SVSe structure lies in-between the values of 1T and 1T' structures enthalpies, making this structure more energetically favorable than 1T on nearly 0.1 eV/f.u. therefore the enthalpy ratio for SMoSe composition is the following: 
-$H(1H) < H(1T') < H(1A) < H (1T)$.
-
-In the case of SVSe composition, 1A phase is less favorable than 1T', 1T, and 1H structures (Table \ref{t:enthalpy}).
-
-
-
-The 1A and 1A' structures can be better described based on the net of TM atoms, which forms the well-known kagome lattice\cite{zhang2021_kagome}, observed, for instance, in AV$_3$Sb$_5$ \cite{ortiz2021} and WO$_3$ \cite{gerand1979} compounds.
-In 1A-SVSe and 1A'-SMoSe, kagome lattices are not of ideal hexagonal symmetry, there is the dispersion of bond lengths and deviation of bond angles from the ideal values of 120\textdegree.
-In 1A'-SVSe, the bond lengths vary in the range 3.07--3.49 \AA\ and bond angles –- in the rage of 115-122.9\textdegree\ (Figure \ref{airss1_tm}a).
-In 1A'-SMoSe, the bond lengths are in the wide range of 2.78--3.79 \AA, and bond angles are in the range of 113.9--125.7\textdegree\ (Figure \ref{airss1_tm}b).
-1A'-SMoSe is different from 1A-SVSe structure in that it is characterized by the presence of triangular clusters of TM atoms with sufficiently shorter bond lengths.
-The bond lengths within clusters are equal to 2.78--2.81 \AA, while other Mo--Mo bonds are on 0.5--1 \AA\ longer (Figure \ref{airss1_tm}b).
-In SMoSe-1T', the zig-zag chains of Mo atoms are connected by the bond of 2.79 \AA\ length, i.e. they are equal to the bond lengths within triangular clusters.
-As it will be shown below that the formation of clusters and chains of molybdenum atoms are typical for the revealed structures.
-
-The nets of sulfur atoms in 1A and 1A' structures are the same (Figure \ref{airss1_s_comp}) but differs from that in 1T or 1H structures (Figure \ref{airss1_s}).
-The sulfur net of 1A structure can be transformed into the sulfur net of 1H (or 1T) by the shift shown in Figure \ref{airss1_s} and subsequent deformations.
-The differences of bond angles and bonds lengths in 1A and 1A' structures do not exceed 0.1 \AA\ and 1\textdegree.
-The net of sulfur atoms is not planar, the deviation from the planar arrangement is nearly equal to $\pm$10\textdegree.
-
-In 1A and 1A' structures, each transition metal atom is coordinated by chalcogen atoms arranged in highly deformed tetragonal pyramids.
-The composition of such pyramids are (TM)S$_3$Se$_2$ or (TM)S$_2$Se$_3$.
-The bond distances between TM and Ch atoms vary in the range of 2.26--2.58 \AA\ for 1A-SVSe and in the range of 2.29--2.63 \AA\ for 1A'-SMoSe phases. The pyramids are grouped in three, forming the triangles of TM atoms which correspond to the triangular rings of kagome lattice (Figure \ref{airss1_poly}).
-There are the big holes between the triangular clusters of TM atoms -- the hexagonal rings of kagome lattice \ref{airss1_poly}).
-
-
-
-\begin{figure}
-	\includegraphics [width=0.35\textwidth]{airss1_tm.png}
-	\caption{The kagome atomic nets of transition metal atoms in 1A'-SVSe (a) and SMoSe-1A (b) structures; triangular clusters of Mo atoms are highlighted in blue.} 
-\label{airss1_tm}
-\end{figure}
-
-\begin{figure}
-	\includegraphics[width=0.35\textwidth]{airss1v_s.png}
-	\caption{The net of sulfur atoms in 1A-SVSe; dashed lines show the plane of the shift which transforms the net into the hexagonal one of 1T and 1H structures.}
-\label{airss1_s}
-\end{figure}
-
-
-\begin{figure}[H]
-        \includegraphics[width=0.35\textwidth]{airss1_v_poly.png}
-        \caption{1A-SVSe structure with outlined coordination polyhedrons around V atoms; the kagome lattice is outlined in black.}
-\label{airss1_poly}
-\end{figure}
-
-
-
-
-\paragraph{1A''-SVSe and 1A'''-SMoSe}
-One more crystal structure with triclinic symmetry was revealed for SVSe composition using AIRSS code and later was optimized for SMoSe composition.the structures as 1A''-SVSe and 1A'''-SMoSe.
-
-
-1A-SVSe and 1A'''-SMoSe crystal structures give the visual illustration of the different effects of vanadium and molybdenum atoms on the crystal structure of TMDs.
-Both considered structures are dynamically stable (Figures \ref{phon_smose} and \ref{phon_svse}).
-The ethalpies of the 1A'' and 1A''' structures are higher than the enthalpies of 1H, 1T, and 1T' phases of the same chemical composition (Table \ref{t:enthalpy}).
-1A''-SVSe is more energetically favourable than 1S and 1H' structures on nearly 0.4 eV/f.u., while 1A'''-SMoSe is less favourable on the same value of energy (Table \ref{t:enthalpy}).
-
-
-The differences of 1A'' and 1A''' structures can be clearly seen in the side-view.
-In 1A''-SVSe, TM atoms are nearly in the same plane as chalcogen atoms, while in 1A'''-SMoSe structure TM atoms are in-between the layers of chalcogen atoms.
-
-The nets of chalcogen atoms of these phases are also sufficiently different: in 1A''-SVSe, the topology of the net corresponds to the graphite-like hexagonal net, while in 1A'''-SMoSe chalcogen atoms form a triangular net if the weak contacts of 4.58-4.64 \AA\ are considered.
-The new crystal-chemical feature of 1A''-SVSe which was not observed for the other TMDs structures is the presence of S--S and Se--Se dimers with the bond length of 2.09 \AA\ and 2.37 \AA, respectively (Figures \ref{airss3_svse}a and \ref{airss3_S_Se}).
-These bond lengths correspond to that in the crystals structures of elemental sulfur and selenium.
-Other S--S and Se--Se bonds of 1A''-SVSe are  sufficiently longer, varying in the range of 3.17--3.73 \AA\ (Figures \ref{airss3_svse}a and \ref{airss3_S_Se}).
-In 1A'''-SMoSe there are no clusters of Ch atoms, S--S bonds vary in the range of 3.24-3.79 \AA\ with the weak contacts of 4.58--4.64 \AA\ (Figure \ref{airss3_svse}a).
-
-The nets of TM atoms in 1A'' and 1A''' phases are also drastically different, as it is illustrated in the Figures \ref{airss3_svse}b and \ref{airss3_smose}b.
-1A'''-SMoSe is characterized by the presence of Mo--Mo dimers with the bond lengths of 2.85 \AA, while other bonds vary in the range of 3.04--3.74 \AA\ (Figure \ref{airss3_smose}b).
-There are no such short bonds in 1A''-SVSe, in which V--V bonds smoothly vary in the range of 3.32--3.79 \AA.
-
-TM atoms in 1A''-SVSe are five- and six-coordinated by Ch atoms (Figure \ref{airss3_poly}a);
-coordination polyhedra are deformed tetragonal pyramids and trigonal prisms, respectively.
-1A'''-SMoSe is characterised by the lower coordination numbers.
-Vanadium atoms in it are four- and five-coordinated; and the coordination polyhedra are deformed tetrahedron and trigonal bipyramid, respectively (Figure \ref{airss3_poly}b).
-1A''-SVSe is characterized by the infinite quadruple chains of coordination polyhedra (Figure \ref{airss3_poly}a) and 1A'''-SMoSe -- by the single chains (Figure \ref{airss3_poly}b).
-
-In both structures, coordination polyhedra in the chains are connected through the common edges (Figure \ref{airss3_poly}).
-The adjacent chains in 1A''-SVSe are connected through the common edges, while in 1A'''-SMoSe -- through the common vertices (Figure \ref{airss3_poly}).
-
-\begin{figure}[H]
-	\includegraphics[width=\textwidth]{airss3_side.png}
-	\caption{The side-view of 1A''-SVSe (a) and 1A'''-SMoSe (b) structures.}
-	\label{airss3_side}
-\end{figure}
-
-\begin{figure}[H]
-	\includegraphics[width=0.5\textwidth]{airss3_svse.png}
-	\caption{The nets of sulfur (a) and vanadium (b) atoms in 1A''-SVSe; vanadium atoms of the upper layer are highlighted.}
-	\label{airss3_svse}
-\end{figure}
-
-\begin{figure}[H]
-	\includegraphics[width=0.5\textwidth]{airss3_smose.png}
-	\caption{The nets of sulfur (a) and molybdenum (b) atoms in 1A'''-SMoSe.}
-	\label{airss3_smose}
-\end{figure}
-
-
-\begin{figure}[H]
-	\includegraphics[width=\textwidth]{airss3_poly.png}
-	\caption{Crystal structures 1A''-SVSe (a) and 1A'''-SMoSe (b) with outlined coordination polyhedra.}
-	\label{airss3_poly}
-\end{figure}
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Structures based on 1H phase produced analytically }
-%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-In this section, we considered crystal structures  which were produced analytically based on the 1H phase within the procedure which can  also be applied for the 1H' and 1S structures generation.
-These structures, similarly to 1H' and 1S phases, can be considered as the possible structural models of grain boundaries.
-As it will be shown below, the enthalpies of the obtained structures are not only higher than the enthalpies of 1H, 1T, and 1T' phases but also of 1H' and 1S structures.
-However, we left their description here together with the description of 1H' and 1S phases to illustrate the formation of molybdenum dimers in SMoSe structures. 
-Also, we would like to describe the procedure of the structures generation, which can be applied for the generation of other similar structures.
-
-To construct new structures with TM atoms trigonal prismatic coordination we presented the structures as different fillings of the sulfur hexagonal nets of 1H structure(Figure \ref{H-based}).
-1H TMDs phase presents the most symmetric chess-board-like filling (Figure \ref{H-based}a).
-It should be noted that the 1S structure also have the chess-board filling, but with the doubled triangular cells having the rhombuses form (Figure \ref{H-based}b).
-After the optimization these rhombuses transform into the the right squares (see Figure \ref{H-based}b).
-There are two types of the empty rings in the 1H' structure: the first type is the primitive (non-centered) triangles, and the second ones is the face-centered hexagons consisted of six triangular rings connected through the faces (Figure \ref{H-based}c).
-The optimization does not sufficiently changes the forms of the empty rings, just slightly deforms the hexagons (see Figure \ref{H-based}c).
-
-Three new structures were produced in a similar way as it has been realised for 1H' and 1S phases. Two of them have orthorhombic symmetry and one of then - the monoclinic and we designated them as 1O, 1O', and 1M'' structures, respectively.
-Structural data for SMoSe-1O, 1O', and 1M'' phases are given in {\it Supporting information} (Table \ref{t:str_test}).
-Phonon spectra calculations showed that these structures are not dynamically stable in the case of SVSe composition (Figure \ref{phon_svse}), however in the case of SMoSe composition 1O and 1M'' structures are dynamically stable while 1O' is also not stable (see Figure \ref{phon_smose}).
-The enthalpies of 1O-SMoSe and 1M''-SMoSe structures are higher than the values of 1S-SMoSe and 1H'-SMoSe phases by approximately 0.1 eV/fu.
-
-The analytical search is not able to proposed new structures which follow the local charge balance principle, i.e. the structures in which each vertex of trigonal prism is common for three neighbouring prisms, as it is observed in 1H, 1H', and 1S phases. In the case of 1O phases chalcogen atoms are common for two or four trigonal prisms, while in the cases of 1O' and 1M'' structures - for two, three, or four trigonal prisms (Figure \ref{H-based}). It should be noted that 1M'' structure differs from the other structures: it is characterized by the presence of trigonal prisms having two common faces, while in all other structures the prisms share no more than one common face.
-As it will be shown below, this fact is important for the formation of Mo--Mo dimers.
-The optimisation of 1M'' structure sufficiently affects the arrangement of sulfur atoms: in the optimized 1M'' structure, the sulfur atoms net looses the hexagonal symmetry (Figure \ref{H-based}f), and Mo atoms are дщсфеув not only in trigonal prismatic but also in quadratic coordination (Figure \ref{H-based}f).
-
-
-The presence of common edges and faces of [MoO$_6$] trigonal prisms in 1H', 1S, 1O, 1O', and 1M'' structures results in shorter Mo--Mo distances in comparison with 1H structure where the prisms have only common edges.
-In 1H structure, Mo atoms form a regular hexagonal net in which all Mo--Mo bonds are equal to 3.25 \AA which corresponds to the edge-sharing disposition of trigonal prisms.
-
-In 1H', 1S, and 1O structures Mo--Mo distances for edge-sharing disposition in prisms are equal to 2.9--3.8 \AA.
-For face-sharing disposition, the Mo--Mo distances is sufficiently shorter: in 1H' and 1S structures, they are equal to 2.9 \AA, in 1O -- to 2.75 \AA\ and in 1O' -- to 2.62 \AA.
-As it was mentioned before these values are close to Mo--Mo distances in the zig-zag chains of Mo atoms in the 1T' structure (2.75 \AA).
-This value is in turn equal to the shortest distance between Mo atoms in the {\it bcc} structure of pure Mo (2.72 \AA) \cite{MoV}.
-1M'' structure is characterized by the sufficiently shorter Mo--Mo bond, the distance between the adjacent Mo atoms in the dimer is equal to 2.22 \AA.
-This short bond corresponds to quadruple Mo--Mo bond in Mo$_2^{4+}$ dimers, found in numerous organic molecules \cite{momo}.
-Similar to organic molecules, in 1M'' structure  each molybdenum atom of Mo--Mo dimer is bound to four ligands that define almost right square (Figure \ref{test3_momo}).
-Despite the relatively high enthalpy of the 1M'' structure its dynamic stability shows the theoretical possibility for the formation of quadruply bonded Mo$_2^{4+}$ dimers in metastable structures of TMDs and this was not considered before.
-
-\begin{figure}[H] \centering
-        \includegraphics[width=\textwidth]{H-based.png}
-
-        \caption{SMoSe structures produced based on 1H. The numbers on polyhedra are represented to show the same fragment before and after the optimisation.}
-
-\label{H-based}
-\end{figure}
-
-\begin{figure}[H]
-	\includegraphics[width=0.3\textwidth]{test3_momo.png}
-	\caption{A quadruple Mo--Mo bond in 1M''-SMoSe structure}
-\label{test3_momo}
-\end{figure}
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%
-%\subsection{The uniqueness of the found structures}%может поменять на "Topological analysis"?
-\subsection{The topological analysis}
-%%%%%%%%%%%%%%%%%%%%%%%
-
-To answer the question, whether the found structures are unique or if there are similar representatives in Inorganic Crystal Structure Database (ICSD) we performed the topological screening.
-The obtained results showed that all found structures, except for 1M', are unique, and the similar structures were not found in ICSD.
-The same statement is true about the earlier known 1H' and 1S structures: similar structures for them were not also found. 
-The 1M' structure belongs to the same {\bf kgd} topological type as the 1T structure and this means that 1M' can be transformed into the 1T phase without breaking the bonds.
-However, the geometrical difference of 1M' and 1T structures is sufficient and the transformation of one structure into the other requires changing of the coordination polyhedron from the trigonal prism to the octahedron.
-
-To evaluate the probability for the 1A and 1A' structures synthesis on the substrate of the other compounds, we performed the search for the structures with kagome lattices of vanadium or molybdenum atoms.
-As the result, 17 structures containing flat kagome lattice of vanadium atoms and no structures with the flat lattice of molybdenum atoms were found. 
-The lengths of V--V bonds in the revealed structures vary in the range of 2.43--2.81 \AA.
-This is close to the bonds lengths in the mentioned triangular clusters of Mo atoms and sufficiently higher than the lengths of V--V bonds in kagome net of 1A-SVSe phase.
-Thus, based on the structures presented in ICSD it is problematic to suggest the proper substrate for the synthesis of 1A or 1A' structures.
-
-It is worth noting, that mainly ICSD is the databse of experimentally syntheized 3D structures and  some structures synthesized in the form of monolayers or theoretically predicted structures can be not included in this database.
-
-
-
-\section{Discussion}
-
-The discussion is devoted to possibility of practical applications of the found structures based on the correlation between structure features and physical properties. As all investigated structures consist of TM atoms surrounded by chalcogen atoms, the $d$-electrons levels of TM undergo splitting depending on the local symmetry. The crystal field theory proceeds from the fact that the nature of ligands and their location around the central ion (symmetry of the complex) reduce the degeneracy of $d$-orbitals and change their energy. Thereby the correlation between the structure and the electronic properties can be interpreted in terms of the crystal field theory.
-According to the crystal field theory, in an octahedral environment (1T polymorph), the $d$-shell splits into a low-energy triplet (t2g) and a high-energy doublet (eg). In a trigonal prismatic geometry (1H), the low-energy triplet further splits into a doublet and a singlet \cite{pasquier2019crystal}. 
-The two polymorphs of MoS$_2$ have distinct electronic properties, the 1H-MoS$_2$ phase is a semiconductor and the 1T-MoS$_2$ is metallic. The 1S-SMoSe despite the prismatic environment of TM atoms becomes a semi-metal \cite{lai2021catalytic, tang2021lattice} and Mo- and W-based 1H' structures are gapless semiconductors or, alternatively, semimetals \cite{ma2016two}. 
-The proposed structure 1A' is characterized by a distorted trigonal bipyramidal local environment of the TM atom, which should make this structure more metallic due to degenerated $d$-orbitals. 
-The square-pyramidal environment in 1A''' with the TM atom on the facet suggest the possibility for the application of this structure for molecular sorption and detection \cite{nano12050774}.
-We believe that the proposed variety of phases of Janus TMDs in the future can significantly expand the scope of their application.
-
-\section{Conclusion}
-Using analytical analysis and computational algorithms within USPEX and AIRSS program packages we performed a theoretical prediction of novel Janus-type phases of TMDs with Mo-S and V-S compositions. We proposed some new phases of Janus TMDs called: 1M, 1M',1M'', 1A, 1A', 1A'',1A''', 1O and some of the structures proposed (1A'-SMoSe, 1A-SVSe, 1M-SVSe) not only demonstrate the stability according to the results of the phonon spectra calculation of but also have an enthaly similar to the already known phases (1H, 1T, 1T') of TMDs. We believe that with this work we are opening a discussion about the possible synthesis of new phases of Janus TMDs and further in-depth study of their properties.
 
 
 \begin{longtable}[c]{l*{9}{l}}
@@ -654,7 +361,7 @@ Using analytical analysis and computational algorithms within USPEX and AIRSS pr
 	&&&&&	Se	&	0.7177	&	0.7655	&	0.2526	\\
 	&&&&&	Se	&	0.1776	&	0.7655	&	0.2526	\\
 	&&&&&	Se	&	0.4456	&	0.0464	&	0.2644	\\
-	&&&&&	Se	&	0.9485	&	0.4613	&	0.2478	\\
+		&&&&&	Se	&	0.9485	&	0.4613	&	0.2478	\\
 	&&&&&	Se	&	0.4483	&	0.4348	&	0.2488	\\
 	\hline
 	SVSe & $P1\ (\#1)$  &	$a=5.0351$ & $b=8.7721$ & $c=18.0178$  & V	&	0.2426	&	-0.0280	&	0.5623	\\
@@ -685,6 +392,308 @@ Using analytical analysis and computational algorithms within USPEX and AIRSS pr
 	\hline
 \end{longtable}
 
+
+
+
+\paragraph{1M-SVSe}
+
+
+The structure with monoclinic symmetry was predicted using USPEX program for SVSe and was called 1M-SVSe. 
+For SVSe composition this structure is more energetically favourable than both 1H and 1T although it is less favourable than 1T' 
+(Table \ref{t:enthalpy}).
+Calculation of phonon dispersion curves proved the dynamic stability of 1M-SVSe (Figure \ref{phon_svse}) and instability of 1M-SMoSe structures (Figure \ref{phon_smose}).
+
+
+1M structure is characterized by the same octahedral coordination polyhedron as can be observed for 1T.
+The difference is in the arrangement of the [TMSSe$_3$] octahedra.
+As it was mentioned above, in the case of 1T structure octahedra share only common edges, while in 1M -- edges and faces.
+Both structures can be described within a modular approach.
+In this case, the module is double row of octahedra connected through the common edges.
+1M and 1T structures can be obtained by the different arrangement of such modules.
+In the 1M structure, the adjacent modules are attached through the common faces of the octahedra.
+In the Figure \ref{T_hor_T}, one of such common faces is the the face I(II)III.
+In the 1T structure, the interconnection of adjacent modules is edge-sharing.
+One of the common edges connected adjacent modules is the edge II'III' in Figure \ref{T_hor_T}. 
+The comparison of these two types of modules interconnection is illustrated in Figure \ref{T_hor_slabs}.
+
+
+The presence of common faces of coordination polyhedra results in the formation of shorter V--V bonds, forming the zig-zag chains of V atoms (Figure \ref{T_hor_V}) which in turn results in the undulation of the whole structure (Figures \ref{T_hor_hcb}).
+The net of chalcogen atoms in 1M is topologically the same as that in 1T, although the first one is sufficiently deformed (Figure \ref{T_hor_hcb}), which can be traced by the comparison of bond angles and bond lengths.
+The angles between S--S bonds in the 1M-SVSe vary in the range of 91.38-139.8\textdegree, while in 1T structure all angles are equal to 120\textdegree (Figure \ref{T_hor_ch}).
+The S--S bond lengths in 1M-SVSe is in the range of 3.45--3.87\AA, while in 1T-SVSe all distances are equal to 3.41 \AA (Figure \ref{T_hor_ch}).
+
+
+\begin{figure}[H]
+	\includegraphics[width=0.8\textwidth]{T_hor_T.png} \\
+	\caption{Comparison of 1M (a) and 1T (b) crystal structures; sulphur atoms are shown in yellow, selenium -- in green, vanadium -- in red colors, respectively.}
+	\label{T_hor_T}
+\end{figure}
+
+\begin{figure}[H]
+	\includegraphics[width=0.7\textwidth]{T_hor_slabs.png} \\
+	\caption{The arrangement of double octahedral rows in 1M-SVSe (a) and 1T-SVSe (b) structures; the dashed lines show the common atoms in the adjacent slabs.}
+	\label{T_hor_slabs}
+\end{figure}
+
+
+\begin{figure}[H]
+	\includegraphics[width=0.4\textwidth]{T_hor_V.png} \\
+	\caption{The comparison of the nets of V atoms in 1M-SVSe (a) and 1T-SVSe (b) crystal structures; the values of interatomic distances are given in \AA.}
+	\label{T_hor_V}
+\end{figure}
+
+\begin{figure}[H]
+        \includegraphics[width=0.5\textwidth]{T_hor_hcb.png} \\
+        \caption{Top-view (a) and side-view (b) of the undulated nets of Ch atoms in 1M-SVSe structure.}
+\label{T_hor_hcb}
+\end{figure}
+
+
+
+\paragraph{1M'-SMoSe}
+Another structure with monoclinic symmetry sufficiently different from 1M phase was found using the USPEX package for SMoSe composition. 
+This structure was called as SMoSe-1M'.
+1M' is dynamically stable for SMoSe (Figure \ref{phon_smose}) and unstable for SVSe (Figure \ref{phon_svse}) chemical composition.
+
+The enthalpy of 1M'-SMoSe is higher than the enthalpy of 1T-SMoSe on 0.05 eV/f.u. (Table \ref{t:str}). 
+
+1M' structure is different from the other structures in that it is characterized by the almost right square net of Ch atoms (Figure \ref{H-hor}).
+The bottom (selenium) layer is shifted relatively to top (sulfur) one (Figure \ref{H-hor}), while the transition metal atoms are arranged to have trigonal prismatic coordination.
+
+Like in the 1H, in 1M' structure trigonal prisms share only common edges, but not common faces.
+The difference between two structures is in that in 1H structure three-fold symmetry axis are perpendicular to the plane of monolayer, while in 1M' they are parallel to this plane.
+
+Molybdenum atoms are connected by the bonds of 3.08--3.22 \AA\ lengths in quasi-1D chains (Figure \ref{H-hor_Mo}).
+The chains are connected by the sufficiently weaker bonds of 4.08 \AA\ length (Figure \ref{H-hor_Mo}).
+
+
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{H-hor.png}
+	\caption{The nets of sulfur (yellow) and selenium (green) atoms (a) and the arrangement of coordination polyhedra around Mo atoms (b) in 1M'-SMoSe.}
+	\label{H-hor}
+\end{figure} 
+
+
+\begin{figure}[H]
+	\includegraphics[width=0.4\textwidth]{H-hor_Mo.png}
+	\caption{The chains of molybdenum atoms in 1M'-SMoSe.}
+	\label{H-hor_Mo}
+\end{figure} 
+
+
+\paragraph{1A-SVSe and 1A'-SMoSe}
+The structure with triclinic symmetry called 1A' was revealed with AIRSS package for SVSe composition.
+Despite sufficient structural similarity between optimized 1A structure for SMoSe and SVSe compositions, there is an apparent crystallographic difference between them like that between 1T and 1T'.
+Based on the fact mentioned, we will designate the structures as 1A-SVSe and 1A'-SMoSe.
+Both 1A-SVSe and 1A'-SMoSe are dynamically stable (Figures \ref{phon_smose} and \ref{phon_svse}).
+
+The enthalpy of 1A'-SVSe structure lies in-between the values of 1T and 1T' structures enthalpies, making 1A' more energetically favorable than 1T on nearly 0.1 eV/f.u.
+For SMoSe composition, the ratio of enthalpies of the most favourable structures is the following: 
+$H(1H) < H(1T') < H(1A) < H (1T)$.
+
+In the case of SVSe composition, 1A phase is less favorable than 1T', 1T, and 1H structures (Table \ref{t:enthalpy}).
+
+The 1A and 1A' structures can be better described based on the net of TM atoms, which forms the well-known kagome lattice \cite{zhang2021_kagome}, observed, for instance, in AV$_3$Sb$_5$ \cite{ortiz2021} and WO$_3$ \cite{gerand1979} compounds.
+Kagome lattices of 1A-SVSe and 1A'-SMoSe structures, are not of ideal hexagonal symmetry, and there is the dispersion of bond lengths and deviation of bond angles from the ideal values of 120\textdegree.
+In 1A'-SVSe, the bond lengths vary in the range of 3.07--3.49 \AA\ and bond angles –- in the rage of 115--122.9\textdegree\ (Figure \ref{airss1_tm}a).
+In 1A'-SMoSe, the bond lengths are in the wide range of 2.78--3.79 \AA, and bond angles are in the range of 113.9--125.7\textdegree\ (Figure \ref{airss1_tm}b).
+1A'-SMoSe is different from 1A-SVSe in that it is characterized by the presence of triangular clusters of TM atoms with sufficiently shorter bond lengths.
+The bond lengths within clusters are equal to 2.78--2.81 \AA, while other Mo--Mo bonds are on 0.5--1 \AA\ longer (Figure \ref{airss1_tm}b).
+In SMoSe-1T', the zig-zag chains of Mo atoms are connected by the bonds of 2.79 \AA\ length, i.e. they are equal to the bond lengths within triangular clusters.
+
+1A and 1A' structures are characterised by the same nets of sulphur and selenium atoms (Figures \ref{airss1_s_comp} and \ref{airss3_S_Se}). 
+The differences of bond angles and bonds lengths of sulphur nets of 1A-SVSe and 1A'-SMoSe structures do not exceed 0.1 \AA\ and 1\textdegree\ (Figure \ref{airss1_s_comp}).
+The net of sulfur atoms is not planar, the deviation from the planar arrangement is nearly equal to $\pm$10\textdegree.
+The sulfur net of 1A can be transformed into the sulfur net of 1H (or 1T) by the shift shown in Figure \ref{airss1_s} and subsequent deformations.
+
+
+In 1A and 1A' structures, each TM atom is coordinated by Ch atoms arranged in highly deformed tetragonal pyramids.
+The composition of such pyramids are (TM)S$_3$Se$_2$ or (TM)S$_2$Se$_3$.
+The bond distances between TM and Ch atoms vary in the range of 2.26--2.58 \AA\ for 1A-SVSe and in the range of 2.29--2.63 \AA\ for 1A'-SMoSe. 
+The pyramids are grouped in three, forming the triangles of TM atoms which correspond to the triangular rings of kagome lattice (Figure \ref{airss1_poly}).
+There are the big holes between the triangular clusters of TM atoms, corresponding the hexagonal rings of kagome lattice (Figure \ref{airss1_poly}).
+
+
+
+\begin{figure}
+	\includegraphics [width=0.35\textwidth]{airss1_tm.png}
+	\caption{The kagome atomic nets of TM atoms in 1A'-SVSe (a) and 1A-SMoSe (b) structures; triangular clusters of Mo atoms are highlighted in blue.} 
+\label{airss1_tm}
+\end{figure}
+
+\begin{figure}
+	\includegraphics[width=0.35\textwidth]{airss1v_s.png}
+	\caption{The net of sulfur atoms in 1A-SVSe; dashed lines show the plane of the shift which transforms the net into the hexagonal net of 1T and 1H structures.}
+\label{airss1_s}
+\end{figure}
+
+
+\begin{figure}[H]
+        \includegraphics[width=0.35\textwidth]{airss1_v_poly.png}
+        \caption{1A-SVSe with outlined coordination polyhedra around V atoms; the kagome lattice is outlined in black.}
+\label{airss1_poly}
+\end{figure}
+
+
+
+
+\paragraph{1A''-SVSe and 1A'''-SMoSe}
+One more crystal structure with triclinic symmetry was revealed for SVSe composition using AIRSS code and later was optimized for SMoSe composition.
+Due to the apparent crystallographic difference of V- and Mo-based structures, they were designated as 1A''-SVSe and 1A'''-SMoSe.
+
+
+Both considered structures are dynamically stable (Figures \ref{phon_smose} and \ref{phon_svse}).
+The enthalpies of the 1A'' and 1A''' structures are higher than the enthalpies of 1H, 1T, and 1T' phases of the same chemical composition (Table \ref{t:enthalpy}).
+1A''-SVSe is more energetically favourable than 1S and 1H' structures on nearly 0.4 eV/f.u., while 1A'''-SMoSe is less favourable on the same value of energy (Table \ref{t:enthalpy}).
+
+
+The differences of 1A'' and 1A''' structures can be clearly seen in the side-view.
+In 1A''-SVSe, TM atoms are nearly in the same plane as Ch atoms, while in 1A'''-SMoSe TM atoms are in-between the layers of Ch atoms.
+
+The nets of chalcogen atoms of these phases are also sufficiently different.
+In 1A''-SVSe, the topology of the net corresponds to the graphite-like hexagonal net (Figure \ref{airss3_svse}a), while in 1A'''-SMoSe chalcogen atoms form a triangular net if the weak contacts of 4.58-4.64 \AA\ are considered (Figure \ref{airss3_smose}a).
+The new crystal-chemical feature of 1A''-SVSe which was not observed for the other TMDs structures is the presence of S--S and Se--Se dimers with the bond length of 2.09 \AA\ and 2.37 \AA, respectively (Figures \ref{airss3_svse}a and \ref{airss3_S_Se}).
+These bond lengths correspond to that in the crystals structures of elemental sulfur and selenium.
+Other S--S and Se--Se bonds of 1A''-SVSe are  sufficiently longer, varying in the range of 3.17--3.73 \AA\ (Figures \ref{airss3_svse}a and \ref{airss3_S_Se}).
+In 1A'''-SMoSe there are no clusters of Ch atoms, S--S bonds vary in the range of 3.24-3.79 \AA\ with the weak contacts of 4.58--4.64 \AA\ (Figure \ref{airss3_svse}a).
+
+The nets of TM atoms in 1A'' and 1A''' phases are also drastically different, as it is illustrated in the Figures \ref{airss3_svse}b and \ref{airss3_smose}b.
+1A'''-SMoSe is characterized by the presence of Mo--Mo dimers with the bond lengths of 2.85 \AA, while other bonds vary in the range of 3.04--3.74 \AA\ (Figure \ref{airss3_smose}b).
+There are no such short bonds in 1A''-SVSe, in which V--V bonds smoothly vary in the range of 3.32--3.79 \AA.
+
+TM atoms in 1A''-SVSe are five- and six-coordinated by Ch atoms (Figure \ref{airss3_poly}a).
+Coordination polyhedra are deformed tetragonal pyramids and trigonal prisms, respectively.
+1A'''-SMoSe is characterised by the lower coordination numbers.
+Vanadium atoms in it are four- and five-coordinated, and the coordination polyhedra are deformed tetrahedron and trigonal bipyramid, respectively (Figure \ref{airss3_poly}b).
+1A''-SVSe is characterized by the infinite quadruple chains of coordination polyhedra (Figure \ref{airss3_poly}a) and 1A'''-SMoSe -- by the single chains (Figure \ref{airss3_poly}b).
+In both structures, coordination polyhedra in the chains are connected through the common edges (Figure \ref{airss3_poly}).
+The adjacent chains in 1A''-SVSe are connected through the common edges, while in 1A'''-SMoSe -- through the common vertices (Figure \ref{airss3_poly}).
+
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{airss3_side.png}
+	\caption{The side-view of 1A''-SVSe (a) and 1A'''-SMoSe (b) structures.}
+	\label{airss3_side}
+\end{figure}
+
+\begin{figure}[H]
+	\includegraphics[width=0.5\textwidth]{airss3_svse.png}
+	\caption{The nets of sulfur (a) and vanadium (b) atoms in 1A''-SVSe; vanadium atoms of the upper layer are highlighted.}
+	\label{airss3_svse}
+\end{figure}
+
+\begin{figure}[H]
+	\includegraphics[width=0.5\textwidth]{airss3_smose.png}
+	\caption{The nets of sulfur (a) and molybdenum (b) atoms in 1A'''-SMoSe.}
+	\label{airss3_smose}
+\end{figure}
+
+
+\begin{figure}[H]
+	\includegraphics[width=\textwidth]{airss3_poly.png}
+	\caption{Crystal structures of 1A''-SVSe (a) and 1A'''-SMoSe (b) with outlined coordination polyhedra.}
+	\label{airss3_poly}
+\end{figure}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Analytically produced structures based on 1H}
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+In this section, we considered crystal structures  which were produced analytically based on the 1H phase within the procedure which can  also be applied for the 1H' and 1S structures generation.
+These structures, similarly to 1H' and 1S phases, can be considered as the possible structural models of grain boundaries.
+As it will be shown below, the enthalpies of the obtained structures are not only higher than the enthalpies of 1H, 1T, and 1T' phases but also higher than enthalpies of 1H' and 1S.
+However, we left their description here together with the description of 1H' and 1S phases to illustrate the formation of molybdenum dimers in SMoSe structures. 
+Also, we would like to describe the procedure of the structures generation, which can be applied for the generation of other similar structures.
+
+To construct new structures with TM atoms trigonal prismatic coordination we presented the structures as different fillings of the sulfur hexagonal nets of 1H structure (Figure \ref{H-based}).
+1H TMDs phase presents the most symmetric chess-board-like filling (Figure \ref{H-based}a).
+It should be noted that the 1S structure also have the chess-board-like filling, but with the doubled triangular cells having the rhombuses form (Figure \ref{H-based}b).
+After the optimization these rhombuses transform into the the right squares (see Figure \ref{H-based}b).
+There are two types of the empty rings in the 1H' structure: the first type is the primitive (non-centered) triangles, and the second one is the hexagon consisted of six triangular rings connected through the faces (Figure \ref{H-based}c).
+The optimization does not sufficiently changes the forms of the empty rings, only slightly deforming the hexagons (Figure \ref{H-based}c).
+
+Three new structures were produced in a similar way as it has been realised for 1H' and 1S phases. 
+Two of them have orthorhombic symmetry and one -- the monoclinic one and we designated them as 1O, 1O', and 1M'' structures, respectively.
+Structural data for SMoSe-1O, 1O', and 1M'' phases are given in {\it Supporting information} (Table \ref{t:str_test}).
+Calculated phonon dispersion curves showed that in case of SMoSe composition 1O and 1M'' structures are dynamically stable (Figure \ref{phon_smose}), while in case of SVSe composition none of these structure is dynamically stable (Figure \ref{phon_smose}).
+The enthalpies of 1O-SMoSe and 1M''-SMoSe are higher than the values of 1S-SMoSe and 1H'-SMoSe phases by approximately 0.1 eV/fu.
+
+The analytical search was not able to propose new structures which follow the local charge balance principle, i.e. the structures in which each vertex of trigonal prism is common for three neighbouring prisms, as it is observed in 1H, 1H', and 1S phases. 
+In the case of 1O phase, Ch atoms are common for two or four trigonal prisms, while in the cases of 1O' and 1M'' structures -- for two, three, or four trigonal prisms (Figure \ref{H-based}). 
+It should be noted that 1M'' structure differs from the other structures: it is characterized by the presence of trigonal prisms having two common faces, while in all other structures the prisms share no more than one common face.
+As it will be shown below, this fact is important for the formation of Mo--Mo dimers.
+The optimisation of 1M'' structure sufficiently affects the arrangement of sulfur atoms: in the optimized 1M'' structure, the sulfur atoms net looses the hexagonal symmetry (Figure \ref{H-based}f), and Mo atoms are not only in trigonal prismatic but also in quadratic coordination (Figure \ref{H-based}f).
+
+
+The presence of common edges and faces of [MoO$_6$] trigonal prisms in 1H', 1S, 1O, 1O', and 1M'' structures results in shorter Mo--Mo distances in comparison with 1H structure where the prisms have only common edges.
+In 1H structure, Mo atoms form a regular hexagonal net in which all Mo--Mo bonds are equal to 3.25 \AA\ which corresponds to the edge-sharing disposition of trigonal prisms.
+
+In 1H', 1S, and 1O structures Mo--Mo distances for edge-sharing disposition are equal to 2.9--3.8 \AA.
+For face-sharing dispositions, the Mo--Mo distances is sufficiently shorter: in 1H' and 1S structures, they are equal to 2.9 \AA, in 1O -- to 2.75 \AA\ and in 1O' -- to 2.62 \AA.
+As it was mentioned before, these values are close to Mo--Mo distances in the zig-zag chains of Mo atoms in the 1T' structure (2.75 \AA).
+This value is in turn equal to the shortest distance between Mo atoms in the {\it bcc} structure of pure Mo (2.72 \AA) \cite{MoV}.
+1M'' structure is characterized by the sufficiently shorter Mo--Mo bond, the distance between the adjacent Mo atoms in the dimer is equal to 2.22 \AA.
+This short bond corresponds to quadruple Mo--Mo bond in Mo$_2^{4+}$ dimers, found in numerous organic molecules \cite{momo}.
+Similar to organic molecules, in 1M'' structure  each molybdenum atom of Mo--Mo dimer is bound to four ligands that define almost right square (Figure \ref{test3_momo}).
+Despite the relatively high enthalpy of the 1M'' structure its dynamic stability shows the theoretical possibility for the formation of quadruply bonded Mo$_2^{4+}$ dimers in metastable structures of TMDs and this was not considered before.
+
+\begin{figure}[H] \centering
+        \includegraphics[width=\textwidth]{H-based.png}
+        \caption{SMoSe structures produced based on 1H. The numbers on polyhedra are represented to show the same fragment before and after the optimisation.}
+
+\label{H-based}
+\end{figure}
+
+\begin{figure}[H]
+	\includegraphics[width=0.3\textwidth]{test3_momo.png}
+	\caption{A quadruple Mo--Mo bond in 1M''-SMoSe structure}
+\label{test3_momo}
+\end{figure}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsection{The uniqueness of the found structures}%может поменять на "Topological analysis"?
+\subsection{The topological analysis}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+To answer the question, whether the found structures are unique or if there are similar representatives in ICSD of CSD we performed the topological screening.
+The obtained results showed that all found structures, except for 1M', are unique, and the similar structures were not found in the databases.
+The same statement is true about the earlier known 1H' and 1S structures: similar structures for them were not also found. 
+The 1M' structure belongs to the same {\bf kgd} topological type as the 1T structure and this means that 1M' can be transformed into the 1T phase without breaking the bonds.
+However, the geometrical difference of 1M' and 1T structures is sufficient and the transformation of one structure into the other requires changing of the coordination polyhedron from the trigonal prism to the octahedron.
+
+To evaluate the probability for synthesis of the 1A and 1A' structures on the substrate, we performed the search for the structures with kagome lattices of vanadium or molybdenum atoms.
+As the result, 17 structures containing flat kagome lattice of vanadium atoms and no structures with the flat lattice of molybdenum atoms were found. 
+The lengths of V--V bonds in the revealed structures vary in the range of 2.43--2.81 \AA.
+This is close to the bonds lengths in the mentioned triangular clusters of Mo atoms and sufficiently higher than the lengths of V--V bonds in kagome net of 1A-SVSe phase.
+Thus, based on the structures presented in ICSD it is problematic to suggest the proper substrate for the synthesis of 1A or 1A' structures.
+
+It is worth noting, that mainly ICSD is the databse of experimentally syntheized 3D structures and  some structures synthesized in the form of monolayers or theoretically predicted ones can be not included in it.
+
+
+
+\section{Discussion}
+
+The discussion is devoted to possibility of practical applications of the found structures based on the correlation between structure features and physical properties. As all investigated structures consist of TM atoms surrounded by Ch atoms, the $d$-electrons levels of TM undergo splitting depending on the local symmetry. The crystal field theory proceeds from the fact that the nature of ligands and their location around the central ion (symmetry of the complex) reduce the degeneracy of $d$-orbitals and change their energy. Thereby the correlation between the structure and the electronic properties can be interpreted in terms of the crystal field theory.
+According to the crystal field theory, in an octahedral environment (1T polymorph), the $d$-shell splits into a low-energy triplet (t2g) and a high-energy doublet (eg). In a trigonal prismatic geometry (1H), the low-energy triplet further splits into a doublet and a singlet \cite{pasquier2019crystal}. 
+The two polymorphs of MoS$_2$ have distinct electronic properties, the 1H-MoS$_2$ phase is a semiconductor and the 1T-MoS$_2$ is metallic. The 1S-SMoSe despite the prismatic environment of TM atoms becomes a semi-metal \cite{lai2021catalytic, tang2021lattice} and Mo- and W-based 1H' structures are gapless semiconductors or, alternatively, semimetals \cite{ma2016two}. 
+The proposed structure 1A' is characterized by a distorted trigonal bipyramidal local environment of the TM atom, which should make this structure more metallic due to degenerated $d$-orbitals. 
+The square-pyramidal environment in 1A''' with the TM atom on the facet suggest the possibility for the application of this structure for molecular sorption and detection \cite{nano12050774}.
+We believe that the proposed variety of phases of Janus TMDs in the future can significantly expand the scope of their application.
+
+\section{Conclusions}
+Using analytical analysis and computational algorithms within USPEX and AIRSS program packages we performed a theoretical prediction of novel Janus-type phases of TMDs with Mo-S and V-S compositions. We proposed some new phases of Janus TMDs called: 1M, 1M', 1M'', 1A, 1A', 1A'', 1A''', 1O and some of the structures proposed (1A'-SMoSe, 1A-SVSe, 1M-SVSe) not only demonstrate the stability according to the results of the phonon spectra calculation of but also have an enthaly similar to the already known phases (1H, 1T, 1T') of TMDs. We believe that with this work we are opening a discussion about the possible synthesis of new phases of Janus TMDs and further in-depth study of their properties.
+
+
+
+\section*{Acknowledments}
+The authors acknowledge financial support from Russian Science Foundation (№ 21-73-20183).
+
+The authors are grateful to the Joint Supercomputer Center of the Russian Academy of Sciences and to the Information Technology Center of Novosibirsk State University for providing access to the cluster computational resources.
 
 \bibliography{2d}
 \bibliographystyle{CGD}
@@ -727,3 +736,6 @@ As it will be shown below this is not the obligatory requirement and some of the
 
 Only interconnection of the coordination polyhedra through the common edges is realized in 1H and 1T structure.
 Below, we will show examples of the structures, with face sharing of coordination polyhedra and enthalpy lower that of 1T structure of the same composition.
+
+In contrast to trigonal prisms, the face-sharing of the octahedra seems to be problematic for quasi 2D structure because it results in the deviation from the flat arrangement.
+However, as it will be shown below, the dynamically stable quasi-2D structure characterised by the face-sharing of octahedra was also predicted.
